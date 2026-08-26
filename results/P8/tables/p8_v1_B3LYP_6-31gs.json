@@ -1,0 +1,180 @@
+{
+  "proposition": "P8",
+  "version": "v1",
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "protocol": "2007 Fock+S; hetero π fragment on O/N; 3 GE-m (Ch6 Fig 6-8)",
+  "yu_ref_kcal": {
+    "furan": {
+      "deltaEA": 28.7,
+      "LDE": -39.3
+    },
+    "pyrrole": {
+      "deltaEA": null,
+      "LDE": -49.4
+    },
+    "benzene": {
+      "deltaEA": null,
+      "ESE": -36.3
+    }
+  },
+  "molecules": [
+    {
+      "molecule": "furan",
+      "class": "furan_like",
+      "deltaEA_kcal": 28.60544919446753,
+      "sum_deltaEAm_kcal": 66.32845113774133,
+      "LDE_kcal": -37.7230019432738,
+      "ESE_kcal": -37.7230019432738,
+      "primary_metric_name": "LDE",
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": 24.99568742295046
+        },
+        {
+          "allow_pair": [
+            0,
+            2
+          ],
+          "deltaEAm_kcal": 21.528403244158277
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": 19.80436047063258
+        }
+      ],
+      "all_deltaEAm_positive": true,
+      "pattern": {
+        "deltaEA_positive": true,
+        "sum_gt_deltaEA": true,
+        "LDE_negative": true
+      },
+      "dmin_ang": 1.085,
+      "quality_gate": {
+        "passed": true,
+        "G1_topology": true,
+        "G2_geometry": true,
+        "G3_convergence": true,
+        "G4_energy_scale": true,
+        "G5_path_clean": true
+      }
+    },
+    {
+      "molecule": "pyrrole",
+      "class": "furan_like",
+      "deltaEA_kcal": 31.49455185488732,
+      "sum_deltaEAm_kcal": 79.70426850251246,
+      "LDE_kcal": -48.20971664762514,
+      "ESE_kcal": -48.20971664762514,
+      "primary_metric_name": "LDE",
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": 26.54648677577968
+        },
+        {
+          "allow_pair": [
+            0,
+            2
+          ],
+          "deltaEAm_kcal": 27.22618629581382
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": 25.93159543091896
+        }
+      ],
+      "all_deltaEAm_positive": true,
+      "pattern": {
+        "deltaEA_positive": true,
+        "sum_gt_deltaEA": true,
+        "LDE_negative": true
+      },
+      "dmin_ang": 1.01,
+      "quality_gate": {
+        "passed": true,
+        "G1_topology": true,
+        "G2_geometry": true,
+        "G3_convergence": true,
+        "G4_energy_scale": true,
+        "G5_path_clean": true
+      }
+    },
+    {
+      "molecule": "benzene_kekule",
+      "class": "benzene_like",
+      "deltaEA_kcal": -6.541715159214005,
+      "sum_deltaEAm_kcal": 28.899994111744803,
+      "ESE_kcal": -35.44170927095881,
+      "LDE_kcal": -35.44170927095881,
+      "primary_metric_name": "ESE",
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": 9.63343711734177
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": 9.633121437721314
+        },
+        {
+          "allow_pair": [
+            2,
+            0
+          ],
+          "deltaEAm_kcal": 9.633435556681718
+        }
+      ],
+      "pattern": {
+        "deltaEA_positive": false,
+        "sum_gt_deltaEA": true,
+        "ESE_negative": true
+      },
+      "dmin_ang": 1.0849999999999997,
+      "quality_gate": {
+        "passed": true,
+        "G1_topology": true,
+        "G2_geometry": true,
+        "G3_convergence": true,
+        "G4_energy_scale": true,
+        "G5_path_clean": true
+      }
+    }
+  ],
+  "analysis": {
+    "furan_like_pattern_ok": true,
+    "benzene_distinct": true,
+    "agree": true,
+    "completion_estimate_pct": 88
+  },
+  "quality_gate": {
+    "passed": true,
+    "G1": true,
+    "G2": true,
+    "G3": true,
+    "G4": true,
+    "G5": true
+  },
+  "agree": true,
+  "timestamp_utc": "2026-08-24T02:39:02.613017+00:00",
+  "hartree_to_kcal": 627.5094740631
+}

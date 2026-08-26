@@ -1,0 +1,77 @@
+{
+  "tag": "RHF_6-31gs",
+  "method": "RHF",
+  "basis": "6-31g*",
+  "optimizer": "scipy.BFGS + PySCF gradients (no geometric/berny)",
+  "timestamp_utc": "2026-08-23T02:32:42.382667+00:00",
+  "energies_ha": {
+    "h2": -1.1268278194911647,
+    "butadiene": -154.91904255541212,
+    "1_butene": -156.10182370564698,
+    "trans_2_butene": -156.10635045796005,
+    "n_butane": -157.29756155005526
+  },
+  "deltaH_hyd_kcal": {
+    "butadiene": -78.3529386404718,
+    "1_butene": -43.241693493417195,
+    "trans_2_butene": -40.40111353022936
+  },
+  "CE1_kcal": 8.13044834636259,
+  "CE2_kcal": 2.449288419986913,
+  "sign_CE1": "destabilizing",
+  "sign_CE2": "destabilizing",
+  "hartree_to_kcal": 627.5094740631,
+  "book_refs_kcal": {
+    "classic_CE1": -3.9,
+    "CE2_trans2": 1.9,
+    "GL": 1.4
+  },
+  "agree_criteria": "CE1 < 0 and CE2 > 0",
+  "sign_flip": false,
+  "start_geom_dir": "/mnt/d/AI4S-OrgChem/results/P1/raw/B3LYP_6-31gs",
+  "quality_gate": {
+    "topology_ok": true,
+    "opt_ok": true,
+    "max_gmax_ha_bohr": null,
+    "gmax_limit": 0.00015,
+    "ce_scale_ok": true,
+    "defects": {
+      "h2": [],
+      "butadiene": [],
+      "1_butene": [],
+      "trans_2_butene": [],
+      "n_butane": []
+    },
+    "opt_meta": {
+      "h2": {
+        "opt_success": null,
+        "gmax_ha_bohr": null,
+        "source": "backfill_topo_only"
+      },
+      "butadiene": {
+        "opt_success": null,
+        "gmax_ha_bohr": null,
+        "source": "backfill_topo_only"
+      },
+      "1_butene": {
+        "opt_success": null,
+        "gmax_ha_bohr": null,
+        "source": "backfill_topo_only"
+      },
+      "trans_2_butene": {
+        "opt_success": null,
+        "gmax_ha_bohr": null,
+        "source": "backfill_topo_only"
+      },
+      "n_butane": {
+        "opt_success": null,
+        "gmax_ha_bohr": null,
+        "source": "backfill_topo_only"
+      }
+    },
+    "backfilled": true,
+    "note": "topo backfill; opt validated in p1_quality_audit / prior grad check",
+    "passed": true
+  },
+  "agree": false
+}

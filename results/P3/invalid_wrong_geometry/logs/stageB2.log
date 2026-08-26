@@ -1,0 +1,27 @@
+[P3T] built seed: theta=40.00 dmin=1.080 A
+[P3T] loaded pre-relaxed seed results/P3/seed_prerelaxed.xyz theta=-92.22 dmin=1.066
+[P3T] sweep up: theta -> 0
+    constr θ=0 cache=2
+    constr θ=0 cache=3
+    constr θ=0 cache=5
+    constr θ=0 cache=6
+    constr θ=0 cache=7
+    constr θ=0 cache=8
+    constr θ=0 cache=9
+    constr θ=0 cache=10
+    constr θ=0 cache=11
+    constr θ=0 cache=12
+    constr θ=0 cache=13
+    constr θ=0 cache=14
+    constr θ=0 cache=15
+    constr θ=0 cache=16
+    constr θ=0 cache=17
+    constr θ=0 cache=18
+    constr θ=0 cache=19
+    constr θ=0 cache=20
+    constr θ=0 cache=21
+    constr θ=0 cache=22
+    constr θ=0 cache=23
+    constr θ=0 cache=24
+    constr θ=0 cache=25
+    constr θ=0 cache=26

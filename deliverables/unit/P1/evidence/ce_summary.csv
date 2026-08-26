@@ -1,0 +1,4 @@
+tag,method,basis,CE1_kcal,CE2_kcal,sign_CE1,sign_CE2,sign_flip
+RHF_6-31gs,RHF,6-31g*,8.1304,2.4493,destabilizing,destabilizing,no
+B3LYP_6-31gs,B3LYP,6-31g*,9.3306,1.8608,destabilizing,destabilizing,no
+MP2_6-31gs,MP2,6-31g*,8.5033,1.8582,destabilizing,destabilizing,no

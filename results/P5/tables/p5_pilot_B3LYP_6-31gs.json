@@ -1,0 +1,111 @@
+{
+  "proposition": "P5",
+  "version": 3,
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "molecules": [
+    {
+      "molecule": "butadiene",
+      "source": "P1",
+      "G": {
+        "E_ha": -155.98888331945642,
+        "r23": 1.4577941240709862
+      },
+      "GL": {
+        "E_ha": -155.99534863406706,
+        "r23": 1.44
+      },
+      "deltaEAm_kcal": 4.057046170973047,
+      "delta_r_ang": 0.01779412407098624,
+      "deltaEAm_positive": true,
+      "delta_r_positive": true
+    },
+    {
+      "molecule": "hexatriene",
+      "protocol": "vertical at builder r_d=1.34 r_s=1.45; GE from GL dm0",
+      "bonds_cc": [
+        1.34,
+        1.45,
+        1.3399999999999999,
+        1.4500000000000002,
+        1.3399999999999999
+      ],
+      "G": {
+        "E_ha": -232.73169086339283
+      },
+      "GL": {
+        "E_ha": -232.73856277089197
+      },
+      "GE1": {
+        "E_ha": -232.7324833219913,
+        "deltaEAm_kcal": 3.8149117822491077,
+        "allow_pair": [
+          0,
+          1
+        ]
+      },
+      "GE2": {
+        "E_ha": -232.7391754777703,
+        "deltaEAm_kcal": -0.38447937096590296,
+        "allow_pair": [
+          1,
+          2
+        ]
+      },
+      "deltaEA_kcal": 4.312187060599596,
+      "r12_mini_scan": [
+        {
+          "r": 1.44,
+          "E_GL": -232.73727361551593,
+          "E_GE1": -232.73096290544808,
+          "dEAm": 3.9600303556417518
+        },
+        {
+          "r": 1.45,
+          "E_GL": -232.73856277089214,
+          "E_GE1": -232.7324833219899,
+          "dEAm": 3.8149117832478616
+        },
+        {
+          "r": 1.46,
+          "E_GL": -232.73972345620862,
+          "E_GE1": -232.73386449640535,
+          "dEAm": 3.676552784711053
+        }
+      ],
+      "delta_r12_proxy_ang": 0.0,
+      "all_deltaEAm_positive": false,
+      "deltaEA_positive": true,
+      "ge1_positive": true,
+      "ge2_positive": false,
+      "book_refs": {
+        "deltaEA1_kcal": 2.9,
+        "deltaEA_kcal": 6.8,
+        "dr_ang": 0.009
+      }
+    }
+  ],
+  "analysis": {
+    "n_deltaEAm_positive": 2,
+    "n_pairs": 3,
+    "agree_criteria": "butadiene ΔEAm>0 & Δr>0; hexatriene ΔEA>0 & GE1>0; majority of local pairs ΔEAm>0",
+    "agree": true,
+    "ge2_anomaly": true
+  },
+  "quality_gate": {
+    "topology_ok": true,
+    "butadiene_p1": true,
+    "hexatriene_builder": true,
+    "invalid_archived": "results/P5/invalid_edge_scans/",
+    "energy_scale_ok": true,
+    "passed": true,
+    "limitations": [
+      "hexatriene: vertical (not full GL/GE opt)",
+      "GE2 sign sensitive; reported raw",
+      "full cartesian GL opt deferred (P6)"
+    ]
+  },
+  "agree": true,
+  "timestamp_utc": "2026-08-23T12:34:06.093694+00:00",
+  "hartree_to_kcal": 627.5094740631
+}

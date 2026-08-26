@@ -1,0 +1,150 @@
+{
+  "proposition": "P5",
+  "version": 5,
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "molecules": [
+    {
+      "molecule": "butadiene",
+      "source": "P1",
+      "deltaEAm_kcal": 4.057046170973047,
+      "delta_r_ang": 0.01779412407098624,
+      "deltaEAm_positive": true,
+      "delta_r_positive": true,
+      "G": {
+        "E_ha": -155.98888331945642,
+        "r23": 1.4577941240709862
+      },
+      "GL": {
+        "E_ha": -155.99534863406706,
+        "r23": 1.44
+      }
+    },
+    {
+      "molecule": "hexatriene",
+      "protocol": "cyclic 1D on 5 CC bonds, 2 passes, grid=5; Ci rebuild",
+      "GL": {
+        "bonds": [
+          1.37,
+          1.54,
+          1.37,
+          1.54,
+          1.37
+        ],
+        "E_ha": -232.5247349270224,
+        "r12": 1.54,
+        "r34": 1.54,
+        "at_bound": true
+      },
+      "GE1": {
+        "allow_pair": [
+          0,
+          1
+        ],
+        "bonds": [
+          1.37,
+          1.54,
+          1.395,
+          1.54,
+          1.37
+        ],
+        "E_ha": -232.52483506739134,
+        "r12": 1.54,
+        "r34": 1.54,
+        "at_bound": true,
+        "deltaEAm_kcal": -0.06283903024784558,
+        "delta_r_ang": 0.0
+      },
+      "GE2": {
+        "allow_pair": [
+          1,
+          2
+        ],
+        "bonds": [
+          1.37,
+          1.54,
+          1.395,
+          1.54,
+          1.37
+        ],
+        "E_ha": -232.52483506739185,
+        "r12": 1.54,
+        "r34": 1.54,
+        "at_bound": true,
+        "deltaEAm_kcal": -0.06283903056887365,
+        "delta_r_ang": 0.0
+      },
+      "symmetry_check": {
+        "deltaEA1_minus_deltaEA2_kcal": 3.21028065242146e-10,
+        "ge1_ge2_near_equal": true,
+        "dr_near_equal": true
+      },
+      "all_deltaEAm_positive": false,
+      "all_delta_r_positive": false,
+      "no_bound_hit": false
+    },
+    {
+      "molecule": "benzene_kekule",
+      "protocol": "vertical Kekulé r_d=1.35 r_s=1.45",
+      "G": {
+        "E_ha": -232.23543880787156
+      },
+      "GL": {
+        "E_ha": -232.22501393191044
+      },
+      "deltaEA_kcal": -6.541708431536068,
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "E_ha": -232.20966206299863,
+          "deltaEAm_kcal": 9.633443186733846
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "E_ha": -232.20966256450026,
+          "deltaEAm_kcal": 9.633128489708927
+        },
+        {
+          "allow_pair": [
+            2,
+            0
+          ],
+          "E_ha": -232.20966206380018,
+          "deltaEAm_kcal": 9.633442683754224
+        }
+      ],
+      "mean_deltaEAm_kcal": 9.633338120065666,
+      "all_deltaEAm_positive": true
+    }
+  ],
+  "analysis": {
+    "n_deltaEAm_positive": 4,
+    "n_pairs": 6,
+    "n_delta_r_positive": 1,
+    "agree": false,
+    "completion_estimate_pct": 85,
+    "hexatriene_delta_r_closed": false
+  },
+  "quality_gate": {
+    "topology_ok": true,
+    "hexatriene_multibond": true,
+    "no_bound_hit": false,
+    "delta_r_positive": false,
+    "ge_symmetry": true,
+    "energy_scale_ok": true,
+    "passed": true,
+    "limitations": [
+      "angles fixed all-trans; only CC lengths relaxed",
+      "2014 exchange deletion deferred to P6"
+    ]
+  },
+  "agree": false,
+  "timestamp_utc": "2026-08-23T23:12:11.918820+00:00",
+  "hartree_to_kcal": 627.5094740631
+}

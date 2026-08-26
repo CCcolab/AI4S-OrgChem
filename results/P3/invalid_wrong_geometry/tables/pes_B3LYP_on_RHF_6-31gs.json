@@ -1,0 +1,103 @@
+{
+  "proposition": "P3",
+  "tag": "B3LYP_on_RHF_6-31gs",
+  "opt_method": "RHF",
+  "energy_method": "B3LYP",
+  "basis": "6-31g*",
+  "protocol": "RHF constrained relaxed scan (maxiter=10); B3LYP single-point energies; skip_free=True",
+  "theta_definition": "C_ortho(N-Ph)-C_ipso(N-Ph)-N-C_imine",
+  "book_theta_exp_deg": [
+    36,
+    55
+  ],
+  "timestamp_utc": "2026-08-23T05:05:15.763781+00:00",
+  "free_opt": {
+    "theta_deg": 39.999999999999986,
+    "E_ha": -554.4996563411219,
+    "Ee_ha": -1488.383584131638,
+    "EN_ha": 933.883927790516,
+    "success": true,
+    "nit": 0
+  },
+  "reference_planar_scan_theta_deg": 16.732050417683848,
+  "scan": [
+    {
+      "theta_target": 20.0,
+      "theta_deg": 16.732050417683848,
+      "theta_error_deg": 3.267949582316163,
+      "E_ha": -556.0253082091346,
+      "Ee_ha": -1352.5477147847587,
+      "EN_ha": 796.5224065756241,
+      "dE_kcal": 0.0,
+      "dEe_kcal": 0.0,
+      "dEN_kcal": 0.0,
+      "nit": 10,
+      "success": false
+    },
+    {
+      "theta_target": 30.0,
+      "theta_deg": 32.67220964776753,
+      "theta_error_deg": 2.672209647767545,
+      "E_ha": -556.1936601661117,
+      "Ee_ha": -1345.0300021474175,
+      "EN_ha": 788.8363419813057,
+      "dE_kcal": -105.64244798024141,
+      "dEe_kcal": 4717.435903215509,
+      "dEN_kcal": -4823.078351195751,
+      "nit": 10,
+      "success": false
+    },
+    {
+      "theta_target": 45.0,
+      "theta_deg": 51.050361519216075,
+      "theta_error_deg": 6.050361519216068,
+      "E_ha": -556.2087195178478,
+      "Ee_ha": -1342.489631793328,
+      "EN_ha": 786.2809122754802,
+      "dE_kcal": -115.09233386790095,
+      "dEe_kcal": 6311.542368035652,
+      "dEN_kcal": -6426.634701903552,
+      "nit": 10,
+      "success": false
+    },
+    {
+      "theta_target": 60.0,
+      "theta_deg": 59.74578376961457,
+      "theta_error_deg": 0.25421623038542407,
+      "E_ha": -556.2056896393811,
+      "Ee_ha": -1340.4235897188114,
+      "EN_ha": 784.2179000794303,
+      "dE_kcal": -113.19105642479249,
+      "dEe_kcal": 7608.003343607827,
+      "dEN_kcal": -7721.194400032619,
+      "nit": 10,
+      "success": false
+    },
+    {
+      "theta_target": 90.0,
+      "theta_deg": 74.66466794340732,
+      "theta_error_deg": 15.335332056592677,
+      "E_ha": -556.2633355800023,
+      "Ee_ha": -1347.1928877420773,
+      "EN_ha": 790.9295521620751,
+      "dE_kcal": -149.3644303058206,
+      "dEe_kcal": 3360.2047012518306,
+      "dEN_kcal": -3509.569131557651,
+      "nit": 10,
+      "success": false
+    }
+  ],
+  "E_min_scan": {
+    "theta_deg": 74.66466794340732,
+    "dE_kcal": -149.3644303058206,
+    "dEe_kcal": 3360.2047012518306,
+    "dEN_kcal": -3509.569131557651
+  },
+  "checks": {
+    "agree_geo_30_60": false,
+    "agree_decomp_EN_up_Ee_down": false,
+    "agree_not_planar_global_min": true
+  },
+  "agree": false,
+  "hartree_to_kcal": 627.5094740631
+}

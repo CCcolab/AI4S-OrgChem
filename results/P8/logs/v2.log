@@ -1,0 +1,56 @@
+
+=== furan [6-31g*] ===
+  GE(0, 1) ΔEAm=+24.995
+  GE(0, 2) ΔEAm=+21.528
+  GE(1, 2) ΔEAm=+19.804
+  ΔEA=+28.605 Σ=+66.328 LDE=-37.722
+
+=== pyrrole [6-31g*] ===
+  GE(0, 1) ΔEAm=+26.544
+  GE(0, 2) ΔEAm=+27.223
+  GE(1, 2) ΔEAm=+25.929
+  ΔEA=+31.492 Σ=+79.696 LDE=-48.204
+
+=== oxazole [6-31g*] ===
+  GE(0, 1) ΔEAm=+25.876
+  GE(0, 2) ΔEAm=+15.011
+  GE(1, 2) ΔEAm=+24.876
+  ΔEA=+24.591 Σ=+65.763 LDE=-41.172
+
+=== benzene [6-31g*] ===
+  GE(0, 1) ΔEAm=+9.633
+  GE(1, 2) ΔEAm=+9.633
+  GE(2, 0) ΔEAm=+9.633
+  ΔEA=-6.542 Σ=+28.900 ESE=-35.442
+
+=== furan [6-31g] ===
+  GE(0, 1) ΔEAm=+26.614
+  GE(0, 2) ΔEAm=+22.426
+  GE(1, 2) ΔEAm=+20.712
+  ΔEA=+31.353 Σ=+69.752 LDE=-38.399
+
+=== adiabatic G opt: furan ===
+  furan G* E=-230.01637100 nit=13 success=True conv=True dmin=1.079
+
+=== furan_adiabatic [6-31g*] ===
+  GE(0, 1) ΔEAm=+27.881
+  GE(0, 2) ΔEAm=+19.735
+  GE(1, 2) ΔEAm=+19.735
+  ΔEA=+28.313 Σ=+67.352 LDE=-39.039
+
+=== adiabatic G opt: pyrrole ===
+  pyrrole G* E=-210.16171683 nit=14 success=True conv=True dmin=1.008
+
+=== pyrrole_adiabatic [6-31g*] ===
+  GE(0, 1) ΔEAm=+27.316
+  GE(0, 2) ΔEAm=+25.821
+  GE(1, 2) ΔEAm=+25.807
+  ΔEA=+27.592 Σ=+78.944 LDE=-51.352
+# P8 v2 — deepen LDE
+
+- agree=True completion~96%
+- O1 oxazole: ΔEA=+24.59 LDE=-41.17 (Yu −36.3) closed=True
+- O2 adiabatic: furan LDE=-39.04 pyrrole LDE=-51.35 closed=True
+- O3 basis: furan LDE -37.72 / -38.40 (|Δ|=0.68) closed=True
+- vertical: furan=-37.72 pyrrole=-48.20 benzene ESE=-35.44
+

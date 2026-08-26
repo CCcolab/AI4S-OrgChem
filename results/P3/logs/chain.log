@@ -1,0 +1,6 @@
+[chain] waiting for /mnt/d/AI4S-OrgChem/results/P3/seed_prerelaxed.xyz
+[chain] seed ready 16:51:54
+[chain] started free_b3lyp at 16:51:54
+[chain] started stageB at 16:51:54
+[chain] free_b3lyp exit=0 at 17:44:44
+[chain] stageB exit=0 at 17:44:44

@@ -1,0 +1,21 @@
+
+=== Butadiene (from P1 tables) ===
+  ΔEAm=+4.057 kcal  Δr=+0.0178 Å
+
+=== Hexatriene ===
+  BFGS optimize G
+  G E=-233.14844977 r12=1.6996 r34=1.5186 opt=False
+  vertical@G: ΔEA=-1.464  ΔEA1=-1.365  ΔEA2=-0.308
+  refine GL / GE-m (short 1D)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/mnt/d/AI4S-OrgChem/src/p5_local/run.py", line 347, in <module>
+    main()
+  File "/mnt/d/AI4S-OrgChem/src/p5_local/run.py", line 278, in main
+    hx = run_hexatriene(args.basis, args.method, out)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/AI4S-OrgChem/src/p5_local/run.py", line 193, in run_hexatriene
+    coords_gl = gl12["coords"]
+                ~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable

@@ -1,0 +1,19 @@
+[P1-ZPE] h2
+  E=-1.17548241 ZPE=6.366 kcal n_imag=0
+[P1-ZPE] butadiene
+  E=-155.98888332 ZPE=53.641 kcal n_imag=0
+[P1-ZPE] 1_butene
+/mnt/d/AI4S-OrgChem/src/p1_butadiene/run_zpe.py:73: ComplexWarning: Casting complex values to real discards the imaginary part
+  wn = np.asarray(freq["freq_wavenumber"], dtype=float)
+  E=-157.21463458 ZPE=68.100 kcal n_imag=0
+[P1-ZPE] trans_2_butene
+  E=-157.22058654 ZPE=67.821 kcal n_imag=0
+[P1-ZPE] n_butane
+  E=-158.45525505 ZPE=83.351 kcal n_imag=0
+# P1 ZPE sensitivity (B3LYP_6-31gs)
+
+- Electronic CE1/CE2 = +9.331 / +1.861
+- E+ZPE   CE1/CE2 = +8.540 / +0.511
+- Sign flip (E+ZPE): **False**
+- ZPE 校正后仍无 CE1<0 且 CE2>0 翻转
+

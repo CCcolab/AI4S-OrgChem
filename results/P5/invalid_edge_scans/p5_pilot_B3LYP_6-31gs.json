@@ -1,0 +1,185 @@
+{
+  "proposition": "P5",
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "definition": "Ch6 2007: GL zeros all inter-double-bond π–π F/S; GE-m merges one allowed pair then zeros remaining inter-fragment π–π",
+  "molecules": [
+    {
+      "molecule": "butadiene",
+      "doubles": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "G": {
+        "E_ha": -155.59588638212017,
+        "r23": 1.4900000000000002
+      },
+      "GL": {
+        "E_ha": -155.60040504576108,
+        "r23": 1.52,
+        "scan": [
+          {
+            "r": 1.4,
+            "E_ha": -155.58785283905027,
+            "defects": []
+          },
+          {
+            "r": 1.41,
+            "E_ha": -155.58969714939798,
+            "defects": []
+          },
+          {
+            "r": 1.42,
+            "E_ha": -155.59137256621267,
+            "defects": []
+          },
+          {
+            "r": 1.43,
+            "E_ha": -155.59290233968812,
+            "defects": []
+          },
+          {
+            "r": 1.44,
+            "E_ha": -155.594259464379,
+            "defects": []
+          },
+          {
+            "r": 1.45,
+            "E_ha": -155.5954700179713,
+            "defects": []
+          },
+          {
+            "r": 1.46,
+            "E_ha": -155.5965288343873,
+            "defects": []
+          },
+          {
+            "r": 1.47,
+            "E_ha": -155.5974685325618,
+            "defects": []
+          },
+          {
+            "r": 1.48,
+            "E_ha": -155.59828397715063,
+            "defects": []
+          },
+          {
+            "r": 1.49,
+            "E_ha": -155.5989770775911,
+            "defects": []
+          },
+          {
+            "r": 1.5,
+            "E_ha": -155.59957709122887,
+            "defects": []
+          },
+          {
+            "r": 1.51,
+            "E_ha": -155.60004251180135,
+            "defects": []
+          },
+          {
+            "r": 1.52,
+            "E_ha": -155.60040504576108,
+            "defects": []
+          }
+        ]
+      },
+      "GE": {
+        "note": "only one double-bond pair → GE ≡ full delocalization; ΔEAm ≡ ΔEA = E(G)-E(GL)",
+        "allow_pair": [
+          0,
+          1
+        ],
+        "E_ha": -155.59588638212017,
+        "r23": 1.4900000000000002
+      },
+      "deltaEA_kcal": 2.8355042447745276,
+      "deltaEAm_kcal": 2.8355042447745276,
+      "delta_r_ang": -0.029999999999999805,
+      "deltaEAm_positive": true,
+      "delta_r_positive": false,
+      "book_refs": {
+        "deltaE_2014_kcal": 1.4,
+        "dr_expected": "r(G)>r(GL) small +"
+      }
+    },
+    {
+      "molecule": "hexatriene",
+      "doubles": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "G": {
+        "E_ha": -232.74002863346433,
+        "r12": 1.4900000000000002,
+        "r34": 1.4900000000000002
+      },
+      "GL": {
+        "E_ha": -232.74987596614938,
+        "r12": 1.5199999999999998,
+        "r34": 1.52
+      },
+      "GE1": {
+        "allow_pair": [
+          0,
+          1
+        ],
+        "E_ha": -232.74471923351237,
+        "r12": 1.52,
+        "deltaEAm_kcal": 3.235898584930892,
+        "delta_r_ang": 2.220446049250313e-16
+      },
+      "GE2": {
+        "allow_pair": [
+          1,
+          2
+        ],
+        "E_ha": -232.74994985854136,
+        "r34": 1.52,
+        "deltaEAm_kcal": -0.046368176029380696,
+        "delta_r_ang": 0.0
+      },
+      "deltaEA_kcal": 6.179294554114459,
+      "sum_deltaEAm_kcal": 3.1895304089015113,
+      "additivity_gap_kcal": 2.9897641452129475,
+      "all_deltaEAm_positive": false,
+      "all_delta_r_positive": false,
+      "book_refs": {
+        "deltaEA1_kcal": 2.9,
+        "dr_ang": 0.009,
+        "deltaEA_kcal": 6.8
+      }
+    }
+  ],
+  "analysis": {
+    "agree_criteria": "ΔEAm>0 and Δr>0 for pilot set (butadiene, hexatriene GE-m)",
+    "agree": false
+  },
+  "quality_gate": {
+    "topology_ok": true,
+    "scf_protocol": "newton GL/GE Fock+S; G full SCF; 1D bond scans",
+    "energy_scale_ok": true,
+    "passed": true,
+    "max_abs_deltaEAm": 3.235898584930892
+  },
+  "agree": false,
+  "timestamp_utc": "2026-08-23T12:14:19.687606+00:00",
+  "hartree_to_kcal": 627.5094740631
+}

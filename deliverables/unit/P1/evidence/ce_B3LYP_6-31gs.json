@@ -1,0 +1,79 @@
+{
+  "tag": "B3LYP_6-31gs",
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "optimizer": "scipy.BFGS + PySCF gradients (no geometric/berny)",
+  "timestamp_utc": "2026-08-23T01:59:30.575787+00:00",
+  "energies_ha": {
+    "h2": -1.175482410893742,
+    "butadiene": -155.98888331945494,
+    "1_butene": -157.2146345790086,
+    "trans_2_butene": -157.2205865377794,
+    "n_butane": -158.4552550535497
+  },
+  "deltaH_hyd_kcal": {
+    "butadiene": -72.41893084518762,
+    "1_butene": -40.874752060853204,
+    "trans_2_butene": -37.139841542929226
+  },
+  "CE1_kcal": 9.330573276518786,
+  "CE2_kcal": 1.8607522406708354,
+  "sign_CE1": "destabilizing",
+  "sign_CE2": "destabilizing",
+  "hartree_to_kcal": 627.5094740631,
+  "book_refs_kcal": {
+    "classic_CE1": -3.9,
+    "CE2_trans2": 1.9,
+    "GL": 1.4
+  },
+  "agree_criteria": "CE1 < 0 and CE2 > 0",
+  "quality_gate": {
+    "topology_ok": true,
+    "opt_ok": true,
+    "max_gmax_ha_bohr": 9.942290638864648e-05,
+    "gmax_limit": 0.00015,
+    "ce_scale_ok": true,
+    "defects": {
+      "h2": [],
+      "butadiene": [],
+      "1_butene": [],
+      "trans_2_butene": [],
+      "n_butane": []
+    },
+    "opt_meta": {
+      "h2": {
+        "opt_success": true,
+        "gmax_ha_bohr": 4.252128177673065e-06,
+        "scf_converged": true,
+        "source": "backfill_grad_check"
+      },
+      "butadiene": {
+        "opt_success": true,
+        "gmax_ha_bohr": 7.915161475224863e-05,
+        "scf_converged": true,
+        "source": "backfill_grad_check"
+      },
+      "1_butene": {
+        "opt_success": true,
+        "gmax_ha_bohr": 9.903061854443784e-05,
+        "scf_converged": true,
+        "source": "backfill_grad_check"
+      },
+      "trans_2_butene": {
+        "opt_success": true,
+        "gmax_ha_bohr": 7.371179476378664e-05,
+        "scf_converged": true,
+        "source": "backfill_grad_check"
+      },
+      "n_butane": {
+        "opt_success": true,
+        "gmax_ha_bohr": 9.942290638864648e-05,
+        "scf_converged": true,
+        "source": "backfill_grad_check"
+      }
+    },
+    "backfilled": true,
+    "passed": true
+  },
+  "agree": false
+}

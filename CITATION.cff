@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "AI4S-OrgChem: An AI-for-Science Agent Replication of Destabilizing-Delocalization Claims (Cursor Grok Arm)"
+message: "If you use this AI4S Agent replication package, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "Chen"
+    given-names: "Xiao"
+    alias: "Xiao Chen"
+  - name: "AI4S-OrgChem Cursor Grok Agent arm"
+    alias: "Cursor Grok AI4S Agent"
+abstract: >
+  An AI-for-Science (AI4S) agent project using state-of-the-art LLM agent technology
+  (Cursor · Grok) with PySCF to independently verify nine propositions (P1–P9) from
+  Zhongheng Yu's Questioning Fundamental Principles of Organic Chemistry under
+  pre-registered criteria and hard evidence gates. Result of this arm: 8 agree,
+  1 dissent (P1). One of three planned independent LLM-agent verification arms.
+  Does not redistribute the copyrighted book PDF or extracted full text.
+keywords:
+  - AI-for-science
+  - AI4S
+  - LLM-agent
+  - reproducibility
+  - quantum-chemistry
+  - PySCF
+  - organic-chemistry
+  - conjugation
+  - aromaticity
+license: MIT
+version: "1.0.0-freeze-2026-08-25"
+date-released: "2026-08-25"
+repository-code: "https://github.com/CCcolab/AI4S-OrgChem"

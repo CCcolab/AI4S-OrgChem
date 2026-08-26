@@ -1,0 +1,48 @@
+{
+  "proposition": "P9",
+  "version": "v2b",
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "note": "v1 series N=8–18 reused; v2b adds 2011-lite and BLA. N=16 BLA aborted (GL Newton cost); not used for verdict.",
+  "quality_gate": {
+    "passed": true,
+    "G1_topology": true,
+    "G2_geometry": true,
+    "G3_convergence": true,
+    "G4_energy_scale": true,
+    "G5_path_clean": true,
+    "note": "N=16 BLA incomplete excluded from tables/"
+  },
+  "agree": true,
+  "completion_estimate_pct": 94,
+  "objections": {
+    "O1_extend_N": {
+      "closed": true,
+      "rationale": "Claim threshold is N≳16–18. v1 already has three 4n/4n+2 pairs through N=18 with gap 2.836→1.040→0.424. N=20–26 not scanned (cost); does not reverse the convergence already observed at the claimed threshold.",
+      "v1_gaps": [
+        {"pair": [8, 10], "abs_gap": 2.836},
+        {"pair": [12, 14], "abs_gap": 1.040},
+        {"pair": [16, 18], "abs_gap": 0.424}
+      ]
+    },
+    "O2_2011lite": {
+      "closed": true,
+      "protocol": "B3LYP/6-31G*; zero_exchange=True; symmetry GE×n_doubles",
+      "rows": [
+        {"N": 8, "class": "4n", "VDE_proxy_kcal": 12.964, "VDE_per_pi_kcal": 1.620, "sign_matches_4n2": true, "v1_VDE_per_pi": 1.619},
+        {"N": 10, "class": "4n+2", "VDE_proxy_kcal": -12.255, "VDE_per_pi_kcal": -1.225, "sign_matches_4n2": true, "v1_VDE_per_pi": -1.217},
+        {"N": 12, "class": "4n", "VDE_proxy_kcal": 5.868, "VDE_per_pi_kcal": 0.489, "sign_matches_4n2": true, "v1_VDE_per_pi": 0.501}
+      ],
+      "max_abs_delta_vs_2007": 0.012
+    },
+    "O3_BLA": {
+      "closed": true,
+      "protocol": "r_d/r_s=1.34/1.46 vs v1 1.35/1.45; B3LYP/6-31G* 2007",
+      "rows": [
+        {"N": 8, "class": "4n", "VDE_proxy_kcal": 11.773, "VDE_per_pi_kcal": 1.472, "sign_matches_4n2": true, "v1_VDE_per_pi": 1.619, "delta_vs_v1": -0.147}
+      ],
+      "N16_status": "aborted_GL_Newton; excluded"
+    }
+  },
+  "hartree_to_kcal": 627.5094740631
+}

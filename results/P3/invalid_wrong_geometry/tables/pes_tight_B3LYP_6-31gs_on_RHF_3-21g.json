@@ -1,0 +1,130 @@
+{
+  "proposition": "P3",
+  "tag": "tight_B3LYP_6-31gs_on_RHF_3-21g",
+  "protocol": "A: cascaded free relax RHF/sto-3g(maxiter=250) -> RHF/3-21g(maxiter=80); B: theta-constrained relax from that seed at RHF/3-21g (maxiter=20, k0=2.0 Ha/rad^2, stiffening retries until |dtheta|<=3.0 deg); C: B3LYP/6-31g* single points",
+  "geom_method": "RHF",
+  "geom_basis": "3-21g",
+  "energy_method": "B3LYP",
+  "energy_basis": "6-31g*",
+  "theta_definition": "C_ortho(N-Ph)-C_ipso(N-Ph)-N-C_imine",
+  "book_theta_exp_deg": [
+    36,
+    55
+  ],
+  "timestamp_utc": "2026-08-23T07:31:51.138179+00:00",
+  "prerelax_stages": [],
+  "prerelax_seed": {
+    "theta_deg": -92.21656577388825,
+    "E_ha": null,
+    "converged": true,
+    "min_contact_ang": 1.065536892269053
+  },
+  "reference_theta_deg": -0.3115940701281568,
+  "scan": [
+    {
+      "theta_target": 0.0,
+      "theta_deg": -0.3115940701281568,
+      "theta_error_deg": 0.31159407012816587,
+      "E_ha": -556.4764168378863,
+      "Ee_ha": -1321.9033401234192,
+      "EN_ha": 765.4269232855329,
+      "dE_kcal": 0.0,
+      "dEe_kcal": 0.0,
+      "dEN_kcal": 0.0,
+      "nit": 20,
+      "converged": false,
+      "min_contact_ang": 1.0638334236896503,
+      "k_penalty": 2.0,
+      "retries": 0
+    },
+    {
+      "theta_target": 30.0,
+      "theta_deg": 30.167070633378895,
+      "theta_error_deg": 0.1670706333788985,
+      "E_ha": -556.4619368911597,
+      "Ee_ha": -1313.8379274105346,
+      "EN_ha": 757.3759905193749,
+      "dE_kcal": 9.086303754885465,
+      "dEe_kcal": 5061.122889564062,
+      "dEN_kcal": -5052.036585809175,
+      "nit": 20,
+      "converged": false,
+      "min_contact_ang": 1.0564313889866834,
+      "k_penalty": 2.0,
+      "retries": 0
+    },
+    {
+      "theta_target": 45.0,
+      "theta_deg": 44.92007894136591,
+      "theta_error_deg": 0.07992105863408483,
+      "E_ha": -556.4752893179889,
+      "Ee_ha": -1310.5320110596303,
+      "EN_ha": 754.0567217416415,
+      "dE_kcal": 0.7075294178188032,
+      "dEe_kcal": 7135.616720216575,
+      "dEN_kcal": -7134.909190798757,
+      "nit": 20,
+      "converged": false,
+      "min_contact_ang": 1.0603139544499294,
+      "k_penalty": 2.0,
+      "retries": 0
+    },
+    {
+      "theta_target": 60.0,
+      "theta_deg": 59.96146284701273,
+      "theta_error_deg": 0.038537152987260015,
+      "E_ha": -556.4815933695879,
+      "Ee_ha": -1305.1295130301155,
+      "EN_ha": 748.6479196605276,
+      "dE_kcal": -3.248322685564647,
+      "dEe_kcal": 10525.73541734437,
+      "dEN_kcal": -10528.983740029935,
+      "nit": 20,
+      "converged": false,
+      "min_contact_ang": 1.0622939189368994,
+      "k_penalty": 2.0,
+      "retries": 0
+    },
+    {
+      "theta_target": 90.0,
+      "theta_deg": 89.98649594032877,
+      "theta_error_deg": 0.013504059671220148,
+      "E_ha": -556.4849518509659,
+      "Ee_ha": -1305.5345896892563,
+      "EN_ha": 749.0496378382904,
+      "dE_kcal": -5.355801568706928,
+      "dEe_kcal": 10271.545976011668,
+      "dEN_kcal": -10276.901777580375,
+      "nit": 20,
+      "converged": false,
+      "min_contact_ang": 1.0639229859263668,
+      "k_penalty": 2.0,
+      "retries": 0
+    }
+  ],
+  "E_min_scan": {
+    "theta_deg": 89.98649594032877,
+    "dE_kcal": -5.355801568706928,
+    "dEe_kcal": 10271.545976011668,
+    "dEN_kcal": -10276.901777580375
+  },
+  "quality_gate": {
+    "dE_span_kcal": 14.442105323592394,
+    "dE_span_limit_kcal": 25.0,
+    "dE_span_ok": true,
+    "max_theta_error_deg": 0.31159407012816587,
+    "theta_error_limit_deg": 3.0,
+    "theta_error_ok": true,
+    "min_contact_ang": 1.0564313889866834,
+    "min_contact_ok": true,
+    "passed": true
+  },
+  "checks": {
+    "E_min_in_30_60": false,
+    "at_min_EN_up_Ee_down": false,
+    "near_planar_not_global_min": true
+  },
+  "agree": false,
+  "verdict_eligible": true,
+  "hartree_to_kcal": 627.5094740631
+}

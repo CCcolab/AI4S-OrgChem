@@ -1,0 +1,156 @@
+{
+  "proposition": "P6",
+  "version": "v4_objections",
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "objections": {
+    "O1_cbd_2d": {
+      "closed": true,
+      "result": {
+        "protocol": "2D r_d×r_s; Yu CBD metric = adiabatic ΔEA",
+        "G_min": {
+          "r_d": 1.34,
+          "r_s": 1.56,
+          "E_ha": -154.66961284585494,
+          "at_edge": false,
+          "n_points": 57
+        },
+        "GL_min": {
+          "r_d": 1.34,
+          "r_s": 1.44,
+          "E_ha": -154.77400995017624,
+          "at_edge": false,
+          "n_points": 57
+        },
+        "deltaEA_adiabatic_kcal": 65.51017202636544,
+        "vertical_at_G": {
+          "deltaEA_kcal": 53.98091072898008,
+          "deltaEAm_kcal": [
+            53.98091074389005
+          ],
+          "sum_deltaEAm_kcal": 53.98091074389005,
+          "ESE_kcal": -1.490997192377108e-08,
+          "zero_exchange": false,
+          "method": "B3LYP",
+          "basis": "6-31g*"
+        },
+        "ESE_zero_at_G": true,
+        "yu_window_45_70": true,
+        "no_edge": true,
+        "G_interior": true,
+        "GL_interior": true
+      }
+    },
+    "O2_2011lite": {
+      "closed": true,
+      "result": {
+        "B3LYP_2007": {
+          "deltaEA_kcal": -6.5417097070162,
+          "deltaEAm_kcal": [
+            9.633441081039495,
+            9.633127139357919,
+            9.633442303478658
+          ],
+          "sum_deltaEAm_kcal": 28.90001052387607,
+          "ESE_kcal": -35.44172023089227,
+          "zero_exchange": false,
+          "method": "B3LYP",
+          "basis": "6-31g*"
+        },
+        "B3LYP_2011lite": {
+          "deltaEA_kcal": -6.539245456466005,
+          "deltaEAm_kcal": [
+            9.647253575058723,
+            9.646928051184306,
+            9.647253606519474
+          ],
+          "sum_deltaEAm_kcal": 28.9414352327625,
+          "ESE_kcal": -35.48068068922851,
+          "zero_exchange": true,
+          "method": "B3LYP",
+          "basis": "6-31g*"
+        },
+        "RHF_2007": {
+          "deltaEA_kcal": 36.365781561918965,
+          "deltaEAm_kcal": [
+            772308.6267693604,
+            772308.6267693604,
+            772308.6267693604
+          ],
+          "sum_deltaEAm_kcal": 2316925.8803080814,
+          "ESE_kcal": -2316889.5145265195,
+          "zero_exchange": false,
+          "method": "RHF",
+          "basis": "6-31g*",
+          "invalid": true
+        },
+        "RHF_2011lite": {
+          "deltaEA_kcal": 36.36464392816638,
+          "deltaEAm_kcal": [
+            27.27516651611219,
+            27.275166282582116,
+            27.275166569688206
+          ],
+          "sum_deltaEAm_kcal": 81.82549936838251,
+          "ESE_kcal": -45.46085544021613,
+          "zero_exchange": true,
+          "method": "RHF",
+          "basis": "6-31g*"
+        },
+        "RHF_2011lite_cbd": {
+          "deltaEA_kcal": 96.99231251967211,
+          "deltaEAm_kcal": [
+            96.99231261936916
+          ],
+          "sum_deltaEAm_kcal": 96.99231261936916,
+          "ESE_kcal": -9.969704706236371e-08,
+          "zero_exchange": true,
+          "method": "RHF",
+          "basis": "6-31g*"
+        },
+        "rhf_2007_invalid": true,
+        "closed": true
+      }
+    },
+    "O3_cbd_deltaEA_metric": {
+      "closed": true,
+      "result": {
+        "definition": {
+          "benzene_primary": "ESE = ΔEA − ΣΔEAm",
+          "cbd_primary": "Yu +53–55 ≡ ΔEA = E(G)−E(GL)",
+          "cbd_ESE": "n_double=2 ⇒ G≡GE ⇒ ESE≡0"
+        },
+        "numbers_kcal": {
+          "vertical_deltaEA_v2": 57.672547719917986,
+          "adiabatic_2d_deltaEA": 65.51017202636544,
+          "vertical_at_G_deltaEA": 53.98091072898008,
+          "yu_ref": 53.6,
+          "abs_error_vert_vs_yu": 0.3809107289800764,
+          "abs_error_adiab_vs_yu": 11.910172026365437
+        },
+        "ESE_zero_at_G": true,
+        "closed": true
+      }
+    }
+  },
+  "vertical_v2_ref": {
+    "benzene_ESE_kcal": -35.44172767282196,
+    "cbd_deltaEA_kcal": 57.672547719917986
+  },
+  "analysis": {
+    "all_objections_closed": true,
+    "completion_estimate_pct": 98,
+    "agree": true
+  },
+  "quality_gate": {
+    "passed": true,
+    "G1_topology": true,
+    "G2_geometry": true,
+    "G3_convergence": true,
+    "G4_energy_scale": true,
+    "G5_path_clean": true
+  },
+  "agree": true,
+  "timestamp_utc": "2026-08-24T00:32:43.497206+00:00",
+  "hartree_to_kcal": 627.5094740631
+}

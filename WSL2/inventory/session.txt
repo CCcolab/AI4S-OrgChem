@@ -1,0 +1,5 @@
+whoami: cascade
+HOME: /home/cascade
+pwd: /mnt/d/AI4S-OrgChem
+date: 2026-08-26T17:13:40+08:00
+WSL_DISTRO: Ubuntu-24.04

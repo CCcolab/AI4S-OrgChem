@@ -1,0 +1,5 @@
+executable: /usr/bin/python3
+version: 3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]
+platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39
+pyscf_version: 2.14.0
+pyscf_file: /home/cascade/.local/lib/python3.12/site-packages/pyscf/__init__.py

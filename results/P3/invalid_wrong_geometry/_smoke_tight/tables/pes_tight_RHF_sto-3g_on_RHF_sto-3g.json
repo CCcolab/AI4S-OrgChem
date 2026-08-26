@@ -1,0 +1,92 @@
+{
+  "proposition": "P3",
+  "tag": "tight_RHF_sto-3g_on_RHF_sto-3g",
+  "protocol": "A: cascaded free relax RHF/sto-3g(maxiter=2); B: theta-constrained relax from that seed at RHF/sto-3g (maxiter=2, k0=2.0 Ha/rad^2, stiffening retries until |dtheta|<=3.0 deg); C: RHF/sto-3g single points",
+  "geom_method": "RHF",
+  "geom_basis": "sto-3g",
+  "energy_method": "RHF",
+  "energy_basis": "sto-3g",
+  "theta_definition": "C_ortho(N-Ph)-C_ipso(N-Ph)-N-C_imine",
+  "book_theta_exp_deg": [
+    36,
+    55
+  ],
+  "timestamp_utc": "2026-08-23T07:04:43.559467+00:00",
+  "prerelax_stages": [
+    {
+      "basis": "sto-3g",
+      "maxiter": 2,
+      "theta_deg": 56.49939147875136,
+      "E_ha": -543.9269061362373,
+      "nit": 2,
+      "converged": false,
+      "min_contact_ang": 0.9764933211007575
+    }
+  ],
+  "prerelax_seed": {
+    "theta_deg": 56.49939147875136,
+    "E_ha": -543.9269061362373,
+    "converged": false,
+    "min_contact_ang": 0.9764933211007575
+  },
+  "reference_theta_deg": 0.7609513858314599,
+  "scan": [
+    {
+      "theta_target": 0.0,
+      "theta_deg": 0.7609513858314599,
+      "theta_error_deg": 0.7609513858314472,
+      "E_ha": -544.9123443988581,
+      "Ee_ha": -1381.4099049498764,
+      "EN_ha": 836.4975605510183,
+      "dE_kcal": 0.0,
+      "dEe_kcal": 0.0,
+      "dEN_kcal": 0.0,
+      "nit": 2,
+      "converged": false,
+      "min_contact_ang": 1.0116798032954264,
+      "k_penalty": 8.0,
+      "retries": 1
+    },
+    {
+      "theta_target": 45.0,
+      "theta_deg": 44.54248472096603,
+      "theta_error_deg": 0.45751527903397005,
+      "E_ha": -544.993490436635,
+      "Ee_ha": -1383.1943322028612,
+      "EN_ha": 838.2008417662262,
+      "dE_kcal": -50.91990748774283,
+      "dEe_kcal": -1119.7450070243979,
+      "dEN_kcal": 1068.825099536655,
+      "nit": 2,
+      "converged": false,
+      "min_contact_ang": 0.9640027662744742,
+      "k_penalty": 8.0,
+      "retries": 1
+    }
+  ],
+  "E_min_scan": {
+    "theta_deg": 44.54248472096603,
+    "dE_kcal": -50.91990748774283,
+    "dEe_kcal": -1119.7450070243979,
+    "dEN_kcal": 1068.825099536655
+  },
+  "quality_gate": {
+    "dE_span_kcal": 50.91990748774283,
+    "dE_span_limit_kcal": 25.0,
+    "dE_span_ok": false,
+    "max_theta_error_deg": 0.7609513858314472,
+    "theta_error_limit_deg": 3.0,
+    "theta_error_ok": true,
+    "min_contact_ang": 0.9640027662744742,
+    "min_contact_ok": true,
+    "passed": false
+  },
+  "checks": {
+    "E_min_in_30_60": true,
+    "at_min_EN_up_Ee_down": true,
+    "near_planar_not_global_min": true
+  },
+  "agree": null,
+  "verdict_eligible": false,
+  "hartree_to_kcal": 627.5094740631
+}

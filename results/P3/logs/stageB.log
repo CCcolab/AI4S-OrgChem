@@ -1,0 +1,346 @@
+[P3T] built seed: theta=40.00 dmin=1.080 A
+[P3T] loaded pre-relaxed seed /mnt/d/AI4S-OrgChem/results/P3/seed_prerelaxed.xyz theta=149.25 dmin=1.070
+[P3T] sweep up: theta -> 0
+    constr θ=0 cache=2
+    constr θ=0 cache=3
+    constr θ=0 cache=4
+    constr θ=0 cache=5
+    constr θ=0 cache=6
+    constr θ=0 cache=7
+    constr θ=0 cache=8
+    constr θ=0 cache=9
+    constr θ=0 cache=10
+    constr θ=0 cache=11
+    constr θ=0 cache=12
+    constr θ=0 cache=13
+    constr θ=0 cache=14
+    constr θ=0 cache=15
+    constr θ=0 cache=16
+    constr θ=0 cache=17
+    constr θ=0 cache=18
+    constr θ=0 cache=19
+    constr θ=0 cache=20
+    constr θ=0 cache=21
+    constr θ=0 cache=22
+    constr θ=0 cache=23
+    constr θ=0 cache=24
+    constr θ=0 cache=25
+    constr θ=0 cache=26
+    constr θ=0 cache=27
+    constr θ=0 cache=28
+    constr θ=0 cache=29
+    constr θ=0 cache=30
+    constr θ=0 cache=31
+    constr θ=0 cache=32
+    constr θ=0 cache=33
+    constr θ=0 cache=34
+    constr θ=0 cache=35
+    constr θ=0 cache=36
+    constr θ=0 cache=37
+    constr θ=0 cache=38
+    constr θ=0 cache=39
+    constr θ=0 cache=40
+    constr θ=0 cache=41
+      theta=-0.14 err=0.14 nit=40 conv=False dmin=1.069 defects=0 E(B3LYP)=-556.73419012
+[P3T] sweep up: theta -> 15
+    constr θ=15 cache=2
+    constr θ=15 cache=3
+    constr θ=15 cache=4
+    constr θ=15 cache=5
+    constr θ=15 cache=6
+    constr θ=15 cache=7
+    constr θ=15 cache=8
+    constr θ=15 cache=9
+    constr θ=15 cache=10
+    constr θ=15 cache=11
+    constr θ=15 cache=12
+    constr θ=15 cache=13
+    constr θ=15 cache=14
+    constr θ=15 cache=15
+    constr θ=15 cache=16
+    constr θ=15 cache=17
+    constr θ=15 cache=18
+    constr θ=15 cache=19
+    constr θ=15 cache=20
+    constr θ=15 cache=21
+    constr θ=15 cache=22
+      theta=15.00 err=0.00 nit=21 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73447688
+[P3T] sweep up: theta -> 30
+    constr θ=30 cache=2
+    constr θ=30 cache=3
+    constr θ=30 cache=4
+    constr θ=30 cache=5
+    constr θ=30 cache=6
+    constr θ=30 cache=7
+    constr θ=30 cache=8
+    constr θ=30 cache=9
+    constr θ=30 cache=10
+    constr θ=30 cache=11
+    constr θ=30 cache=12
+    constr θ=30 cache=13
+    constr θ=30 cache=14
+    constr θ=30 cache=15
+    constr θ=30 cache=16
+    constr θ=30 cache=17
+    constr θ=30 cache=18
+    constr θ=30 cache=19
+      theta=29.96 err=0.04 nit=18 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73529695
+[P3T] sweep up: theta -> 45
+    constr θ=45 cache=2
+    constr θ=45 cache=3
+    constr θ=45 cache=4
+    constr θ=45 cache=5
+    constr θ=45 cache=6
+    constr θ=45 cache=7
+    constr θ=45 cache=8
+    constr θ=45 cache=9
+    constr θ=45 cache=10
+    constr θ=45 cache=11
+    constr θ=45 cache=12
+    constr θ=45 cache=13
+    constr θ=45 cache=14
+    constr θ=45 cache=15
+    constr θ=45 cache=16
+    constr θ=45 cache=17
+    constr θ=45 cache=18
+    constr θ=45 cache=19
+      theta=44.87 err=0.13 nit=18 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73528851
+[P3T] sweep up: theta -> 60
+    constr θ=60 cache=3
+    constr θ=60 cache=4
+    constr θ=60 cache=5
+    constr θ=60 cache=6
+    constr θ=60 cache=7
+    constr θ=60 cache=8
+    constr θ=60 cache=9
+    constr θ=60 cache=10
+    constr θ=60 cache=11
+    constr θ=60 cache=12
+    constr θ=60 cache=13
+    constr θ=60 cache=14
+    constr θ=60 cache=15
+    constr θ=60 cache=16
+    constr θ=60 cache=17
+      theta=59.81 err=0.19 nit=15 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73435997
+[P3T] sweep up: theta -> 75
+    constr θ=75 cache=3
+    constr θ=75 cache=4
+    constr θ=75 cache=5
+    constr θ=75 cache=6
+    constr θ=75 cache=7
+    constr θ=75 cache=8
+    constr θ=75 cache=9
+    constr θ=75 cache=10
+    constr θ=75 cache=11
+    constr θ=75 cache=12
+    constr θ=75 cache=13
+    constr θ=75 cache=14
+    constr θ=75 cache=15
+    constr θ=75 cache=16
+    constr θ=75 cache=17
+    constr θ=75 cache=18
+    constr θ=75 cache=19
+    constr θ=75 cache=20
+    constr θ=75 cache=21
+    constr θ=75 cache=22
+      theta=74.84 err=0.16 nit=20 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73322664
+[P3T] sweep up: theta -> 90
+    constr θ=90 cache=2
+    constr θ=90 cache=3
+    constr θ=90 cache=4
+    constr θ=90 cache=5
+    constr θ=90 cache=6
+    constr θ=90 cache=7
+    constr θ=90 cache=8
+      theta=89.99 err=0.01 nit=7 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73250874
+[P3T] sweep down: theta -> 90
+    constr θ=90 cache=2
+    constr θ=90 cache=3
+    constr θ=90 cache=4
+    constr θ=90 cache=5
+    constr θ=90 cache=6
+    constr θ=90 cache=7
+    constr θ=90 cache=8
+    constr θ=90 cache=9
+    constr θ=90 cache=10
+    constr θ=90 cache=11
+    constr θ=90 cache=12
+    constr θ=90 cache=13
+    constr θ=90 cache=14
+    constr θ=90 cache=15
+    constr θ=90 cache=16
+    constr θ=90 cache=17
+    constr θ=90 cache=18
+    constr θ=90 cache=19
+    constr θ=90 cache=20
+    constr θ=90 cache=21
+    constr θ=90 cache=22
+    constr θ=90 cache=23
+    constr θ=90 cache=24
+    constr θ=90 cache=25
+    constr θ=90 cache=26
+    constr θ=90 cache=27
+      theta=89.99 err=0.01 nit=26 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73263849
+[P3T] sweep down: theta -> 75
+    constr θ=75 cache=3
+    constr θ=75 cache=4
+    constr θ=75 cache=5
+    constr θ=75 cache=6
+    constr θ=75 cache=7
+    constr θ=75 cache=8
+    constr θ=75 cache=9
+    constr θ=75 cache=10
+      theta=74.84 err=0.16 nit=8 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73338081
+[P3T] sweep down: theta -> 60
+    constr θ=60 cache=3
+    constr θ=60 cache=4
+    constr θ=60 cache=5
+    constr θ=60 cache=6
+    constr θ=60 cache=7
+    constr θ=60 cache=8
+    constr θ=60 cache=9
+    constr θ=60 cache=10
+    constr θ=60 cache=11
+    constr θ=60 cache=12
+    constr θ=60 cache=13
+    constr θ=60 cache=14
+    constr θ=60 cache=15
+    constr θ=60 cache=16
+      theta=59.81 err=0.19 nit=14 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73479737
+[P3T] sweep down: theta -> 45
+    constr θ=45 cache=3
+    constr θ=45 cache=4
+    constr θ=45 cache=5
+    constr θ=45 cache=6
+    constr θ=45 cache=7
+    constr θ=45 cache=8
+    constr θ=45 cache=9
+    constr θ=45 cache=10
+    constr θ=45 cache=11
+    constr θ=45 cache=12
+    constr θ=45 cache=13
+    constr θ=45 cache=14
+    constr θ=45 cache=15
+    constr θ=45 cache=16
+    constr θ=45 cache=17
+    constr θ=45 cache=18
+    constr θ=45 cache=19
+    constr θ=45 cache=20
+    constr θ=45 cache=21
+    constr θ=45 cache=22
+      theta=44.90 err=0.10 nit=20 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73572746
+[P3T] sweep down: theta -> 30
+    constr θ=30 cache=2
+    constr θ=30 cache=4
+    constr θ=30 cache=5
+    constr θ=30 cache=6
+    constr θ=30 cache=7
+    constr θ=30 cache=8
+    constr θ=30 cache=9
+    constr θ=30 cache=10
+    constr θ=30 cache=11
+    constr θ=30 cache=12
+    constr θ=30 cache=13
+    constr θ=30 cache=14
+    constr θ=30 cache=15
+    constr θ=30 cache=16
+    constr θ=30 cache=17
+    constr θ=30 cache=18
+    constr θ=30 cache=19
+    constr θ=30 cache=20
+    constr θ=30 cache=21
+    constr θ=30 cache=22
+    constr θ=30 cache=23
+    constr θ=30 cache=24
+    constr θ=30 cache=25
+    constr θ=30 cache=26
+    constr θ=30 cache=27
+    constr θ=30 cache=28
+    constr θ=30 cache=29
+    constr θ=30 cache=30
+    constr θ=30 cache=31
+    constr θ=30 cache=32
+    constr θ=30 cache=33
+    constr θ=30 cache=34
+    constr θ=30 cache=35
+    constr θ=30 cache=36
+    constr θ=30 cache=37
+    constr θ=30 cache=38
+    constr θ=30 cache=39
+    constr θ=30 cache=40
+    constr θ=30 cache=41
+    constr θ=30 cache=42
+      theta=30.02 err=0.02 nit=40 conv=False dmin=1.070 defects=0 E(B3LYP)=-556.73551633
+[P3T] sweep down: theta -> 15
+    constr θ=15 cache=2
+    constr θ=15 cache=3
+    constr θ=15 cache=4
+    constr θ=15 cache=5
+    constr θ=15 cache=6
+    constr θ=15 cache=7
+    constr θ=15 cache=8
+    constr θ=15 cache=9
+    constr θ=15 cache=10
+    constr θ=15 cache=11
+    constr θ=15 cache=12
+    constr θ=15 cache=13
+    constr θ=15 cache=14
+    constr θ=15 cache=15
+    constr θ=15 cache=16
+    constr θ=15 cache=17
+    constr θ=15 cache=18
+    constr θ=15 cache=19
+      theta=15.06 err=0.06 nit=18 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73459871
+[P3T] sweep down: theta -> 0
+    constr θ=0 cache=3
+    constr θ=0 cache=4
+    constr θ=0 cache=5
+    constr θ=0 cache=6
+    constr θ=0 cache=7
+    constr θ=0 cache=8
+    constr θ=0 cache=9
+    constr θ=0 cache=10
+    constr θ=0 cache=11
+    constr θ=0 cache=12
+    constr θ=0 cache=13
+    constr θ=0 cache=14
+    constr θ=0 cache=15
+    constr θ=0 cache=16
+    constr θ=0 cache=17
+    constr θ=0 cache=18
+    constr θ=0 cache=19
+    constr θ=0 cache=20
+    constr θ=0 cache=21
+    constr θ=0 cache=22
+    constr θ=0 cache=23
+    constr θ=0 cache=24
+    constr θ=0 cache=25
+    constr θ=0 cache=26
+    constr θ=0 cache=27
+    constr θ=0 cache=28
+    constr θ=0 cache=29
+    constr θ=0 cache=30
+    constr θ=0 cache=31
+    constr θ=0 cache=32
+    constr θ=0 cache=33
+    constr θ=0 cache=34
+    constr θ=0 cache=35
+    constr θ=0 cache=36
+    constr θ=0 cache=37
+    constr θ=0 cache=38
+    constr θ=0 cache=39
+    constr θ=0 cache=40
+      theta=-0.02 err=0.02 nit=38 conv=True dmin=1.070 defects=0 E(B3LYP)=-556.73399593
+# P3 NBA tightened twist PES (tight_B3LYP_6-31gs_on_RHF_3-21g_both)
+
+- Protocol: A: cascaded free relax RHF/sto-3g(maxiter=250) -> RHF/3-21g(maxiter=80); B: sequential theta sweep (both) at RHF/3-21g (maxiter=40, k0=2.0 Ha/rad^2, stiffening retries until |dtheta|<=3.0 deg, each point seeded from the previous one); C: B3LYP/6-31g* single points; per-angle energy = lower of the two sweeps
+- Pre-relaxed seed: theta=149.2 deg, converged=True, dmin=1.070 A
+- E_min at theta = **44.9 deg** (dE=-0.965, dEe=-1407.214, dEN=+1406.249 kcal/mol vs theta=-0.1)
+- dE span = 1.94 kcal/mol (limit 25.0)
+- max |theta - target| = 0.19 deg (limit 3.0)
+- topology intact at every point: True
+- converged points: 5/7; max up/down hysteresis = 0.275442099676744 kcal/mol (limit 1.0)
+- **Quality gate: PASSED**
+- Checks: {'E_min_in_30_60': True, 'at_min_EN_up_Ee_down': True, 'near_planar_not_global_min': True}
+- Auto agree flag: **True** (None = gate failed; formal VERDICT only in deliverables/)
+

@@ -1,0 +1,215 @@
+{
+  "proposition": "P3",
+  "tag": "tight_B3LYP_6-31gs_on_RHF_3-21g_both",
+  "protocol": "A: cascaded free relax RHF/sto-3g(maxiter=250) -> RHF/3-21g(maxiter=80); B: sequential theta sweep (both) at RHF/3-21g (maxiter=40, k0=2.0 Ha/rad^2, stiffening retries until |dtheta|<=3.0 deg, each point seeded from the previous one); C: B3LYP/6-31g* single points; per-angle energy = lower of the two sweeps",
+  "direction": "both",
+  "hysteresis": [
+    {
+      "theta_target": 0.0,
+      "dE_up_vs_down_kcal": -0.12185627657673337
+    },
+    {
+      "theta_target": 15.0,
+      "dE_up_vs_down_kcal": 0.0764489983325291
+    },
+    {
+      "theta_target": 30.0,
+      "dE_up_vs_down_kcal": 0.13766391487030835
+    },
+    {
+      "theta_target": 45.0,
+      "dE_up_vs_down_kcal": 0.275442099676744
+    },
+    {
+      "theta_target": 60.0,
+      "dE_up_vs_down_kcal": 0.27447516738454125
+    },
+    {
+      "theta_target": 75.0,
+      "dE_up_vs_down_kcal": 0.09674612101785947
+    },
+    {
+      "theta_target": 90.0,
+      "dE_up_vs_down_kcal": 0.08142058318137071
+    }
+  ],
+  "geom_method": "RHF",
+  "geom_basis": "3-21g",
+  "energy_method": "B3LYP",
+  "energy_basis": "6-31g*",
+  "theta_definition": "C_ortho(N-Ph)-C_ipso(N-Ph)-N-C_imine",
+  "book_theta_exp_deg": [
+    36,
+    55
+  ],
+  "timestamp_utc": "2026-08-23T09:36:27.011273+00:00",
+  "prerelax_stages": [],
+  "prerelax_seed": {
+    "theta_deg": 149.24858477819768,
+    "E_ha": null,
+    "converged": true,
+    "min_contact_ang": 1.069902446165141
+  },
+  "reference_theta_deg": -0.14408957859573468,
+  "scan": [
+    {
+      "theta_target": 0.0,
+      "theta_deg": -0.14408957859573468,
+      "theta_error_deg": 0.14408957859572524,
+      "E_ha": -556.7341901226963,
+      "Ee_ha": -1300.5931500743836,
+      "EN_ha": 743.8589599516873,
+      "dE_kcal": 0.0,
+      "dEe_kcal": 0.0,
+      "dEN_kcal": 0.0,
+      "nit": 40,
+      "converged": false,
+      "min_contact_ang": 1.068697473439188,
+      "defects": [],
+      "k_penalty": 2.0,
+      "retries": 0,
+      "sweep": "up"
+    },
+    {
+      "theta_target": 15.0,
+      "theta_deg": 15.062096437129256,
+      "theta_error_deg": 0.06209643712924162,
+      "E_ha": -556.7345987090742,
+      "Ee_ha": -1302.2487790421656,
+      "EN_ha": 745.5141803330913,
+      "dE_kcal": -0.256391823132811,
+      "dEe_kcal": -1038.9228628164672,
+      "dEN_kcal": 1038.6664709933343,
+      "nit": 18,
+      "converged": true,
+      "min_contact_ang": 1.0696006460749667,
+      "defects": [],
+      "k_penalty": 2.0,
+      "retries": 0,
+      "sweep": "down"
+    },
+    {
+      "theta_target": 30.0,
+      "theta_deg": 30.01841614926074,
+      "theta_error_deg": 0.018416149260730208,
+      "E_ha": -556.7355163318589,
+      "Ee_ha": -1302.6602008179384,
+      "EN_ha": 745.9246844860795,
+      "dE_kcal": -0.8322088141112183,
+      "dEe_kcal": -1297.0939249497956,
+      "dEN_kcal": 1296.2617161356845,
+      "nit": 40,
+      "converged": false,
+      "min_contact_ang": 1.0703718368275486,
+      "defects": [],
+      "k_penalty": 2.0,
+      "retries": 0,
+      "sweep": "down"
+    },
+    {
+      "theta_target": 45.0,
+      "theta_deg": 44.90128677750741,
+      "theta_error_deg": 0.09871322249259151,
+      "E_ha": -556.7357274594948,
+      "Ee_ha": -1302.8356879146486,
+      "EN_ha": 746.0999604551538,
+      "dE_kcal": -0.9646934058796314,
+      "dEe_kcal": -1407.2137407112643,
+      "dEN_kcal": 1406.2490473053847,
+      "nit": 20,
+      "converged": true,
+      "min_contact_ang": 1.0703242585323822,
+      "defects": [],
+      "k_penalty": 2.0,
+      "retries": 0,
+      "sweep": "down"
+    },
+    {
+      "theta_target": 60.0,
+      "theta_deg": 59.80829388921893,
+      "theta_error_deg": 0.19170611078106958,
+      "E_ha": -556.734797373495,
+      "Ee_ha": -1302.8713701953989,
+      "EN_ha": 746.1365728219039,
+      "dE_kcal": -0.38105562930412823,
+      "dEe_kcal": -1429.604709938244,
+      "dEN_kcal": 1429.22365430894,
+      "nit": 14,
+      "converged": true,
+      "min_contact_ang": 1.0703588396295989,
+      "defects": [],
+      "k_penalty": 2.0,
+      "retries": 0,
+      "sweep": "down"
+    },
+    {
+      "theta_target": 75.0,
+      "theta_deg": 74.84064957379,
+      "theta_error_deg": 0.15935042620998274,
+      "E_ha": -556.7333808119249,
+      "Ee_ha": -1302.7329641186025,
+      "EN_ha": 745.9995833066776,
+      "dE_kcal": 0.5078501765070174,
+      "dEe_kcal": -1342.7535854805978,
+      "dEN_kcal": 1343.261435657105,
+      "nit": 8,
+      "converged": true,
+      "min_contact_ang": 1.0702968874704524,
+      "defects": [],
+      "k_penalty": 2.0,
+      "retries": 0,
+      "sweep": "down"
+    },
+    {
+      "theta_target": 90.0,
+      "theta_deg": 89.98969266024348,
+      "theta_error_deg": 0.010307339756536749,
+      "E_ha": -556.7326384887283,
+      "Ee_ha": -1302.6070178326072,
+      "EN_ha": 745.8743793438789,
+      "dE_kcal": 0.9736650152019939,
+      "dEe_kcal": -1263.7210977955058,
+      "dEN_kcal": 1264.6947628107077,
+      "nit": 26,
+      "converged": true,
+      "min_contact_ang": 1.070314154024623,
+      "defects": [],
+      "k_penalty": 2.0,
+      "retries": 0,
+      "sweep": "down"
+    }
+  ],
+  "E_min_scan": {
+    "theta_deg": 44.90128677750741,
+    "dE_kcal": -0.9646934058796314,
+    "dEe_kcal": -1407.2137407112643,
+    "dEN_kcal": 1406.2490473053847
+  },
+  "quality_gate": {
+    "dE_span_kcal": 1.9383584210816251,
+    "dE_span_limit_kcal": 25.0,
+    "dE_span_ok": true,
+    "max_theta_error_deg": 0.19170611078106958,
+    "theta_error_limit_deg": 3.0,
+    "theta_error_ok": true,
+    "min_contact_ang": 1.068697473439188,
+    "min_contact_ok": true,
+    "topology_ok": true,
+    "n_converged": 5,
+    "n_points": 7,
+    "all_converged": false,
+    "max_hysteresis_kcal": 0.275442099676744,
+    "hysteresis_limit_kcal": 1.0,
+    "hysteresis_ok": true,
+    "convergence_ok": true,
+    "passed": true
+  },
+  "checks": {
+    "E_min_in_30_60": true,
+    "at_min_EN_up_Ee_down": true,
+    "near_planar_not_global_min": true
+  },
+  "agree": true,
+  "verdict_eligible": true,
+  "hartree_to_kcal": 627.5094740631
+}

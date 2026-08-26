@@ -1,0 +1,132 @@
+{
+  "proposition": "P5",
+  "version": 4,
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "molecules": [
+    {
+      "molecule": "butadiene",
+      "source": "P1",
+      "deltaEAm_kcal": 4.057046170973047,
+      "delta_r_ang": 0.01779412407098624,
+      "deltaEAm_positive": true,
+      "delta_r_positive": true,
+      "G": {
+        "E_ha": -155.98888331945642,
+        "r23": 1.4577941240709862
+      },
+      "GL": {
+        "E_ha": -155.99534863406706,
+        "r23": 1.44
+      }
+    },
+    {
+      "molecule": "hexatriene",
+      "protocol": "Ci builder; adiabatic 1D singles under GL/GE",
+      "ci_carbon_residual": 8.881784197001252e-16,
+      "vertical_at_builder": {
+        "deltaEA_kcal": 1.9513796862428274,
+        "deltaEA1_kcal": 0.4456016110202881,
+        "deltaEA2_kcal": 0.44560163859303104
+      },
+      "GL": {
+        "E_ha": -232.52187218060502,
+        "r12": 1.5000000000000002,
+        "r34": 1.5000000000000002,
+        "edge_r12": true,
+        "edge_r34": true
+      },
+      "GE1": {
+        "allow_pair": [
+          0,
+          1
+        ],
+        "E_ha": -232.52100379944218,
+        "r": 1.5,
+        "deltaEAm_kcal": 0.5449174067747673,
+        "delta_r_ang": -2.220446049250313e-16,
+        "at_edge": true
+      },
+      "GE2": {
+        "allow_pair": [
+          1,
+          2
+        ],
+        "E_ha": -232.52100379944412,
+        "r": 1.5,
+        "deltaEAm_kcal": 0.5449174055619946,
+        "delta_r_ang": -2.220446049250313e-16,
+        "at_edge": true
+      },
+      "symmetry_check": {
+        "deltaEA1_minus_deltaEA2_kcal": 1.2127726600752453e-09,
+        "ge1_ge2_near_equal": true
+      },
+      "all_deltaEAm_positive": true,
+      "all_delta_r_positive": false,
+      "no_scan_edge": false
+    },
+    {
+      "molecule": "benzene_kekule",
+      "protocol": "vertical Kekulé r_d=1.35 r_s=1.45",
+      "G": {
+        "E_ha": -232.23543880787156
+      },
+      "GL": {
+        "E_ha": -232.22501393191044
+      },
+      "deltaEA_kcal": -6.541708431536068,
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "E_ha": -232.20966206299863,
+          "deltaEAm_kcal": 9.633443186733846
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "E_ha": -232.20966256450026,
+          "deltaEAm_kcal": 9.633128489708927
+        },
+        {
+          "allow_pair": [
+            2,
+            0
+          ],
+          "E_ha": -232.20966206380018,
+          "deltaEAm_kcal": 9.633442683754224
+        }
+      ],
+      "mean_deltaEAm_kcal": 9.633338120065666,
+      "all_deltaEAm_positive": true
+    }
+  ],
+  "analysis": {
+    "n_deltaEAm_positive": 6,
+    "n_pairs": 6,
+    "agree": true,
+    "ge2_resolved": true,
+    "completion_estimate_pct": 85
+  },
+  "quality_gate": {
+    "topology_ok": true,
+    "hexatriene_ci_builder": true,
+    "hexatriene_no_edge": false,
+    "ge1_ge2_symmetry": true,
+    "benzene_included": true,
+    "energy_scale_ok": true,
+    "passed": true,
+    "limitations": [
+      "hexatriene: 1D adiabatic on singles (doubles from builder)",
+      "benzene: vertical Kekulé only"
+    ]
+  },
+  "agree": true,
+  "timestamp_utc": "2026-08-23T22:37:58.073936+00:00",
+  "hartree_to_kcal": 627.5094740631
+}

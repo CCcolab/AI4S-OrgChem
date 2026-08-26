@@ -1,0 +1,123 @@
+[P3T] built seed: theta=40.00 dmin=1.080 A
+[P3T] loaded pre-relaxed seed /mnt/d/AI4S-OrgChem/results/P3/seed_prerelaxed.xyz theta=-92.22 dmin=1.066
+[P3T] stage B: theta -> 0
+    constr θ=0 cache=2
+    constr θ=0 cache=3
+    constr θ=0 cache=4
+    constr θ=0 cache=5
+    constr θ=0 cache=6
+    constr θ=0 cache=7
+    constr θ=0 cache=8
+    constr θ=0 cache=9
+    constr θ=0 cache=10
+    constr θ=0 cache=11
+    constr θ=0 cache=12
+    constr θ=0 cache=13
+    constr θ=0 cache=14
+    constr θ=0 cache=15
+    constr θ=0 cache=16
+    constr θ=0 cache=17
+    constr θ=0 cache=18
+    constr θ=0 cache=19
+    constr θ=0 cache=20
+    constr θ=0 cache=21
+      theta=-0.31 err=0.31 nit=20 conv=False dmin=1.064 E(B3LYP)=-556.47641684
+[P3T] stage B: theta -> 30
+    constr θ=30 cache=2
+    constr θ=30 cache=3
+    constr θ=30 cache=4
+    constr θ=30 cache=6
+    constr θ=30 cache=7
+    constr θ=30 cache=8
+    constr θ=30 cache=9
+    constr θ=30 cache=10
+    constr θ=30 cache=11
+    constr θ=30 cache=12
+    constr θ=30 cache=13
+    constr θ=30 cache=14
+    constr θ=30 cache=15
+    constr θ=30 cache=16
+    constr θ=30 cache=17
+    constr θ=30 cache=18
+    constr θ=30 cache=19
+    constr θ=30 cache=20
+    constr θ=30 cache=21
+    constr θ=30 cache=22
+      theta=30.17 err=0.17 nit=20 conv=False dmin=1.056 E(B3LYP)=-556.46193689
+[P3T] stage B: theta -> 45
+    constr θ=45 cache=2
+    constr θ=45 cache=3
+    constr θ=45 cache=4
+    constr θ=45 cache=5
+    constr θ=45 cache=6
+    constr θ=45 cache=7
+    constr θ=45 cache=8
+    constr θ=45 cache=9
+    constr θ=45 cache=10
+    constr θ=45 cache=11
+    constr θ=45 cache=12
+    constr θ=45 cache=13
+    constr θ=45 cache=14
+    constr θ=45 cache=15
+    constr θ=45 cache=16
+    constr θ=45 cache=17
+    constr θ=45 cache=18
+    constr θ=45 cache=19
+    constr θ=45 cache=20
+    constr θ=45 cache=21
+      theta=44.92 err=0.08 nit=20 conv=False dmin=1.060 E(B3LYP)=-556.47528932
+[P3T] stage B: theta -> 60
+    constr θ=60 cache=2
+    constr θ=60 cache=3
+    constr θ=60 cache=5
+    constr θ=60 cache=6
+    constr θ=60 cache=7
+    constr θ=60 cache=8
+    constr θ=60 cache=9
+    constr θ=60 cache=10
+    constr θ=60 cache=11
+    constr θ=60 cache=12
+    constr θ=60 cache=13
+    constr θ=60 cache=14
+    constr θ=60 cache=15
+    constr θ=60 cache=16
+    constr θ=60 cache=17
+    constr θ=60 cache=18
+    constr θ=60 cache=19
+    constr θ=60 cache=20
+    constr θ=60 cache=21
+    constr θ=60 cache=22
+      theta=59.96 err=0.04 nit=20 conv=False dmin=1.062 E(B3LYP)=-556.48159337
+[P3T] stage B: theta -> 90
+    constr θ=90 cache=2
+    constr θ=90 cache=3
+    constr θ=90 cache=4
+    constr θ=90 cache=5
+    constr θ=90 cache=6
+    constr θ=90 cache=7
+    constr θ=90 cache=8
+    constr θ=90 cache=9
+    constr θ=90 cache=10
+    constr θ=90 cache=11
+    constr θ=90 cache=12
+    constr θ=90 cache=13
+    constr θ=90 cache=14
+    constr θ=90 cache=15
+    constr θ=90 cache=16
+    constr θ=90 cache=17
+    constr θ=90 cache=18
+    constr θ=90 cache=19
+    constr θ=90 cache=20
+    constr θ=90 cache=21
+      theta=89.99 err=0.01 nit=20 conv=False dmin=1.064 E(B3LYP)=-556.48495185
+# P3 NBA tightened twist PES (tight_B3LYP_6-31gs_on_RHF_3-21g)
+
+- Protocol: A: cascaded free relax RHF/sto-3g(maxiter=250) -> RHF/3-21g(maxiter=80); B: theta-constrained relax from that seed at RHF/3-21g (maxiter=20, k0=2.0 Ha/rad^2, stiffening retries until |dtheta|<=3.0 deg); C: B3LYP/6-31g* single points
+- Pre-relaxed seed: theta=-92.2 deg, converged=True, dmin=1.066 A
+- E_min at theta = **90.0 deg** (dE=-5.356, dEe=+10271.546, dEN=-10276.902 kcal/mol vs theta=-0.3)
+- dE span = 14.44 kcal/mol (limit 25.0)
+- max |theta - target| = 0.31 deg (limit 3.0)
+- **Quality gate: PASSED**
+- Checks: {'E_min_in_30_60': False, 'at_min_EN_up_Ee_down': False, 'near_planar_not_global_min': True}
+- Auto agree flag: **False** (None = gate failed; formal VERDICT only in deliverables/)
+

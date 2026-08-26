@@ -1,0 +1,67 @@
+{
+  "proposition": "P1",
+  "kind": "zpe_sensitivity",
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "protocol": "harmonic ZPE on stored electronic geometries (no re-opt)",
+  "timestamp_utc": "2026-08-23T11:18:16.596043+00:00",
+  "species": {
+    "h2": {
+      "E_el_ha": -1.1754824108937472,
+      "ZPE_ha": 0.010144269730536103,
+      "E0K_ha": -1.165338141163211,
+      "H_298_ha": -1.1620334952073248,
+      "n_imag": 0,
+      "scf_converged": true,
+      "defects": []
+    },
+    "butadiene": {
+      "E_el_ha": -155.9888833194567,
+      "ZPE_ha": 0.08548229537013428,
+      "E0K_ha": -155.90340102408658,
+      "H_298_ha": -155.8978088755859,
+      "n_imag": 0,
+      "scf_converged": true,
+      "defects": []
+    },
+    "1_butene": {
+      "E_el_ha": -157.21463457900862,
+      "ZPE_ha": 0.10852477970490061,
+      "E0K_ha": -157.1061097993037,
+      "H_298_ha": -157.1005783832413,
+      "n_imag": 0,
+      "scf_converged": true,
+      "defects": []
+    },
+    "trans_2_butene": {
+      "E_el_ha": -157.22058653777702,
+      "ZPE_ha": 0.10807926952442864,
+      "E0K_ha": -157.11250726825259,
+      "H_298_ha": -157.10664832840766,
+      "n_imag": 0,
+      "scf_converged": true,
+      "defects": []
+    },
+    "n_butane": {
+      "E_el_ha": -158.4552550535461,
+      "ZPE_ha": 0.13282774357792732,
+      "E0K_ha": -158.32242730996816,
+      "H_298_ha": -158.3157271599606,
+      "n_imag": 0,
+      "scf_converged": true,
+      "defects": []
+    }
+  },
+  "CE_electronic_kcal": {
+    "CE1": 9.330573275323848,
+    "CE2": 1.8607522425078293,
+    "sign_flip": false
+  },
+  "CE_E0K_kcal": {
+    "CE1": 8.539610423211917,
+    "CE2": 0.5106656723236082,
+    "sign_flip": false
+  },
+  "conclusion_zh": "ZPE 校正后仍无 CE1<0 且 CE2>0 翻转",
+  "hartree_to_kcal": 627.5094740631
+}

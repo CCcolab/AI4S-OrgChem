@@ -1,0 +1,12 @@
+[P1] B3LYP_6-31gs :: h2
+[P1] B3LYP_6-31gs :: butadiene
+[P1] B3LYP_6-31gs :: 1_butene
+[P1] B3LYP_6-31gs :: trans_2_butene
+[P1] B3LYP_6-31gs :: n_butane
+# P1 summary (B3LYP_6-31gs)
+
+- CE1 (vs 1-butene) = **9.331 kcal/mol** (destabilizing)
+- CE2 (vs trans-2-butene) = **1.861 kcal/mol** (destabilizing)
+- Book: classic≈−3.9; CE2≈+1.9; GL≈+1.4 kcal/mol
+- Agree if CE1<0 and CE2>0
+

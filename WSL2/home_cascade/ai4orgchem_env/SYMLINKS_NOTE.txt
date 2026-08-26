@@ -1,0 +1,1 @@
+Empty venv shell; PySCF is user-site (~/.local). See WSL2/inventory/.

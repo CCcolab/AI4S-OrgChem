@@ -1,0 +1,10 @@
+
+=== Protocol Fock+S ===
+  E(G)=-155.98888332 r23=1.4578
+  E(GL@G)=-155.99523009  vertical ΔE=+3.983 kcal
+  r23=1.440 E=-155.99534863
+  r23=1.450 E=-155.99534054
+  r23=1.460 E=-155.99518584
+  ΔE(scan)=+4.057 kcal  r23(GL)=1.4400  edge=True
+
+[primary Fock+S] ΔE=+4.057 kcal (book +1.4); agree=False

@@ -1,0 +1,34 @@
+# 本地忽略与版权材料（公开仓库硬规则）
+
+# —— 原著 PDF 与全书派生文本：整目录不入库（仅保留说明 README）——
+/source/**
+!/source/README.md
+/data/**
+!/data/README.md
+
+# —— IDE / Agent 本地 ——
+.cursor/
+.specstory/
+*.canvas.tsx
+
+# —— Python / OS ——
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+
+# —— 量子化学大文件与临时区 ——
+*.chk
+*.chkfile
+*.molden
+*.fchk
+*.cub
+*.cube
+results/**/raw/**
+!results/**/raw/.gitkeep
+results/_scratch/**
+results/**/_*.py
+results/**/_*.sh
+results/**/logs/probe*

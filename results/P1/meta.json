@@ -1,0 +1,10 @@
+{
+  "proposition": "P1",
+  "updated_utc": "2026-08-23T02:37:09.476002+00:00",
+  "latest_tag": "sensitivity_methods",
+  "methods": [
+    "RHF_6-31gs",
+    "B3LYP_6-31gs",
+    "MP2_6-31gs"
+  ]
+}

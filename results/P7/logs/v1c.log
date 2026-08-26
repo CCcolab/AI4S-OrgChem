@@ -1,0 +1,20 @@
+=== G ===
+  E=-460.47314367 Δr=+0.2065
+=== PLG Δr scan (r_mean=1.4419) ===
+  dr=-0.0400 E=-460.59646198 conv=True
+  dr=-0.0200 E=-460.59746793 conv=True
+  dr=+0.0000 E=-460.59803355 conv=True
+  dr=+0.0200 E=-460.59818522 conv=True
+  dr=+0.0500 E=-460.59771096 conv=True
+  dr=+0.1000 E=-460.59484861 conv=True
+  dr=+0.1500 E=-460.58952014 conv=True
+  dr=+0.2000 E=-460.58154914 conv=True
+  dr=+0.2065 E=-460.58030210 conv=True
+# P7 v1c — G vs PLG Δr scan
+
+- Δr(G)=+0.2065 Å (Yu 0.177)
+- Δr(PLG*)=+0.0200 Å (Yu -0.002)
+- drop=+0.1865 Å; PLG prefers equalized=True
+- E(G)=-460.473144; E(PLG*)=-460.598185
+- quality_gate.passed=True agree=True
+

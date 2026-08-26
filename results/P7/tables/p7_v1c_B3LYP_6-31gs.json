@@ -1,0 +1,138 @@
+{
+  "proposition": "P7",
+  "version": "v1c",
+  "protocol": "G: D3h 4-param opt; PLG: Δr scan at fixed r_mean + periphery; Newton PLG SCF",
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "yu_ref_angstrom": {
+    "delta_r_G": 0.177,
+    "delta_r_PLG": -0.002
+  },
+  "G": {
+    "params": {
+      "r_endo": 1.5451,
+      "r_exo": 1.3386,
+      "r_side": 1.4506,
+      "r_outer": 1.4131
+    },
+    "E_ha": -460.4731436725938,
+    "delta_r_metrics": {
+      "r_endo": [
+        1.5451,
+        1.5450999999999997,
+        1.5451
+      ],
+      "r_exo": [
+        1.3386,
+        1.3386,
+        1.3386000000000005
+      ],
+      "r_endo_mean": 1.5450999999999997,
+      "r_exo_mean": 1.3386000000000002,
+      "delta_r": 0.20649999999999946
+    },
+    "converged_scf": true,
+    "dmin": 1.085
+  },
+  "PLG_scan": [
+    {
+      "delta_r": -0.04,
+      "r_endo": 1.42185,
+      "r_exo": 1.46185,
+      "E_ha": -460.59646197641086,
+      "converged": true,
+      "measured_dr": -0.040000000000000036
+    },
+    {
+      "delta_r": -0.02,
+      "r_endo": 1.43185,
+      "r_exo": 1.45185,
+      "E_ha": -460.5974679322063,
+      "converged": true,
+      "measured_dr": -0.020000000000000462
+    },
+    {
+      "delta_r": 0.0,
+      "r_endo": 1.44185,
+      "r_exo": 1.44185,
+      "E_ha": -460.59803355336317,
+      "converged": true,
+      "measured_dr": -4.440892098500626e-16
+    },
+    {
+      "delta_r": 0.02,
+      "r_endo": 1.45185,
+      "r_exo": 1.43185,
+      "E_ha": -460.59818521734576,
+      "converged": true,
+      "measured_dr": 0.019999999999999574
+    },
+    {
+      "delta_r": 0.05,
+      "r_endo": 1.46685,
+      "r_exo": 1.4168500000000002,
+      "E_ha": -460.59771095860185,
+      "converged": true,
+      "measured_dr": 0.0499999999999996
+    },
+    {
+      "delta_r": 0.1,
+      "r_endo": 1.4918500000000001,
+      "r_exo": 1.39185,
+      "E_ha": -460.5948486113301,
+      "converged": true,
+      "measured_dr": 0.10000000000000009
+    },
+    {
+      "delta_r": 0.15,
+      "r_endo": 1.51685,
+      "r_exo": 1.3668500000000001,
+      "E_ha": -460.5895201419935,
+      "converged": true,
+      "measured_dr": 0.1499999999999997
+    },
+    {
+      "delta_r": 0.2,
+      "r_endo": 1.5418500000000002,
+      "r_exo": 1.34185,
+      "E_ha": -460.58154914173554,
+      "converged": true,
+      "measured_dr": 0.19999999999999996
+    },
+    {
+      "delta_r": 0.20649999999999946,
+      "r_endo": 1.5450999999999997,
+      "r_exo": 1.3386000000000005,
+      "E_ha": -460.5803021017,
+      "converged": true,
+      "measured_dr": 0.20649999999999902
+    }
+  ],
+  "PLG_best": {
+    "delta_r": 0.02,
+    "r_endo": 1.45185,
+    "r_exo": 1.43185,
+    "E_ha": -460.59818521734576,
+    "converged": true,
+    "measured_dr": 0.019999999999999574
+  },
+  "analysis": {
+    "delta_r_G": 0.20649999999999946,
+    "delta_r_PLG_star": 0.02,
+    "drop_G_minus_PLG": 0.18649999999999947,
+    "PLG_prefers_equalized": true,
+    "E_PLG_at0_minus_atG_kcal": -11.126653907529084,
+    "completion_estimate_pct": 90
+  },
+  "quality_gate": {
+    "passed": true,
+    "G1_topology": true,
+    "G2_geometry": true,
+    "G3_convergence": true,
+    "G4_energy_scale": true,
+    "G5_path_clean": true
+  },
+  "agree": true,
+  "timestamp_utc": "2026-08-24T02:21:00.261701+00:00",
+  "hartree_to_kcal": 627.5094740631
+}

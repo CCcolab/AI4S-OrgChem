@@ -1,0 +1,71 @@
+[P3] skip free opt; seed twist=40 deg; tag=B3LYP_on_RHF_6-31gs
+[P3] seed/free theta=40.00 E=-554.49965634 nit=0
+[P3] constrained -> 20
+    constr θ=20 cache=2
+    constr θ=20 cache=3
+    constr θ=20 cache=4
+    constr θ=20 cache=5
+    constr θ=20 cache=6
+    constr θ=20 cache=7
+    constr θ=20 cache=8
+    constr θ=20 cache=9
+    constr θ=20 cache=10
+    constr θ=20 cache=11
+      theta=16.73 err=3.27 E=-556.02530821 nit=10
+[P3] constrained -> 30
+    constr θ=30 cache=2
+    constr θ=30 cache=3
+    constr θ=30 cache=4
+    constr θ=30 cache=5
+    constr θ=30 cache=6
+    constr θ=30 cache=7
+    constr θ=30 cache=8
+    constr θ=30 cache=9
+    constr θ=30 cache=10
+    constr θ=30 cache=11
+      theta=32.67 err=2.67 E=-556.19366017 nit=10
+[P3] constrained -> 45
+    constr θ=45 cache=3
+    constr θ=45 cache=4
+    constr θ=45 cache=5
+    constr θ=45 cache=6
+    constr θ=45 cache=7
+    constr θ=45 cache=8
+    constr θ=45 cache=9
+    constr θ=45 cache=10
+    constr θ=45 cache=11
+    constr θ=45 cache=12
+      theta=51.05 err=6.05 E=-556.20871952 nit=10
+[P3] constrained -> 60
+    constr θ=60 cache=2
+    constr θ=60 cache=3
+    constr θ=60 cache=5
+    constr θ=60 cache=6
+    constr θ=60 cache=7
+    constr θ=60 cache=8
+    constr θ=60 cache=9
+    constr θ=60 cache=10
+    constr θ=60 cache=11
+    constr θ=60 cache=12
+      theta=59.75 err=0.25 E=-556.20568964 nit=10
+[P3] constrained -> 90
+    constr θ=90 cache=2
+    constr θ=90 cache=3
+    constr θ=90 cache=4
+    constr θ=90 cache=6
+    constr θ=90 cache=7
+    constr θ=90 cache=8
+    constr θ=90 cache=9
+    constr θ=90 cache=10
+    constr θ=90 cache=11
+    constr θ=90 cache=13
+      theta=74.66 err=15.34 E=-556.26333558 nit=10
+# P3 NBA twist PES (B3LYP_on_RHF_6-31gs)
+
+- Protocol: **RHF** geometry + **B3LYP** energy
+- Free opt theta = **40.0 deg**
+- Scan E_min at theta = **74.7 deg** (dE=-149.364, dEe=+3360.205, dEN=-3509.569 kcal/mol vs near-planar)
+- Book theta_exp ~ 36-55 deg
+- Checks: geo=False, decomp=False, not_planar=True
+- Auto agree flag: **False** (formal VERDICT only in deliverables/)
+

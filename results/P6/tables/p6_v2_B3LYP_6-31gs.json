@@ -1,0 +1,188 @@
+{
+  "proposition": "P6",
+  "version": "v2",
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "definition": {
+    "ESE": "ΔEA − ΣΔEAm = E(G) − E(VR)",
+    "VR": "E(VR)=E(GL)+Σ(E(GE-m)−E(GL))",
+    "benzene_metric": "ESE",
+    "cbd_metric": "ΔEA (conjugation/antiaromatic; ESE≡0 when n_double=2)",
+    "localization": "2007 Fock+S",
+    "yu_refs_kcal": {
+      "benzene_ESE": -36.3,
+      "cbd_conjugation": 53.6
+    }
+  },
+  "molecules": [
+    {
+      "molecule": "benzene_kekule",
+      "basis": "6-31g*",
+      "method": "B3LYP",
+      "protocol": "vertical; 2007 Fock+S",
+      "G": {
+        "E_ha": -232.235438807869
+      },
+      "GL": {
+        "E_ha": -232.22501393575618
+      },
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "E_ha": -232.20966206511156,
+          "deltaEAm_kcal": 9.633444274091538
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "E_ha": -232.2096625643979,
+          "deltaEAm_kcal": 9.633130967189436
+        },
+        {
+          "allow_pair": [
+            2,
+            0
+          ],
+          "E_ha": -232.20966206170004,
+          "deltaEAm_kcal": 9.633446414849287
+        }
+      ],
+      "deltaEA_kcal": -6.5417060166917,
+      "sum_deltaEAm_kcal": 28.90002165613026,
+      "ESE_kcal": -35.44172767282196,
+      "ESE_via_VR_kcal": -35.44172767282196,
+      "primary_metric_kcal": -35.44172767282196,
+      "primary_metric_name": "ESE",
+      "all_deltaEAm_positive": true,
+      "dmin_ang": 1.0849999999999997,
+      "quality_gate": {
+        "topology_ok": true,
+        "geometry_ok": true,
+        "scf_converged": true,
+        "energy_scale_ok": true,
+        "vr_identity_ok": true,
+        "passed": true
+      }
+    },
+    {
+      "molecule": "cyclobutadiene",
+      "basis": "6-31g*",
+      "method": "B3LYP",
+      "protocol": "vertical; 2007 Fock+S",
+      "G": {
+        "E_ha": -154.66873275415688
+      },
+      "GL": {
+        "E_ha": -154.76063980911573
+      },
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "E_ha": -154.6687327541346,
+          "deltaEAm_kcal": 57.672547733900544
+        }
+      ],
+      "deltaEA_kcal": 57.672547719917986,
+      "sum_deltaEAm_kcal": 57.672547733900544,
+      "ESE_kcal": -1.3982557334202284e-08,
+      "ESE_via_VR_kcal": -1.3982555278331301e-08,
+      "primary_metric_kcal": 57.672547719917986,
+      "primary_metric_name": "deltaEA",
+      "all_deltaEAm_positive": true,
+      "dmin_ang": 1.085,
+      "quality_gate": {
+        "topology_ok": true,
+        "geometry_ok": true,
+        "scf_converged": true,
+        "energy_scale_ok": true,
+        "vr_identity_ok": true,
+        "passed": true
+      }
+    },
+    {
+      "molecule": "butadiene",
+      "basis": "6-31g*",
+      "method": "B3LYP",
+      "protocol": "vertical; 2007 Fock+S",
+      "G": {
+        "E_ha": -155.59180556655343
+      },
+      "GL": {
+        "E_ha": -155.59547001797142
+      },
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "E_ha": -155.5918055663762,
+          "deltaEAm_kcal": 2.299478093250926
+        }
+      ],
+      "deltaEA_kcal": 2.2994779820325397,
+      "sum_deltaEAm_kcal": 2.299478093250926,
+      "ESE_kcal": -1.1121838605632206e-07,
+      "ESE_via_VR_kcal": -1.1121838611693112e-07,
+      "primary_metric_kcal": -1.1121838605632206e-07,
+      "primary_metric_name": "ESE",
+      "all_deltaEAm_positive": true,
+      "dmin_ang": 1.085,
+      "quality_gate": {
+        "topology_ok": true,
+        "geometry_ok": true,
+        "scf_converged": true,
+        "energy_scale_ok": true,
+        "vr_identity_ok": true,
+        "passed": true
+      }
+    }
+  ],
+  "analysis": {
+    "benzene_ESE_kcal": -35.44172767282196,
+    "cbd_deltaEA_kcal": 57.672547719917986,
+    "cbd_ESE_kcal": -1.3982557334202284e-08,
+    "butadiene_ESE_kcal": -1.1121838605632206e-07,
+    "butadiene_deltaEA_kcal": 2.2994779820325397,
+    "benzene_in_window": true,
+    "cbd_deltaEA_in_window": true,
+    "butadiene_additive_ok": true,
+    "signs_ok": true,
+    "gates_ok": true,
+    "agree": true,
+    "completion_estimate_pct": 87,
+    "cbd_note": "With 2 doubles, G≡GE-m so ESE≡0; Yu +53–55 matched to ΔEA (conjugation/antiaromatic energy), not ESE.",
+    "basis_sign_stable": true
+  },
+  "sensitivity": {
+    "basis": "6-31g",
+    "benzene_ESE_kcal": -36.11548843950975,
+    "cbd_deltaEA_kcal": 60.35870934187482,
+    "signs_ok": true,
+    "windows_ok": true
+  },
+  "quality_gate": {
+    "passed": true,
+    "G1_topology": true,
+    "G2_geometry": true,
+    "G3_convergence": true,
+    "G4_energy_scale": true,
+    "G5_path_clean": true,
+    "limitations": [
+      "vertical geometries (no adiabatic GL opt)",
+      "2007 Fock+S; 2011 exchange deletion not implemented",
+      "CBD Yu number mapped to ΔEA, not ESE"
+    ]
+  },
+  "agree": true,
+  "timestamp_utc": "2026-08-23T23:55:57.233620+00:00",
+  "hartree_to_kcal": 627.5094740631
+}

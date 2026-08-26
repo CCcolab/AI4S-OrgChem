@@ -1,0 +1,6 @@
+[GL] optimize ground state G (planar)
+  G: E=-155.98888332 r23=1.4578 nit=0 conv=True
+[GL] optimize localized GL (2007)
+  GL: E=-155.85141562 r23=1.4578 nit=0 conv=False pi=[5, 8, 10, 12, 19, 22, 24, 26, 33, 36, 38, 40, 47, 50, 52, 54]
+
+ΔE = E(G)-E(GL) = -86.262 kcal/mol (book +1.4); Δr23 = +0.0000 Å

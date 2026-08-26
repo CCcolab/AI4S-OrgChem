@@ -1,0 +1,22 @@
+{
+  "stages": [
+    {
+      "basis": "sto-3g",
+      "maxiter": 250,
+      "theta_deg": 135.0249109091235,
+      "E_ha": -546.3476846215243,
+      "nit": 140,
+      "converged": true,
+      "min_contact_ang": 1.0820336664963215
+    },
+    {
+      "basis": "3-21g",
+      "maxiter": 120,
+      "theta_deg": 149.24858509328166,
+      "E_ha": -550.0464974644099,
+      "nit": 105,
+      "converged": true,
+      "min_contact_ang": 1.0699024461197715
+    }
+  ]
+}

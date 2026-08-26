@@ -1,0 +1,30 @@
+[P3T] built seed: theta=40.00 dmin=1.080 A
+[P3T] loaded pre-relaxed seed results/P3/seed_prerelaxed.xyz theta=-92.22 dmin=1.066
+[P3T] stage A1: free relax B3LYP/6-31g* (maxiter=60)
+    free-opt iter cache=2
+    free-opt iter cache=3
+    free-opt iter cache=4
+    free-opt iter cache=5
+    free-opt iter cache=6
+    free-opt iter cache=7
+    free-opt iter cache=8
+    free-opt iter cache=9
+    free-opt iter cache=10
+    free-opt iter cache=11
+    free-opt iter cache=12
+    free-opt iter cache=13
+    free-opt iter cache=14
+    free-opt iter cache=15
+    free-opt iter cache=16
+    free-opt iter cache=17
+    free-opt iter cache=18
+    free-opt iter cache=19
+    free-opt iter cache=20
+    free-opt iter cache=21
+    free-opt iter cache=22
+    free-opt iter cache=23
+    free-opt iter cache=24
+    free-opt iter cache=25
+[P3T] stage A1 done: theta=-97.24 E=-556.49604505 nit=24 converged=True dmin=1.083
+[P3T] seed written to results/P3/free_b3lyp/seed_prerelaxed.xyz
+[P3T] --seed-only: stopping before the theta scan

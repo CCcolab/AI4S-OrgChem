@@ -1,0 +1,7 @@
+[P3] free opt (RHF) tag=B3LYP_on_RHF_6-31gs
+    free-opt iter cache=2
+    free-opt iter cache=3
+    free-opt iter cache=4
+    free-opt iter cache=5
+    free-opt iter cache=6
+    free-opt iter cache=7

@@ -1,0 +1,28 @@
+
+=== benzene_kekule  [B3LYP/6-31g*] ===
+  GE(0, 1) ΔEAm=+9.633
+  GE(1, 2) ΔEAm=+9.633
+  GE(2, 0) ΔEAm=+9.633
+  ΔEA=-6.542 ΣΔEAm=+28.900 ESE=-35.442 primary=-35.442
+
+=== cyclobutadiene  [B3LYP/6-31g*] ===
+  GE(0, 1) ΔEAm=+57.673
+  ΔEA=+57.673 ΣΔEAm=+57.673 ESE=-0.000 primary=+57.673
+
+=== butadiene  [B3LYP/6-31g*] ===
+  GE(0, 1) ΔEAm=+2.299
+  ΔEA=+2.299 ΣΔEAm=+2.299 ESE=-0.000 primary=-0.000
+
+--- sensitivity basis 6-31g ---
+
+=== benzene_kekule  [B3LYP/6-31g] ===
+  GE(0, 1) ΔEAm=+10.968
+  GE(1, 2) ΔEAm=+10.968
+  GE(2, 0) ΔEAm=+10.968
+  ΔEA=-3.211 ΣΔEAm=+32.905 ESE=-36.115 primary=-36.115
+
+=== cyclobutadiene  [B3LYP/6-31g] ===
+  GE(0, 1) ΔEAm=+60.359
+  ΔEA=+60.359 ΣΔEAm=+60.359 ESE=-0.000 primary=+60.359
+
+[P6v2] agree=True ~87%

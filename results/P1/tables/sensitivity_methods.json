@@ -1,0 +1,34 @@
+{
+  "proposition": "P1",
+  "kind": "method_sensitivity",
+  "basis": "6-31g*",
+  "agree_criteria": "CE1 < 0 and CE2 > 0",
+  "methods": [
+    {
+      "method": "RHF",
+      "tag": "RHF_6-31gs",
+      "CE1_kcal": 8.13044834636259,
+      "CE2_kcal": 2.449288419986913,
+      "sign_flip": false
+    },
+    {
+      "method": "B3LYP",
+      "tag": "B3LYP_6-31gs",
+      "CE1_kcal": 9.330573276518786,
+      "CE2_kcal": 1.8607522406708354,
+      "sign_flip": false
+    },
+    {
+      "method": "MP2",
+      "tag": "MP2_6-31gs",
+      "CE1_kcal": 8.503254066429049,
+      "CE2_kcal": 1.8581981702518877,
+      "sign_flip": false
+    }
+  ],
+  "any_sign_flip": false,
+  "all_CE1_positive": true,
+  "all_CE2_positive": true,
+  "conclusion_zh": "敏感性未改变主结论：各层次均未出现 CE1<0 且 CE2>0 的符号翻转。",
+  "timestamp_utc": "2026-08-23T02:37:09.469515+00:00"
+}

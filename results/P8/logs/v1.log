@@ -1,0 +1,25 @@
+
+=== furan ===
+  GE(0, 1) ΔEAm=+24.996
+  GE(0, 2) ΔEAm=+21.528
+  GE(1, 2) ΔEAm=+19.804
+  ΔEA=+28.605 ΣΔEAm=+66.328 LDE=-37.723
+
+=== pyrrole ===
+  GE(0, 1) ΔEAm=+26.546
+  GE(0, 2) ΔEAm=+27.226
+  GE(1, 2) ΔEAm=+25.932
+  ΔEA=+31.495 ΣΔEAm=+79.704 LDE=-48.210
+
+=== benzene (control) ===
+  GE(0, 1) ΔEAm=+9.633
+  GE(1, 2) ΔEAm=+9.633
+  GE(2, 0) ΔEAm=+9.633
+  ΔEA=-6.542 ΣΔEAm=+28.900 ESE=-35.442
+# P8 v1 — LDE symbol pattern
+
+- furan: ΔEA=+28.61 Σ=+66.33 LDE=-37.72
+- pyrrole: ΔEA=+31.49 Σ=+79.70 LDE=-48.21
+- benzene: ΔEA=-6.54 ESE=-35.44
+- agree=True completion~88%
+

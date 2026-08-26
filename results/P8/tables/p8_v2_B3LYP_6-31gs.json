@@ -1,0 +1,314 @@
+{
+  "proposition": "P8",
+  "version": "v2",
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "protocol": "v2: oxazole + semi-adiabatic G* + basis sensitivity",
+  "yu_ref_kcal": {
+    "furan": {
+      "deltaEA": 28.7,
+      "LDE": -39.3
+    },
+    "pyrrole": {
+      "LDE": -49.4
+    },
+    "oxazole": {
+      "LDE": -36.3
+    },
+    "benzene": {
+      "ESE": -36.3
+    }
+  },
+  "objections": {
+    "O1_oxazole": {
+      "closed": true,
+      "result": {
+        "molecule": "oxazole",
+        "basis": "6-31g*",
+        "class": "furan_like",
+        "deltaEA_kcal": 24.590628646726692,
+        "sum_deltaEAm_kcal": 65.76296519546894,
+        "LDE_kcal": -41.172336548742244,
+        "GE_m": [
+          {
+            "allow_pair": [
+              0,
+              1
+            ],
+            "deltaEAm_kcal": 25.875747718688476
+          },
+          {
+            "allow_pair": [
+              0,
+              2
+            ],
+            "deltaEAm_kcal": 15.010917494077782
+          },
+          {
+            "allow_pair": [
+              1,
+              2
+            ],
+            "deltaEAm_kcal": 24.876299982702676
+          }
+        ],
+        "pattern": {
+          "deltaEA_positive": true,
+          "sum_gt_deltaEA": true,
+          "LDE_negative": true
+        },
+        "dmin_ang": 1.085,
+        "topology_ok": true,
+        "converged": true,
+        "pattern_ok": true
+      }
+    },
+    "O2_semi_adiabatic": {
+      "closed": true,
+      "furan": {
+        "molecule": "furan_adiabatic",
+        "basis": "6-31g*",
+        "class": "furan_like",
+        "deltaEA_kcal": 28.313093753693092,
+        "sum_deltaEAm_kcal": 67.35161024267074,
+        "LDE_kcal": -39.03851648897765,
+        "GE_m": [
+          {
+            "allow_pair": [
+              0,
+              1
+            ],
+            "deltaEAm_kcal": 27.880854164953334
+          },
+          {
+            "allow_pair": [
+              0,
+              2
+            ],
+            "deltaEAm_kcal": 19.73542276916005
+          },
+          {
+            "allow_pair": [
+              1,
+              2
+            ],
+            "deltaEAm_kcal": 19.735333308557358
+          }
+        ],
+        "pattern": {
+          "deltaEA_positive": true,
+          "sum_gt_deltaEA": true,
+          "LDE_negative": true
+        },
+        "dmin_ang": 1.0792630319828744,
+        "topology_ok": true,
+        "converged": true,
+        "pattern_ok": true
+      },
+      "pyrrole": {
+        "molecule": "pyrrole_adiabatic",
+        "basis": "6-31g*",
+        "class": "furan_like",
+        "deltaEA_kcal": 27.592144911209324,
+        "sum_deltaEAm_kcal": 78.9442745969958,
+        "LDE_kcal": -51.35212968578647,
+        "GE_m": [
+          {
+            "allow_pair": [
+              0,
+              1
+            ],
+            "deltaEAm_kcal": 27.316484833590337
+          },
+          {
+            "allow_pair": [
+              0,
+              2
+            ],
+            "deltaEAm_kcal": 25.82090437233354
+          },
+          {
+            "allow_pair": [
+              1,
+              2
+            ],
+            "deltaEAm_kcal": 25.806885391071916
+          }
+        ],
+        "pattern": {
+          "deltaEA_positive": true,
+          "sum_gt_deltaEA": true,
+          "LDE_negative": true
+        },
+        "dmin_ang": 1.0078180629631008,
+        "topology_ok": true,
+        "converged": true,
+        "pattern_ok": true
+      },
+      "G_opt": {
+        "furan": {
+          "E_ha": -230.01637100332923,
+          "opt_nit": 13,
+          "opt_success": true,
+          "converged": true,
+          "dmin": 1.0792630319828744
+        },
+        "pyrrole": {
+          "E_ha": -210.1617168284079,
+          "opt_nit": 14,
+          "opt_success": true,
+          "converged": true,
+          "dmin": 1.0078180629631008
+        }
+      }
+    },
+    "O3_basis_sensitivity": {
+      "closed": true,
+      "furan_6-31gs": {
+        "LDE_kcal": -37.722440798432956,
+        "deltaEA_kcal": 28.60516858091985
+      },
+      "furan_6-31g": {
+        "LDE_kcal": -38.39864474381746,
+        "deltaEA_kcal": 31.35323756974134
+      },
+      "abs_LDE_diff": 0.6762039453845006
+    }
+  },
+  "vertical_v1_ref": {
+    "furan": {
+      "molecule": "furan",
+      "basis": "6-31g*",
+      "class": "furan_like",
+      "deltaEA_kcal": 28.60516858091985,
+      "sum_deltaEAm_kcal": 66.32760937935281,
+      "LDE_kcal": -37.722440798432956,
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": 24.995406354399023
+        },
+        {
+          "allow_pair": [
+            0,
+            2
+          ],
+          "deltaEAm_kcal": 21.528122868742077
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": 19.80408015621171
+        }
+      ],
+      "pattern": {
+        "deltaEA_positive": true,
+        "sum_gt_deltaEA": true,
+        "LDE_negative": true
+      },
+      "dmin_ang": 1.085,
+      "topology_ok": true,
+      "converged": true,
+      "pattern_ok": true
+    },
+    "pyrrole": {
+      "molecule": "pyrrole",
+      "basis": "6-31g*",
+      "class": "furan_like",
+      "deltaEA_kcal": 31.49167670561974,
+      "sum_deltaEAm_kcal": 79.69563687149537,
+      "LDE_kcal": -48.20396016587563,
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": 26.543609328058235
+        },
+        {
+          "allow_pair": [
+            0,
+            2
+          ],
+          "deltaEAm_kcal": 27.223307096384964
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": 25.928720447052168
+        }
+      ],
+      "pattern": {
+        "deltaEA_positive": true,
+        "sum_gt_deltaEA": true,
+        "LDE_negative": true
+      },
+      "dmin_ang": 1.01,
+      "topology_ok": true,
+      "converged": true,
+      "pattern_ok": true
+    },
+    "benzene": {
+      "molecule": "benzene_kekule",
+      "basis": "6-31g*",
+      "class": "benzene_like",
+      "deltaEA_kcal": -6.541708854508365,
+      "sum_deltaEAm_kcal": 28.90001298648228,
+      "ESE_kcal": -35.441721840990645,
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": 9.633441628535008
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": 9.633127939966217
+        },
+        {
+          "allow_pair": [
+            2,
+            0
+          ],
+          "deltaEAm_kcal": 9.633443417981056
+        }
+      ],
+      "pattern": {
+        "deltaEA_positive": false,
+        "ESE_negative": true
+      },
+      "pattern_ok": true,
+      "dmin_ang": 1.0849999999999997,
+      "converged": true
+    }
+  },
+  "analysis": {
+    "all_objections_closed": true,
+    "completion_estimate_pct": 96,
+    "agree": true
+  },
+  "quality_gate": {
+    "passed": true,
+    "G1_topology": true,
+    "G2_geometry": true,
+    "G3_convergence": true,
+    "G4_energy_scale": true,
+    "G5_path_clean": true
+  },
+  "agree": true,
+  "timestamp_utc": "2026-08-24T03:04:41.408326+00:00",
+  "hartree_to_kcal": 627.5094740631
+}

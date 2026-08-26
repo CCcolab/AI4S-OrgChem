@@ -1,0 +1,133 @@
+{
+  "proposition": "P2",
+  "version": "v2_lfmo_lite",
+  "protocol": "RHF/STO-3G rigid NBA (C-phenyl planarized); EV=E(FUD)-E(DSI) AO-block densities on 0–30°; Enσσ=2∑D_μνF_μν nonbonded σ–σ (no link atoms) on 0–45°; Eπσ(0)=E(G)-E(FUD) vs Table 5-16",
+  "method": "RHF",
+  "basis": "sto-3g",
+  "angles_deg": [
+    0.0,
+    10.0,
+    17.0,
+    30.0,
+    45.0
+  ],
+  "pi_meta": {
+    "n_pi": 14,
+    "n_pi_a": 6,
+    "n_pi_bc": 8,
+    "nocc_sigma_A": 18,
+    "nocc_sigma_BC": 23,
+    "pi_detail0": {
+      "15": "3 C 2pz   |align=1.000",
+      "20": "4 C 2pz   |align=1.000",
+      "25": "5 C 2pz   |align=1.000",
+      "30": "6 C 2pz   |align=1.000",
+      "35": "7 C 2pz   |align=1.000",
+      "40": "8 C 2pz   |align=1.000",
+      "50": "14 C 2pz   |align=1.000",
+      "55": "15 C 2pz   |align=1.000",
+      "60": "16 C 2pz   |align=1.000",
+      "65": "17 C 2pz   |align=1.000",
+      "70": "18 C 2pz   |align=1.000",
+      "75": "19 C 2pz   |align=1.000",
+      "4": "0 N 2pz   |align=1.000",
+      "9": "1 C 2pz   |align=1.000"
+    }
+  },
+  "rows": [
+    {
+      "theta_target": 0.0,
+      "theta_deg": -4.653985406647627e-15,
+      "theta_cphenyl_deg": -180.0,
+      "dmin": 1.079999999999999,
+      "E_G_converged": true,
+      "E_G_ha": -546.3317391817168,
+      "E_FUD_ha": -546.3317391817493,
+      "E_DSI_ha": -546.3414121963294,
+      "EV_kcal": 6.069908291782236,
+      "En_ss_kcal": 38.31025347739835,
+      "E_ps_kcal": 2.0403116375524247e-08
+    },
+    {
+      "theta_target": 10.0,
+      "theta_deg": 9.999999999999993,
+      "theta_cphenyl_deg": -180.0,
+      "dmin": 1.079999999999999,
+      "E_G_converged": true,
+      "E_G_ha": -546.3327707263556,
+      "E_FUD_ha": -546.3207936007288,
+      "E_DSI_ha": -546.3297237804711,
+      "EV_kcal": 5.603772393357631,
+      "En_ss_kcal": 34.964557970085295,
+      "E_ps_kcal": -7.515759802860653
+    },
+    {
+      "theta_target": 17.0,
+      "theta_deg": 16.999999999999996,
+      "theta_cphenyl_deg": -180.0,
+      "dmin": 1.079999999999999,
+      "E_G_converged": true,
+      "E_G_ha": -546.3343728807411,
+      "E_FUD_ha": -546.2995574120821,
+      "E_DSI_ha": -546.3069701432844,
+      "EV_kcal": 4.651559058122513,
+      "En_ss_kcal": 29.431065240999136,
+      "E_ps_kcal": -21.847036427445804
+    },
+    {
+      "theta_target": 30.0,
+      "theta_deg": 29.999999999999993,
+      "theta_cphenyl_deg": -180.0,
+      "dmin": 1.0799999999999983,
+      "E_G_converged": true,
+      "E_G_ha": -546.337402561184,
+      "E_FUD_ha": -546.2326785019306,
+      "E_DSI_ha": -546.2333564049025,
+      "EV_kcal": 0.4253905373011686,
+      "En_ss_kcal": 16.81743967114579,
+      "E_ps_kcal": -65.71533934384476
+    },
+    {
+      "theta_target": 45.0,
+      "theta_deg": 44.99999999999999,
+      "theta_cphenyl_deg": -180.0,
+      "dmin": 1.0799999999999992,
+      "E_G_converged": true,
+      "E_G_ha": -546.3387680406685,
+      "E_FUD_ha": -546.0388071925616,
+      "E_DSI_ha": -546.1275191184039,
+      "EV_kcal": 55.66757392842008,
+      "En_ss_kcal": 5.478347562883764,
+      "E_ps_kcal": -188.22827403503254
+    }
+  ],
+  "analysis": {
+    "EV_window_deg": 30.0,
+    "En_ss_window_deg": 45.0,
+    "EV_all_positive": true,
+    "En_ss_all_positive": true,
+    "E_ps_zero_at_planar": true,
+    "E_ps_0_kcal": 2.0403116375524247e-08,
+    "dEV_dtheta_kcal_per_deg": -0.16924465084054893,
+    "dEn_ss_dtheta_kcal_per_deg": -0.7128217189755455,
+    "EV_drives_distortion": true,
+    "En_ss_drives_distortion": true,
+    "two_channel_ok": true,
+    "E_ps_slope_isolated": false
+  },
+  "quality_gate": {
+    "passed": true,
+    "G1_topology": true,
+    "G2_geometry": true,
+    "G3_convergence": true,
+    "G4_energy_scale": true,
+    "G5_path_clean": true,
+    "max_abs_EV_kcal": 6.069908291782236,
+    "max_abs_En_ss_kcal": 38.31025347739835,
+    "n_pi": 14
+  },
+  "agree": true,
+  "hartree_to_kcal": 627.5094740631,
+  "timestamp_utc": "2026-08-24T12:44:13.754730+00:00",
+  "caveat": "Independent AO-density / Fock proxy of public Fig. 5-15 definitions; not bit-identical to Kost LFMO. π–σ slope vs θ is not isolated (assignment/Ne issues at large twist); Eπσ(0)≈0 is the planar check."
+}

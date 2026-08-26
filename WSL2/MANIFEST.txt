@@ -1,0 +1,31 @@
+created: 2026-08-26T17:13:45+08:00
+host: chen
+MANIFEST.txt
+README.md
+home_cascade/ai4orgchem-scratch/julia/environments/pyjuliapkg/lock.pid
+home_cascade/ai4orgchem_env/SYMLINKS_NOTE.txt
+home_cascade/ai4orgchem_env/bin/README.txt
+home_cascade/ai4orgchem_env/pyvenv.cfg
+home_cascade/p3run/src/README.md
+home_cascade/p3run/src/__init__.py
+home_cascade/p3run/src/common/__init__.py
+home_cascade/p3run/src/common/pyscf_utils.py
+home_cascade/p3run/src/common/units.py
+home_cascade/p3run/src/p1_butadiene/__init__.py
+home_cascade/p3run/src/p1_butadiene/run.py
+home_cascade/p3run/src/p3_nba/__init__.py
+home_cascade/p3run/src/p3_nba/geometry.py
+home_cascade/p3run/src/p3_nba/run.py
+home_cascade/p3run/src/p3_nba/run_rigid.py
+inventory/mamba_ai4orgchem_POINTER.txt
+inventory/mamba_ai4orgchem_packages.txt
+inventory/mamba_ai4orgchem_python_version.txt
+inventory/nvidia-smi.txt
+inventory/os-release.txt
+inventory/path_map.txt
+inventory/pip_freeze_user.txt
+inventory/pip_show_pyscf_stack.txt
+inventory/python_system_pyscf.txt
+inventory/session.txt
+inventory/uname.txt
+mounts/D_drive_project.md

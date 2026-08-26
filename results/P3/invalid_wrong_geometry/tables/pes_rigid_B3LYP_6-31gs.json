@@ -1,0 +1,100 @@
+{
+  "proposition": "P3",
+  "tag": "rigid_B3LYP_6-31gs",
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "protocol": "rigid twist scan (no relaxation); single-point E/Ee/EN",
+  "note": "Book uses relaxed PES; full relaxation pending compute budget",
+  "theta_definition": "C_ortho(N-Ph)-C_ipso(N-Ph)-N-C_imine",
+  "book_theta_exp_deg": [
+    36,
+    55
+  ],
+  "timestamp_utc": "2026-08-23T04:01:15.983045+00:00",
+  "reference_planar_theta_deg": 7.016709298534876e-15,
+  "scan": [
+    {
+      "theta_target": 0.0,
+      "theta_deg": 7.016709298534876e-15,
+      "E_ha": 112.54368146271167,
+      "Ee_ha": -1826.0101525026457,
+      "EN_ha": 1938.5538339653574,
+      "dE_kcal": 0.0,
+      "dEe_kcal": 0.0,
+      "dEN_kcal": 0.0
+    },
+    {
+      "theta_target": 15.0,
+      "theta_deg": 15.000000000000021,
+      "E_ha": 67.96691298338033,
+      "Ee_ha": -1803.0909274848786,
+      "EN_ha": 1871.057840468259,
+      "dE_kcal": -27972.34454389779,
+      "dEe_kcal": 14382.030836832862,
+      "dEN_kcal": -42354.37538073065
+    },
+    {
+      "theta_target": 30.0,
+      "theta_deg": 29.999999999999993,
+      "E_ha": 57.596988856369535,
+      "Ee_ha": -1777.586729335659,
+      "EN_ha": 1835.1837181920284,
+      "dE_kcal": -34479.57017891258,
+      "dEe_kcal": 30386.156803850834,
+      "dEN_kcal": -64865.726982763415
+    },
+    {
+      "theta_target": 45.0,
+      "theta_deg": 45.00000000000002,
+      "E_ha": 54.77520332141967,
+      "Ee_ha": -1760.10195821816,
+      "EN_ha": 1814.8771615395797,
+      "dE_kcal": -36250.26733586784,
+      "dEe_kcal": 41358.01633190625,
+      "dEN_kcal": -77608.28366777409
+    },
+    {
+      "theta_target": 60.0,
+      "theta_deg": 60.00000000000002,
+      "E_ha": 53.892497880963674,
+      "Ee_ha": -1748.0672779701688,
+      "EN_ha": 1801.9597758511325,
+      "dE_kcal": -36804.173362561014,
+      "dEe_kcal": 48909.89220484079,
+      "dEN_kcal": -85714.0655674018
+    },
+    {
+      "theta_target": 75.0,
+      "theta_deg": 75.00000000000001,
+      "E_ha": 53.4628259752601,
+      "Ee_ha": -1741.1656328954996,
+      "EN_ha": 1794.6284588707597,
+      "dE_kcal": -37073.796554128756,
+      "dEe_kcal": 53240.73987581665,
+      "dEN_kcal": -90314.53642994541
+    },
+    {
+      "theta_target": 90.0,
+      "theta_deg": 90.00000000000003,
+      "E_ha": 53.223594183937166,
+      "Ee_ha": -1739.021331602646,
+      "EN_ha": 1792.244925786583,
+      "dE_kcal": -37223.91676968098,
+      "dEe_kcal": 54586.3092523281,
+      "dEN_kcal": -91810.22602200908
+    }
+  ],
+  "E_min_scan": {
+    "theta_deg": 90.00000000000003,
+    "dE_kcal": -37223.91676968098,
+    "dEe_kcal": 54586.3092523281,
+    "dEN_kcal": -91810.22602200908
+  },
+  "checks": {
+    "agree_geo_30_60": false,
+    "agree_decomp_EN_up_Ee_down": false,
+    "agree_not_planar_global_min": true
+  },
+  "agree": false,
+  "hartree_to_kcal": 627.5094740631
+}

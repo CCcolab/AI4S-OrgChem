@@ -1,0 +1,22 @@
+[P3 rigid] theta_target=0
+      theta=0.00 E=112.54368146
+[P3 rigid] theta_target=15
+      theta=15.00 E=67.96691298
+[P3 rigid] theta_target=30
+      theta=30.00 E=57.59698886
+[P3 rigid] theta_target=45
+      theta=45.00 E=54.77520332
+[P3 rigid] theta_target=60
+      theta=60.00 E=53.89249788
+[P3 rigid] theta_target=75
+      theta=75.00 E=53.46282598
+[P3 rigid] theta_target=90
+      theta=90.00 E=53.22359418
+# P3 NBA rigid twist scan (rigid_B3LYP_6-31gs)
+
+- Protocol: **rigid** theta scan + **B3LYP/6-31g*** single-point
+- E_min at theta = **90.0 deg** (dE=-37223.917, dEe=+54586.309, dEN=-91810.226 kcal/mol vs near-planar)
+- Book theta_exp ~ 36-55 deg (relaxed PES in book)
+- Checks: geo=False, decomp=False, not_planar=True
+- Auto agree flag: **False** (formal VERDICT only in deliverables/)
+

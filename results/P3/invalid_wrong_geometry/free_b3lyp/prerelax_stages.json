@@ -1,0 +1,13 @@
+{
+  "stages": [
+    {
+      "basis": "6-31g*",
+      "maxiter": 60,
+      "theta_deg": -97.2385575449253,
+      "E_ha": -556.4960450534697,
+      "nit": 24,
+      "converged": true,
+      "min_contact_ang": 1.083378832391726
+    }
+  ]
+}

@@ -1,0 +1,464 @@
+{
+  "proposition": "P9",
+  "version": "v1",
+  "method": "B3LYP",
+  "basis": "6-31g*",
+  "protocol": "planar Kekulé; vertical ESE as VDE proxy; 2007 Fock+S",
+  "N_list": [
+    8,
+    10,
+    12,
+    14,
+    16,
+    18
+  ],
+  "molecules": [
+    {
+      "N": 8,
+      "class": "4n",
+      "is_4n_plus_2": false,
+      "protocol": "2007",
+      "deltaEA_kcal": 17.374666208942962,
+      "sum_deltaEAm_kcal": 4.423883932504726,
+      "VDE_proxy_kcal": 12.950782276438236,
+      "VDE_per_pi_kcal": 1.6188477845547795,
+      "n_pi": 8,
+      "n_GE": 4,
+      "all_deltaEAm_positive": true,
+      "sign_matches_4n2": true,
+      "dmin_ang": 1.085,
+      "converged": true,
+      "topology_ok": true,
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": 1.1059710023700298
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": 1.1059710832690997
+        },
+        {
+          "allow_pair": [
+            2,
+            3
+          ],
+          "deltaEAm_kcal": 1.1059711038148952
+        },
+        {
+          "allow_pair": [
+            3,
+            0
+          ],
+          "deltaEAm_kcal": 1.1059707430507009
+        }
+      ]
+    },
+    {
+      "N": 10,
+      "class": "4n+2",
+      "is_4n_plus_2": true,
+      "protocol": "2007",
+      "deltaEA_kcal": -16.106083514773463,
+      "sum_deltaEAm_kcal": -3.932871689460144,
+      "VDE_proxy_kcal": -12.173211825313318,
+      "VDE_per_pi_kcal": -1.217321182531332,
+      "n_pi": 10,
+      "n_GE": 5,
+      "all_deltaEAm_positive": false,
+      "sign_matches_4n2": true,
+      "dmin_ang": 1.085,
+      "converged": true,
+      "topology_ok": true,
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": -0.7864179888825827
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": -0.7868559680285443
+        },
+        {
+          "allow_pair": [
+            2,
+            3
+          ],
+          "deltaEAm_kcal": -0.7863424443466944
+        },
+        {
+          "allow_pair": [
+            3,
+            4
+          ],
+          "deltaEAm_kcal": -0.7868476875022368
+        },
+        {
+          "allow_pair": [
+            4,
+            0
+          ],
+          "deltaEAm_kcal": -0.7864076007000858
+        }
+      ]
+    },
+    {
+      "N": 12,
+      "class": "4n",
+      "is_4n_plus_2": false,
+      "protocol": "2007",
+      "deltaEA_kcal": -3.4258239971260966,
+      "sum_deltaEAm_kcal": -9.440673152738379,
+      "VDE_proxy_kcal": 6.014849155612282,
+      "VDE_per_pi_kcal": 0.5012374296343568,
+      "n_pi": 12,
+      "n_GE": 6,
+      "all_deltaEAm_positive": false,
+      "sign_matches_4n2": true,
+      "dmin_ang": 1.0849999999999997,
+      "converged": true,
+      "topology_ok": true,
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": -1.5734516129806115
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": -1.5734270701717987
+        },
+        {
+          "allow_pair": [
+            2,
+            3
+          ],
+          "deltaEAm_kcal": -1.5734501963194751
+        },
+        {
+          "allow_pair": [
+            3,
+            4
+          ],
+          "deltaEAm_kcal": -1.5734569854207794
+        },
+        {
+          "allow_pair": [
+            4,
+            5
+          ],
+          "deltaEAm_kcal": -1.573428841675945
+        },
+        {
+          "allow_pair": [
+            5,
+            0
+          ],
+          "deltaEAm_kcal": -1.5734584461697685
+        }
+      ]
+    },
+    {
+      "N": 14,
+      "class": "4n+2",
+      "is_4n_plus_2": true,
+      "protocol": "2007",
+      "deltaEA_kcal": -21.23130814468251,
+      "sum_deltaEAm_kcal": -13.694524723445578,
+      "VDE_proxy_kcal": -7.536783421236933,
+      "VDE_per_pi_kcal": -0.5383416729454952,
+      "n_pi": 14,
+      "n_GE": 7,
+      "all_deltaEAm_positive": false,
+      "sign_matches_4n2": true,
+      "dmin_ang": 1.0849999999999995,
+      "converged": true,
+      "topology_ok": true,
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": -1.9563703539266641
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": -1.9563002127209765
+        },
+        {
+          "allow_pair": [
+            2,
+            3
+          ],
+          "deltaEAm_kcal": -1.9564459934155172
+        },
+        {
+          "allow_pair": [
+            3,
+            4
+          ],
+          "deltaEAm_kcal": -1.9562896915615253
+        },
+        {
+          "allow_pair": [
+            4,
+            5
+          ],
+          "deltaEAm_kcal": -1.9564451704422636
+        },
+        {
+          "allow_pair": [
+            5,
+            6
+          ],
+          "deltaEAm_kcal": -1.956300482669901
+        },
+        {
+          "allow_pair": [
+            6,
+            0
+          ],
+          "deltaEAm_kcal": -1.95637281870873
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "class": "4n",
+      "is_4n_plus_2": false,
+      "protocol": "2007",
+      "deltaEA_kcal": -15.71443337146423,
+      "sum_deltaEAm_kcal": -17.5935908218255,
+      "VDE_proxy_kcal": 1.8791574503612711,
+      "VDE_per_pi_kcal": 0.11744734064757945,
+      "n_pi": 16,
+      "n_GE": 8,
+      "all_deltaEAm_positive": false,
+      "sign_matches_4n2": true,
+      "dmin_ang": 1.085,
+      "converged": true,
+      "topology_ok": true,
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": -2.199199285777199
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": -2.1991986325921165
+        },
+        {
+          "allow_pair": [
+            2,
+            3
+          ],
+          "deltaEAm_kcal": -2.1991986561341736
+        },
+        {
+          "allow_pair": [
+            3,
+            4
+          ],
+          "deltaEAm_kcal": -2.199198803807079
+        },
+        {
+          "allow_pair": [
+            4,
+            5
+          ],
+          "deltaEAm_kcal": -2.1991982738967697
+        },
+        {
+          "allow_pair": [
+            5,
+            6
+          ],
+          "deltaEAm_kcal": -2.199199156937939
+        },
+        {
+          "allow_pair": [
+            6,
+            7
+          ],
+          "deltaEAm_kcal": -2.1991993274395063
+        },
+        {
+          "allow_pair": [
+            7,
+            0
+          ],
+          "deltaEAm_kcal": -2.1991986852407175
+        }
+      ]
+    },
+    {
+      "N": 18,
+      "class": "4n+2",
+      "is_4n_plus_2": true,
+      "protocol": "2007",
+      "deltaEA_kcal": -26.684581994516925,
+      "sum_deltaEAm_kcal": -21.168941790899183,
+      "VDE_proxy_kcal": -5.5156402036177425,
+      "VDE_per_pi_kcal": -0.30642445575654126,
+      "n_pi": 18,
+      "n_GE": 9,
+      "all_deltaEAm_positive": false,
+      "sign_matches_4n2": true,
+      "dmin_ang": 1.0849999999999997,
+      "converged": true,
+      "topology_ok": true,
+      "GE_m": [
+        {
+          "allow_pair": [
+            0,
+            1
+          ],
+          "deltaEAm_kcal": -2.3522160546898445
+        },
+        {
+          "allow_pair": [
+            1,
+            2
+          ],
+          "deltaEAm_kcal": -2.3521718859379073
+        },
+        {
+          "allow_pair": [
+            2,
+            3
+          ],
+          "deltaEAm_kcal": -2.3519568027056375
+        },
+        {
+          "allow_pair": [
+            3,
+            4
+          ],
+          "deltaEAm_kcal": -2.352019214697197
+        },
+        {
+          "allow_pair": [
+            4,
+            5
+          ],
+          "deltaEAm_kcal": -2.3522138595713447
+        },
+        {
+          "allow_pair": [
+            5,
+            6
+          ],
+          "deltaEAm_kcal": -2.35201899967974
+        },
+        {
+          "allow_pair": [
+            6,
+            7
+          ],
+          "deltaEAm_kcal": -2.351956823394112
+        },
+        {
+          "allow_pair": [
+            7,
+            8
+          ],
+          "deltaEAm_kcal": -2.3521719051995906
+        },
+        {
+          "allow_pair": [
+            8,
+            0
+          ],
+          "deltaEAm_kcal": -2.352216245023811
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "signs_all_ok": true,
+    "sign_by_N": {
+      "8": true,
+      "10": true,
+      "12": true,
+      "14": true,
+      "16": true,
+      "18": true
+    },
+    "gaps_4n_vs_4n2": [
+      {
+        "pair": [
+          8,
+          10
+        ],
+        "VDE_pi_4n": 1.6188477845547795,
+        "VDE_pi_4n2": -1.217321182531332,
+        "abs_gap": 2.8361689670861114,
+        "mean_abs": 1.4180844835430557
+      },
+      {
+        "pair": [
+          12,
+          14
+        ],
+        "VDE_pi_4n": 0.5012374296343568,
+        "VDE_pi_4n2": -0.5383416729454952,
+        "abs_gap": 1.039579102579852,
+        "mean_abs": 0.519789551289926
+      },
+      {
+        "pair": [
+          16,
+          18
+        ],
+        "VDE_pi_4n": 0.11744734064757945,
+        "VDE_pi_4n2": -0.30642445575654126,
+        "abs_gap": 0.4238717964041207,
+        "mean_abs": 0.21193589820206035
+      }
+    ],
+    "gap_converges_at_large_N": true,
+    "agree": true,
+    "completion_estimate_pct": 82,
+    "yu_asymp_ref": 0.7,
+    "note": "VDE_proxy = vertical ESE=ΔEA−ΣΔEAm (2007 GL). Yu VDE uses 2011 exchange deletion; signs/trends are the falsifiable claim."
+  },
+  "sensitivity_2011lite": null,
+  "quality_gate": {
+    "passed": true,
+    "G1_topology": true,
+    "G2_geometry": true,
+    "G3_convergence": true,
+    "G4_energy_scale": true,
+    "G5_path_clean": true
+  },
+  "agree": true,
+  "timestamp_utc": "2026-08-24T06:42:13.058813+00:00",
+  "hartree_to_kcal": 627.5094740631
+}
