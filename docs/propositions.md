@@ -1,5 +1,7 @@
 # 命题规格清单（P1–P9 · 已冻结）
 
+[English](propositions.en.md) | **中文**
+
 > **项目定位**：采用最新 AI 技术的 **AI for Science（AI4S）Agent** 项目；以第三方身份，用 WSL/PySCF（不改动现有环境配置）验证虞忠衡《Questioning Fundamental Principles of Organic Chemistry》中与传统有机结构理论相悖的论点。  
 > **冻结状态（2026-08-25）**：**8 一致 + 1 非一致（P1）**。正式判定见 `deliverables/unit/Pn/VERDICT.md` 与 `deliverables/final/`。  
 > **交付口径**：每条命题提交 **一致** 或 **非一致**；结论须经得起领域专家审阅。  

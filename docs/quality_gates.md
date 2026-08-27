@@ -1,5 +1,7 @@
 # 证据质控硬闸（Quality Gates）
 
+[English](quality_gates.en.md) | **中文**
+
 > **目的**：杜绝再出现建立在「未收敛 + 错误分子」上的一致/非一致判定。  
 > **触发**：P3（2026-08-23）——欠收敛假 PES 曾误写非一致；`_phenyl` 建环错误使计算对象不是 NBA。  
 > **效力**：写 `deliverables/unit/Pn/VERDICT.md` 前的**强制清单**；Cursor Agent 见 `.cursor/rules/ai4s-quality-gates.mdc`（`alwaysApply: true`）。

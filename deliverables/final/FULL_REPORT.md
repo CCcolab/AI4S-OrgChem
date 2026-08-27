@@ -1,5 +1,7 @@
 # 总报告：独立复现研究
 
+[English](FULL_REPORT.en.md) | **中文**
+
 **对象**：虞忠衡《Questioning Fundamental Principles of Organic Chemistry》中与传统有机结构理论相悖的九条核心命题（P1–P9）  
 **执行**：AI Agent + WSL PySCF 2.14.0，预注册判据 + 硬证据闸  
 **冻结日期**：2026-08-25  

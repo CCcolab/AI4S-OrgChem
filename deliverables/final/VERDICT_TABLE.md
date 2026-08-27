@@ -1,5 +1,7 @@
 # P1–P9 判定总表（审计口径）
 
+[English](VERDICT_TABLE.en.md) | **中文**
+
 > 本表为**纯审计**记录：只列预注册判据、实测值、是否达阈、质控闸结果。  
 > 不含理论层评价（见 [`FULL_REPORT.md`](FULL_REPORT.md)）。  
 > 权威来源：各 `deliverables/unit/Pn/VERDICT.md`。冻结日期：2026-08-25。

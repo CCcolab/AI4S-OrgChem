@@ -1,5 +1,7 @@
 # 结题核查清单
 
+[English](checklist.en.md) | **中文**
+
 > 审计口径。逐项可核，不含评价性表述。  
 > 冻结日期：2026-08-25 · 规格依据：[`docs/quality_gates.md`](../../docs/quality_gates.md)、[`docs/directory_structure.md`](../../docs/directory_structure.md)
 

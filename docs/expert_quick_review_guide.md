@@ -31,8 +31,8 @@
 
 | 步骤 | 文件 | 您将得到什么 |
 |------|------|----------------|
-| **①** | [`deliverables/final/EXECUTIVE_SUMMARY.md`](../deliverables/final/EXECUTIVE_SUMMARY.md) | 一页结论：8+1、三条最硬证据、三条限定 |
-| **②** | [`deliverables/final/VERDICT_TABLE.md`](../deliverables/final/VERDICT_TABLE.md) | 九命题 **预注册判据 ↔ 实测值 ↔ 是否达阈**（审计表） |
+| **①** | [`EXECUTIVE_SUMMARY.en.md`](../deliverables/final/EXECUTIVE_SUMMARY.en.md) / [中文](../deliverables/final/EXECUTIVE_SUMMARY.md) | 一页结论：8+1、三条最硬证据、三条限定 |
+| **②** | [`VERDICT_TABLE.en.md`](../deliverables/final/VERDICT_TABLE.en.md) / [中文](../deliverables/final/VERDICT_TABLE.md) | 九命题 **预注册判据 ↔ 实测值 ↔ 是否达阈**（审计表） |
 | **③** | 任选 1–2 条您最关心的 `deliverables/unit/Pn/VERDICT.md` | 单命题正式判定 + 判据对照表 |
 | **④** | 对应 `deliverables/unit/Pn/report.md` | 方法、敏感性、**专家异议预案** |
 | **⑤** | 对应 `deliverables/unit/Pn/evidence/` 或 [`deliverables/final/evidence_pack/`](../deliverables/final/evidence_pack/) | 关键 JSON/CSV 数值（可下载核对） |
@@ -41,9 +41,9 @@
 
 | Step | File | What you get |
 |------|------|----------------|
-| **①** | `deliverables/final/EXECUTIVE_SUMMARY.md` | One-page scoreboard, three strongest lines of evidence, caveats |
-| **②** | `deliverables/final/VERDICT_TABLE.md` | Pre-registered criteria vs. results for all nine propositions |
-| **③** | `deliverables/unit/Pn/VERDICT.md` (pick 1–2) | Formal verdict for one proposition |
+| **①** | `deliverables/final/EXECUTIVE_SUMMARY.en.md` | One-page scoreboard, three strongest lines of evidence, caveats |
+| **②** | `deliverables/final/VERDICT_TABLE.en.md` | Pre-registered criteria vs. results for all nine propositions |
+| **③** | `deliverables/unit/Pn/VERDICT.md` (pick 1–2; 中文 formal) | Formal verdict for one proposition |
 | **④** | `deliverables/unit/Pn/report.md` | Methods, sensitivities, anticipated objections |
 | **⑤** | `deliverables/unit/Pn/evidence/` or `deliverables/final/evidence_pack/` | Key numbers in JSON/CSV |
 

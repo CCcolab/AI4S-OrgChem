@@ -81,10 +81,10 @@ This repository is only the complete audit trail for the **Cursor Grok** arm. A 
 
 One-page summary · table · full report:
 
-- [deliverables/final/EXECUTIVE_SUMMARY.md](deliverables/final/EXECUTIVE_SUMMARY.md)
-- [deliverables/final/VERDICT_TABLE.md](deliverables/final/VERDICT_TABLE.md)
-- [deliverables/final/FULL_REPORT.md](deliverables/final/FULL_REPORT.md)
-- [deliverables/final/checklist.md](deliverables/final/checklist.md)
+- [deliverables/final/EXECUTIVE_SUMMARY.en.md](deliverables/final/EXECUTIVE_SUMMARY.en.md) ([中文](deliverables/final/EXECUTIVE_SUMMARY.md))
+- [deliverables/final/VERDICT_TABLE.en.md](deliverables/final/VERDICT_TABLE.en.md) ([中文](deliverables/final/VERDICT_TABLE.md))
+- [deliverables/final/FULL_REPORT.en.md](deliverables/final/FULL_REPORT.en.md) ([中文](deliverables/final/FULL_REPORT.md))
+- [deliverables/final/checklist.en.md](deliverables/final/checklist.en.md) ([中文](deliverables/final/checklist.md))
 
 ### Three strongest positive lines of evidence
 
@@ -128,13 +128,14 @@ Searchable title: *Questioning Fundamental Principles of Organic Chemistry* (Zho
 
 | Document | Description |
 |----------|-------------|
-| [docs/propositions.md](docs/propositions.md) | Authoritative proposition specs |
-| [docs/quality_gates.md](docs/quality_gates.md) | Hard evidence gates G1–G5 |
+| [docs/propositions.en.md](docs/propositions.en.md) | Authoritative proposition specs ([中文](docs/propositions.md)) |
+| [docs/quality_gates.en.md](docs/quality_gates.en.md) | Hard evidence gates G1–G5 ([中文](docs/quality_gates.md)) |
 | [**docs/expert_quick_review_guide.md**](docs/expert_quick_review_guide.md) | **Quick review guide for quantum-chemistry experts (EN/中文)** |
-| [docs/research_plan.md](docs/research_plan.md) | Implementation plan |
-| [docs/directory_structure.md](docs/directory_structure.md) | Directory & deposit conventions |
+| [deliverables/final/README.en.md](deliverables/final/README.en.md) | Freeze pack index ([中文](deliverables/final/README.md)) |
+| [docs/research_plan.md](docs/research_plan.md) | Implementation plan (中文) |
+| [docs/directory_structure.md](docs/directory_structure.md) | Directory & deposit conventions (中文) |
 | [WSL2/README.md](WSL2/README.md) | **WSL2 compute plane** (Ubuntu + GPU archive) |
-| [docs/github_upload_plan.md](docs/github_upload_plan.md) | GitHub release plan |
+| [docs/github_upload_plan.md](docs/github_upload_plan.md) | GitHub release plan (中文) |
 | [implementation/](implementation/) | Plan tables, env/tools, AI4S mapping |
 | [NOTICE](NOTICE) | Copyright & independent-implementation notice |
 | [README.zh-CN.md](README.zh-CN.md) | Chinese homepage |
