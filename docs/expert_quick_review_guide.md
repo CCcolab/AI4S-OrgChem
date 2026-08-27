@@ -12,7 +12,7 @@
 
 | 中文 | English |
 |------|---------|
-| 这是对虞忠衡专著中 **9 条可检验化学主张** 的 **第三方独立复现**，计算引擎为 **PySCF**（B3LYP/6-31G* 为主），**不是**对原著程序的复算。 | This is an **independent third-party replication** of **nine testable chemical claims** from Yu’s monograph, using **PySCF** (mainly B3LYP/6-31G*), **not** a rerun of the author’s programs. |
+| 这是对**虞忠衡教授**专著中 **9 条可检验化学主张** 的 **第三方独立复现**，计算引擎为 **PySCF**（B3LYP/6-31G* 为主），**不是**对原著程序的复算。 | This is an **independent third-party replication** of **nine testable chemical claims** from **Professor Zhongheng Yu**’s monograph, using **PySCF** (mainly B3LYP/6-31G*), **not** a rerun of the author’s programs. |
 | **「一致 / 非一致」= 在原著公开定义下能否复现符号与量级**，不等于「原著物理上全对」或「传统理论已被推翻」。 | **“Agree / Disagree”** means whether **signs and magnitudes are reproducible under Yu’s published definitions**—not that Yu is universally “correct” or that textbook theory is “overturned.” |
 | 本支路结果：**8 一致 + 1 非一致（P1）**。唯一非一致条目反而提高可信度——全票通过反而像背书。 | This replication arm: **8 agree + 1 disagree (P1)**. The single dissent increases credibility; unanimous agreement would look like endorsement. |
 

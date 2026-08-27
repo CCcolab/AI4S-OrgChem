@@ -1,8 +1,9 @@
-# Executive Summary: AI4S Agent Independent Replication of Yu’s Destabilizing-Delocalization Claims
+# Executive Summary: AI4S Agent Independent Replication of Professor Zhongheng Yu’s Destabilizing-Delocalization Claims
 
 **English** | [中文](EXECUTIVE_SUMMARY.md)
 
 **Date**: 2026-08-25 · **Verdicts**: [`VERDICT_TABLE.en.md`](VERDICT_TABLE.en.md) · **Methods**: [`FULL_REPORT.en.md`](FULL_REPORT.en.md)  
+**Book author (subject of verification)**: **Professor Zhongheng Yu** (虞忠衡教授)  
 **Project type**: An **AI-for-Science (AI4S) Agent** project using state-of-the-art AI—an agent executes verification end-to-end under pre-registered criteria and hard evidence gates, not verbal commentary.  
 **Verification arm**: The **Cursor · Grok** arm of a planned three-LLM-Agent independent verification (this summary covers **this arm only**)
 
@@ -10,7 +11,7 @@
 
 ## One-sentence conclusion
 
-Under Yu’s own published definitions and reference-state protocols, **eight of nine core propositions are independently third-party reproducible (Agree); one is not (Disagree)**. This neither overturns traditional conjugation/aromaticity theory nor establishes Yu’s energy decomposition as the unique correct physical picture.
+Under **Professor Zhongheng Yu**’s own published definitions and reference-state protocols, **eight of nine core propositions are independently third-party reproducible (Agree); one is not (Disagree)**. This neither overturns traditional conjugation/aromaticity theory nor establishes Professor Yu’s energy decomposition as the unique correct physical picture.
 
 ## Scoreboard
 

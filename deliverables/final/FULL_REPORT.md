@@ -2,7 +2,8 @@
 
 [English](FULL_REPORT.en.md) | **中文**
 
-**对象**：虞忠衡《Questioning Fundamental Principles of Organic Chemistry》中与传统有机结构理论相悖的九条核心命题（P1–P9）  
+**对象**：**虞忠衡教授**《Questioning Fundamental Principles of Organic Chemistry》中与传统有机结构理论相悖的九条核心命题（P1–P9）  
+**原著作者**：**虞忠衡教授**（Professor Zhongheng Yu）  
 **执行**：AI Agent + WSL PySCF 2.14.0，预注册判据 + 硬证据闸  
 **冻结日期**：2026-08-25  
 **判定汇总**：[`VERDICT_TABLE.md`](VERDICT_TABLE.md) · **一页摘要**：[`EXECUTIVE_SUMMARY.md`](EXECUTIVE_SUMMARY.md) · **结题核查**：[`checklist.md`](checklist.md)

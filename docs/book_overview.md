@@ -1,6 +1,6 @@
 # 《Questioning Fundamental Principles of Organic Chemistry》研读综述
 
-> 作者：虞忠衡（Zhongheng Yu），中国科学院化学研究所  
+> 作者：**虞忠衡教授**（Professor Zhongheng Yu），中国科学院化学研究所  
 > 版本：读者请自行依法获取原著 PDF（版权页署 2012，ISBN 9781655790249）；本仓库 **不提供** 电子版。本地工作区可将 PDF 置于 `source/`（仅 README 入库，PDF 本身 gitignore）。全文约 240 页，含目录、序言、12 章、索引。  
 > 本文档仅依据 PDF 公开呈现的**文字定义、能量表达式、轨道图示与数值表格**整理，用于本项目的独立技术研究；**不涉及、不复制、不反编译、不翻译原著任何程序代码**。
 

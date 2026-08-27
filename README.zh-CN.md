@@ -4,7 +4,7 @@
 
 **本项目是采用最新 AI 技术的 AI for Science（AI4S）Agent 项目**：由智能体在预注册判据与硬证据门禁下，端到端完成命题拆解、独立编码、量子化学计算编排、质控与正式判定落盘——而不是用聊天模型「口头评论」原著。
 
-**科学任务**：对虞忠衡《Questioning Fundamental Principles of Organic Chemistry》中与传统有机结构理论相悖的九条核心命题（P1–P9）做第三方独立复现，每条交付 **一致 / 非一致**；计算主引擎为既有环境中的 **PySCF**。
+**科学任务**：对**虞忠衡教授**《Questioning Fundamental Principles of Organic Chemistry》中与传统有机结构理论相悖的九条核心命题（P1–P9）做第三方独立复现，每条交付 **一致 / 非一致**；计算主引擎为既有环境中的 **PySCF**。
 
 > **本仓库不提供原著 PDF 或全书抽文本。** 读者请自行在网上依法检索、获取原著。本地工作区中的 `source/`、`data/` **永不上传** GitHub。
 
@@ -26,7 +26,7 @@
 
 ## 项目背景
 
-共轭稳定化与芳香性能量判据是有机结构理论的基石表述之一。虞忠衡专著系统质疑其中若干「基本原理」——例如：局部/成对共轭在定域参考下呈去稳定、几何畸变可归因于 π 而非张力、大环 annulene 趋于多烯、呋喃类不宜按苯类 ESE 判芳香等。这些主张高度依赖作者自研的定域化能量分解，**此前缺乏按公开定义独立实现的第三方检验**。
+共轭稳定化与芳香性能量判据是有机结构理论的基石表述之一。**虞忠衡教授**专著系统质疑其中若干「基本原理」——例如：局部/成对共轭在定域参考下呈去稳定、几何畸变可归因于 π 而非张力、大环 annulene 趋于多烯、呋喃类不宜按苯类 ESE 判芳香等。这些主张高度依赖作者自研的定域化能量分解，**此前缺乏按公开定义独立实现的第三方检验**。
 
 本项目将上述挑战转化为 AI4S Agent 可执行的九条命题（P1–P9）：计算前写死判据与阈值（预注册），仅依据 PDF 中公开的数学定义、轨道图示与能量表达式 **由 Agent 独立编写** PySCF 脚本，经硬证据门禁（拓扑 / 几何 / 收敛 / 尺度 / 路径洁净）后，才允许写入正式判定。
 
@@ -120,7 +120,7 @@
 | `deliverables/` 判定、报告、证据包 | Cursor 本机 Canvas 二进制 |
 | `tools/` 环境核查等 | 任何需改系统包版本才能跑的依赖假设 |
 
-原著书名可检索：*Questioning Fundamental Principles of Organic Chemistry*（虞忠衡）。获取后，公开定义与数值表即可对照本仓库的判据与结果；**无需**本仓库提供电子版。
+原著书名可检索：*Questioning Fundamental Principles of Organic Chemistry*（**虞忠衡教授** / Professor Zhongheng Yu）。获取后，公开定义与数值表即可对照本仓库的判据与结果；**无需**本仓库提供电子版。
 
 ---
 
@@ -180,7 +180,8 @@ PYTHONPATH=. python3 -m src.p6_ese.run_v4_objections --basis '6-31g*'
 
 ## 引用与许可
 
+- **原著作者**：**虞忠衡教授**（Professor Zhongheng Yu）
 - **Copyright (c) 2026 Xiao Chen** · e-mail: [chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com)
 - 引用本复现支路：见 [`CITATION.cff`](CITATION.cff)
 - 代码许可：见 [`LICENSE`](LICENSE)（MIT）
-- 原著版权归原作者与出版方；本仓库不构成对原著材料的再分发。
+- 原著版权归**虞忠衡教授**与出版方；本仓库不构成对原著材料的再分发。

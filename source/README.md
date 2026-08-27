@@ -1,6 +1,6 @@
 # source/（仅本地 · 不入库）
 
-本目录用于存放原著 PDF 的 **本机副本**，例如：
+本目录用于存放**虞忠衡教授**（Professor Zhongheng Yu）专著 PDF 的 **本机副本**，例如：
 
 `Questioning Fundamental Principles of Organic Chemistry.PDF`
 

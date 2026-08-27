@@ -4,7 +4,7 @@
 
 **This is an AI-for-Science (AI4S) Agent project** using state-of-the-art LLM agent technology: an agent end-to-end decomposes propositions, independently writes code, orchestrates quantum-chemical calculations, enforces hard evidence gates, and writes formal verdicts—rather than using a chat model to “comment” on a book.
 
-**Scientific task**: Independent third-party replication of nine core propositions (P1–P9) from Zhongheng Yu’s *Questioning Fundamental Principles of Organic Chemistry* that challenge traditional organic structural theory. Each proposition receives an **Agree / Disagree** verdict. The primary computation engine is **PySCF** in a fixed existing environment.
+**Scientific task**: Independent third-party replication of nine core propositions (P1–P9) from **Professor Zhongheng Yu**’s *Questioning Fundamental Principles of Organic Chemistry* that challenge traditional organic structural theory. Each proposition receives an **Agree / Disagree** verdict. The primary computation engine is **PySCF** in a fixed existing environment.
 
 > **This repository does not redistribute the book PDF or full-text extract.** Please obtain the monograph yourself through lawful channels. Local workspace folders `source/` and `data/` are **never** uploaded to GitHub.
 
@@ -26,7 +26,7 @@ Authority of scientific claims comes from a **gate-authorized evidence chain**. 
 
 ## Background
 
-Conjugation stabilization and aromaticity energy criteria are foundational statements in organic structural theory. Yu’s monograph systematically challenges several of these “fundamentals”—e.g. local/pairwise conjugation as destabilizing under a localized reference, geometric distortion attributable to π rather than strain, large annulenes trending polyene-like, and furan-like systems not being scored with benzene-like ESE. These claims rest heavily on the author’s localization-based energy decompositions, and **had lacked independent third-party tests implemented from published definitions**.
+Conjugation stabilization and aromaticity energy criteria are foundational statements in organic structural theory. **Professor Zhongheng Yu**’s monograph systematically challenges several of these “fundamentals”—e.g. local/pairwise conjugation as destabilizing under a localized reference, geometric distortion attributable to π rather than strain, large annulenes trending polyene-like, and furan-like systems not being scored with benzene-like ESE. These claims rest heavily on the author’s localization-based energy decompositions, and **had lacked independent third-party tests implemented from published definitions**.
 
 This project turns those challenges into nine AI4S-Agent-executable propositions (P1–P9): criteria and thresholds are locked before computing (pre-registration); PySCF scripts are **written independently by the agent** from public math, orbital diagrams, and energy expressions in the PDF; formal verdicts are allowed only after hard evidence gates (topology / geometry / convergence / energy scale / clean paths).
 
@@ -120,7 +120,7 @@ One-page summary · table · full report:
 | `deliverables/` verdicts, reports, evidence pack | Local Cursor Canvas binaries |
 | `tools/` env checks, etc. | Assumptions that require changing system package versions |
 
-Searchable title: *Questioning Fundamental Principles of Organic Chemistry* (Zhongheng Yu). Once obtained, public definitions and numerical tables can be checked against this repo’s criteria and results; **no** electronic copy is provided here.
+Searchable title: *Questioning Fundamental Principles of Organic Chemistry* (**Professor Zhongheng Yu**). Once obtained, public definitions and numerical tables can be checked against this repo’s criteria and results; **no** electronic copy is provided here.
 
 ---
 
@@ -183,7 +183,8 @@ If `quality_gate.passed != true`, scripts exit non-zero and do not suggest a ver
 
 ## Citation and license
 
+- **Book author (subject of verification)**: **Professor Zhongheng Yu** (虞忠衡教授)
 - **Copyright (c) 2026 Xiao Chen** · e-mail: [chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com)
 - Cite this replication arm: [`CITATION.cff`](CITATION.cff)
 - Code license: [`LICENSE`](LICENSE) (MIT)
-- Copyright in the monograph remains with the author and publisher; this repository does not redistribute the book materials.
+- Copyright in the monograph remains with **Professor Zhongheng Yu** and the publisher; this repository does not redistribute the book materials.

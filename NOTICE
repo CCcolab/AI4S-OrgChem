@@ -2,9 +2,15 @@
 
 ## 版权与联系 / Copyright & contact
 
-- **Copyright (c) 2026 Xiao Chen**
+- **本仓库软件版权 / Software copyright**: Copyright (c) 2026 Xiao Chen
 - **e-mail:** chenxiao0101@gmail.com
 - **GitHub:** https://github.com/CCcolab/AI4S-OrgChem
+
+## 原著作者 / Book author (subject of verification)
+
+- **虞忠衡教授**（**Professor Zhongheng Yu**）
+- 专著 / Monograph: *Questioning Fundamental Principles of Organic Chemistry*
+- 本仓库为第三方独立复现，与原著作者、出版方之间 **无** 隶属或背书关系，除非另有书面说明。
 
 ## 项目性质
 
@@ -14,7 +20,7 @@
 
 本 GitHub 仓库 **不包含**、**不镜像**、**不提供下载** 下列材料：
 
-- 虞忠衡《Questioning Fundamental Principles of Organic Chemistry》PDF 或任何扫描件
+- **虞忠衡教授**《Questioning Fundamental Principles of Organic Chemistry》PDF 或任何扫描件
 - 由该 PDF 抽取的全书或分页纯文本
 - 原著附录、配套程序或任何反编译 / 翻译 / 改写后的原著代码
 
@@ -32,4 +38,4 @@
 
 ## 商标与隶属
 
-「Cursor」「Grok」等为各自权利人商标。本项目与原著作者、出版方之间 **无** 隶属或背书关系，除非另有书面说明。
+「Cursor」「Grok」等为各自权利人商标。本项目与**虞忠衡教授**、出版方之间 **无** 隶属或背书关系，除非另有书面说明。
