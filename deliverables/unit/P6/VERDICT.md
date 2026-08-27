@@ -1,4 +1,6 @@
-# P6 判定（VERDICT）
+﻿# P6 判定（VERDICT）
+
+[English](VERDICT.en.md) | **中文**
 
 - **判定：一致**
 - 日期：2026-08-24（v4 异议闭合）

@@ -11,7 +11,7 @@
 | `CITATION.cff` / `LICENSE` | English |
 | `NOTICE` | Bilingual contact block + 中文 body |
 
-## English mirrors added (this round)
+## English mirrors added
 
 | Chinese (authoritative) | English mirror |
 |-------------------------|----------------|
@@ -22,19 +22,18 @@
 | `deliverables/final/README.md` | `README.en.md` |
 | `docs/propositions.md` | `propositions.en.md` |
 | `docs/quality_gates.md` | `quality_gates.en.md` |
+| `deliverables/unit/Pn/VERDICT.md` ×9 | `Pn/VERDICT.en.md` ×9 |
+| `deliverables/unit/INDEX.md` | `INDEX.en.md` |
 
-## Still Chinese-primary (lower priority for homepage readers)
+## Still Chinese-primary (lower priority)
 
 | Document | Note |
 |----------|------|
-| `deliverables/unit/Pn/VERDICT.md` ×9 | Formal verdict files; numbers readable; full EN optional next |
-| `deliverables/unit/Pn/report.md` ×9 | Long technical reports |
+| `deliverables/unit/Pn/report.md` ×9 | Long technical reports (EN optional next) |
 | `docs/research_plan.md` | Implementation tracking |
 | `docs/directory_structure.md` | Repo layout (中文) |
 | `docs/book_overview.md` | Book claim map |
 | `docs/env_setup.md` / `github_upload_plan.md` | Ops |
-| `implementation/*.md` | Pre-registration plans (中文 filenames OK) |
+| `implementation/*.md` | Pre-registration plans |
 | `deliverables/papers/*_outline.md` | Draft skeletons |
-| `WSL2/README.md` | Compute plane (mostly 中文; key facts also in EN README) |
-
-**Recommended next (if needed):** English one-pagers for each `unit/Pn/VERDICT.md` as `VERDICT.en.md`, or a single `deliverables/unit/VERDICTS.en.md` digest.
+| `WSL2/README.md` | Compute plane |

@@ -9,13 +9,14 @@
 | 文件 | 含义 |
 |------|------|
 | `VERDICT.md` | **一致** 或 **非一致**（唯一正式判定；须先过 [`docs/quality_gates.md`](../docs/quality_gates.md)） |
+| `VERDICT.en.md` | English mirror of the unit verdict |
 | `report.md` | 方法、数据、敏感性、异议回应 |
 | `evidence/` | 精选表图 |
 | `canvas_link.md` | Cursor Canvas 路径 |
 
 **禁止**：未收敛、错误分子、或 `results/Pn/invalid_*/` 中的数据支撑终裁；证据不足时保持待定。
 
-索引：见 [unit/INDEX.md](unit/INDEX.md)。
+索引：见 [unit/INDEX.md](unit/INDEX.md) · [INDEX.en.md](unit/INDEX.en.md)。
 
 ## final/ — 最终交付（**已于 2026-08-25 冻结**）
 

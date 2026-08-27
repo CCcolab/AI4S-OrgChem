@@ -132,6 +132,7 @@ Searchable title: *Questioning Fundamental Principles of Organic Chemistry* (Zho
 | [docs/quality_gates.en.md](docs/quality_gates.en.md) | Hard evidence gates G1–G5 ([中文](docs/quality_gates.md)) |
 | [**docs/expert_quick_review_guide.md**](docs/expert_quick_review_guide.md) | **Quick review guide for quantum-chemistry experts (EN/中文)** |
 | [deliverables/final/README.en.md](deliverables/final/README.en.md) | Freeze pack index ([中文](deliverables/final/README.md)) |
+| [deliverables/unit/INDEX.en.md](deliverables/unit/INDEX.en.md) | Unit verdicts P1–P9 ([中文](deliverables/unit/INDEX.md)) |
 | [docs/research_plan.md](docs/research_plan.md) | Implementation plan (中文) |
 | [docs/directory_structure.md](docs/directory_structure.md) | Directory & deposit conventions (中文) |
 | [WSL2/README.md](WSL2/README.md) | **WSL2 compute plane** (Ubuntu + GPU archive) |

@@ -1,4 +1,6 @@
-# P2 判定（VERDICT）
+﻿# P2 判定（VERDICT）
+
+[English](VERDICT.en.md) | **中文**
 
 - **判定：一致**
 - 日期：2026-08-24（v2：汇总 + LFMO-lite）

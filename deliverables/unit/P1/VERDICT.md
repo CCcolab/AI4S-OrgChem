@@ -1,4 +1,6 @@
-# P1 判定（VERDICT）
+﻿# P1 判定（VERDICT）
+
+[English](VERDICT.en.md) | **中文**
 
 - **判定：非一致**
 - 日期：2026-08-23（ZPE + L3 自研 GL 补强后维持 L1/L2 判定）
