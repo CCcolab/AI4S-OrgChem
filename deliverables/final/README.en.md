@@ -3,8 +3,8 @@
 **English** | [中文](README.md)
 
 **Freeze date**: 2026-08-25 · Prerequisites (all P1–P9 `VERDICT.md` + G1–G5 pass) met.  
-**Book author (subject of verification)**: **Professor Zhongheng Yu** (虞忠衡教授)  
-**Project**: **AI-for-Science (AI4S) Agent** verification arm (Cursor · Grok).  
+**Book author (subject of verification)**: **Professor Zhongheng Yu**  
+**Project**: **AI-for-Science (AI4S) Agent** verification arm (this repository).  
 **Copyright (c) 2026 Xiao Chen** · chenxiao0101@gmail.com
 
 | File | Content | Tone |

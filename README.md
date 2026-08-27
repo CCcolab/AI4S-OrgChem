@@ -16,7 +16,7 @@
 |-----------|--------------|
 | **Paradigm** | **AI for Science (AI4S)**: frontier LLM agents drive an auditable research workflow |
 | **Execution** | **Agent loop**: read specs → write/edit code → run PySCF → pass G1–G5 gates → write `VERDICT`; on failure, isolate voided data and rerun |
-| **Stack** | Latest-generation LLM agent (this arm: **Cursor · Grok**) + electronic structure (PySCF) + project Rules/gates (not one-shot prompts) |
+| **Stack** | Latest-generation LLM agent (this arm) + electronic structure (PySCF) + project Rules/gates (not one-shot prompts) |
 | **Outputs** | Reproducible scripts, result tables with `quality_gate`, unit verdicts, five-piece freeze pack—all re-runnable by others |
 | **Deliberately not done** | No ML potentials / symbolic regression as primary evidence; no chat conclusions as formal verdicts; no copying of the author’s programs |
 
@@ -38,11 +38,11 @@ The overall design is **three frontier LLM Agents**, each completing a full or e
 
 | Arm | Environment | Status |
 |-----|-------------|--------|
-| **This repo** | **Cursor · Grok** AI4S Agent, independent | **Frozen** (2026-08-25): 8 Agree + 1 Disagree |
+| **This repo** | Independent AI4S Agent run | **Frozen** (2026-08-25): 8 Agree + 1 Disagree |
 | Arm B | Another LLM Agent (separate repo / implementation) | Planned |
 | Arm C | Third LLM Agent (separate repo / implementation) | Planned |
 
-This repository is only the complete audit trail for the **Cursor Grok** arm. A cross-model consensus table will be published after all three arms are complete.
+This repository is only the complete audit trail for **this** verification arm. A cross-model consensus table will be published after all three arms are complete.
 
 ---
 
@@ -68,7 +68,7 @@ This repository is only the complete audit trail for the **Cursor Grok** arm. A 
 
 ---
 
-## Results (this arm · Cursor Grok AI4S Agent)
+## Results (this arm)
 
 ### Overall verdict (frozen 2026-08-25)
 
@@ -184,7 +184,7 @@ If `quality_gate.passed != true`, scripts exit non-zero and do not suggest a ver
 
 ## Citation and license
 
-- **Book author (subject of verification)**: **Professor Zhongheng Yu** (虞忠衡教授)
+- **Book author (subject of verification)**: **Professor Zhongheng Yu**
 - **Copyright (c) 2026 Xiao Chen** · e-mail: [chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com)
 - Cite this replication arm: [`CITATION.cff`](CITATION.cff)
 - Code license: [`LICENSE`](LICENSE) (MIT)

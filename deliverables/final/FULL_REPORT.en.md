@@ -3,7 +3,7 @@
 **English** | [中文](FULL_REPORT.md)
 
 **Subject**: Nine core propositions (P1–P9) in **Professor Zhongheng Yu**’s *Questioning Fundamental Principles of Organic Chemistry* that challenge traditional organic structural theory  
-**Book author (subject of verification)**: **Professor Zhongheng Yu** (虞忠衡教授)  
+**Book author (subject of verification)**: **Professor Zhongheng Yu**  
 **Execution**: AI Agent + WSL PySCF 2.14.0; pre-registered criteria + hard evidence gates  
 **Freeze date**: 2026-08-25  
 **Verdicts**: [`VERDICT_TABLE.en.md`](VERDICT_TABLE.en.md) · **Summary**: [`EXECUTIVE_SUMMARY.en.md`](EXECUTIVE_SUMMARY.en.md) · **Checklist**: [`checklist.en.md`](checklist.en.md)
@@ -16,7 +16,7 @@ This is an **AI-for-Science (AI4S) Agent** project using state-of-the-art AI **a
 
 **AI4S Agent** means a frontier LLM agent, under project Rules and hard evidence gates, decomposes propositions, writes code independently, orchestrates PySCF, enforces QC, and writes `VERDICT` files. Scientific authority comes from the gate-authorized evidence chain, not prose style.
 
-It is one arm of a **three-LLM-Agent independent verification** plan: all verdicts and implementations in this repo were produced independently by **Cursor · Grok**; the other two arms should redo the work in separate repos with different agents, then cross-compare. Numbers and conclusions here **bind this arm only**.
+It is one arm of a **three-LLM-Agent independent verification** plan: all verdicts and implementations in this repo were produced independently by **this arm’s AI4S Agent**; the other two arms should redo the work in separate repos with different agents, then cross-compare. Numbers and conclusions here **bind this arm only**.
 
 Three deliberate design choices:
 

@@ -12,8 +12,8 @@ gh release edit v1.0.0-freeze-2026-08-25 --title "v1.0.0 Freeze 2026-08-25 — 8
 
 ## AI4S-OrgChem v1.0.0 — Freeze 2026-08-25
 
-**AI-for-Science (AI4S) Agent** arm: **Cursor · Grok**  
-Independent third-party **PySCF** replication of nine propositions (P1–P9) from **Professor Zhongheng Yu** (虞忠衡教授), *Questioning Fundamental Principles of Organic Chemistry*.
+**AI-for-Science (AI4S) Agent** arm (this repository)  
+Independent third-party **PySCF** replication of nine propositions (P1–P9) from **Professor Zhongheng Yu**, *Questioning Fundamental Principles of Organic Chemistry*.
 
 | | |
 |--|--|
@@ -77,7 +77,7 @@ Under Professor Yu’s published definitions and reference-state protocols, **ei
 
 ### Copyright & contact
 
-- **Book author (subject of verification):** Professor Zhongheng Yu (虞忠衡教授)  
+- **Book author (subject of verification):** Professor Zhongheng Yu  
 - **Software:** Copyright (c) 2026 Xiao Chen · chenxiao0101@gmail.com  
 - MIT License · See `LICENSE`, `NOTICE`, `CITATION.cff`
 

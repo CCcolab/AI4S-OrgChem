@@ -212,7 +212,7 @@
 
 1. **可复现性 ≠ 物理唯一性** · Replicability ≠ unique physical truth  
 2. **能量分解参考态依赖** · Reference-state dependence in decomposition  
-3. **本仓库 = Cursor Grok 一支**；三模型交叉验证计划进行中 · This repo = one of three planned independent LLM arms  
+3. **本仓库 = 三模型计划中的一支**；交叉验证进行中 · This repo = one of three planned independent LLM arms
 
 ---
 

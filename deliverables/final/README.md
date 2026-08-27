@@ -4,7 +4,7 @@
 
 **冻结日期**：2026-08-25 · 前置条件（P1–P9 单元 `VERDICT.md` 齐套 + G1–G5 全过）已满足。  
 **原著作者**：**虞忠衡教授**（Professor Zhongheng Yu）  
-**项目性质**：采用最新 AI 技术的 **AI for Science（AI4S）Agent** 验证支路（Cursor · Grok）。
+**项目性质**：采用最新 AI 技术的 **AI for Science（AI4S）Agent** 验证支路（本仓库）。
 
 | 文件 | 内容 | 基调 |
 |------|------|------|

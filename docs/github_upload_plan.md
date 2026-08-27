@@ -3,7 +3,7 @@
 **文档日期**：2026-08-26  
 **状态**：准备就绪，**尚未** `git init` / 建仓 / 推送（须你确认 Owner 与可见性后执行）  
 **项目性质**：采用最新 AI 技术的 **AI for Science（AI4S）Agent**  
-**本支路**：Cursor · Grok 独立验证（三大 LLM Agent 计划之一）  
+**本支路**：AI4S Agent 独立验证（三大 LLM Agent 计划之一）  
 **结题冻结**：2026-08-25 · **8 一致 + 1 非一致（P1）**
 
 权威目录树见 [`directory_structure.md`](directory_structure.md)。计算平面见 [`../WSL2/README.md`](../WSL2/README.md)。
@@ -16,7 +16,7 @@
 |------|----------|
 | 公开可审计的复现制品 | 他人克隆后能读懂背景/价值/成就，并按 `FULL_REPORT` §7 在自有 WSL+PySCF 上对照 |
 | 零版权泄露 | 仓内无原著 PDF、无全书抽文本 |
-| 叙事清晰 | README 标明 AI4S Agent、三模型计划、Cursor Grok 支路、WSL2 计算 |
+| 叙事清晰 | README 标明 AI4S Agent、三模型计划、AI4S Agent 支路、WSL2 计算 |
 | 可引用 | `LICENSE` + `CITATION.cff`（真实 URL）+ Release tag |
 
 ---
@@ -33,7 +33,7 @@
 | `.cursor/` / Canvas | **不上传** |
 | `results/**/raw/` | **不上传** |
 | `WSL2/` | **上传**（inventory + 小体积 home 拷贝；不含 8.9G micromamba） |
-| 多模型 | 本仓 = Cursor Grok 一支；B/C 另仓 |
+| 多模型 | 本仓 = AI4S Agent 一支；B/C 另仓 |
 
 ---
 
@@ -109,7 +109,7 @@ git diff --cached --name-only | Select-String -Pattern '\.PDF$|book_full|book_te
 
 ```powershell
 git commit -m @"
-Initial public release: AI4S Agent (Cursor Grok) P1-P9 freeze.
+Initial public release: AI4S Agent (AI4S Agent) P1-P9 freeze.
 
 Eight agree, one dissent (P1). No copyrighted book PDF or extracted text.
 Includes WSL2 compute-plane archive and deliverables/final pack.
@@ -145,7 +145,7 @@ git tag -a v1.0.0-freeze-2026-08-25 -m "P1-P9 frozen: 8 agree + 1 dissent (P1)"
 git push origin v1.0.0-freeze-2026-08-25
 
 gh release create v1.0.0-freeze-2026-08-25 `
-  --title "v1.0.0 — P1–P9 freeze (Cursor Grok arm)" `
+  --title "v1.0.0 — P1–P9 freeze (AI4S Agent arm)" `
   --notes @"
 ## Summary
 - AI4S Agent independent replication of Yu's nine propositions

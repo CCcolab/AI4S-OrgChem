@@ -5,7 +5,7 @@
 **日期**：2026-08-25 · **判定文件**：[`VERDICT_TABLE.md`](VERDICT_TABLE.md) · **完整方法**：[`FULL_REPORT.md`](FULL_REPORT.md)  
 **原著作者**：**虞忠衡教授**（Professor Zhongheng Yu）  
 **项目性质**：采用**最新 AI 技术**的 **AI for Science（AI4S）Agent** 项目——智能体在预注册判据与硬证据门禁下端到端执行验证，而非口头评论。  
-**验证支路**：三大 LLM Agent 独立验证计划中的 **Cursor · Grok** 一支（本摘要仅代表本支路）
+**验证支路**：三大 LLM Agent 独立验证计划中的**本仓库**一支（本摘要仅代表本支路）
 
 ---
 

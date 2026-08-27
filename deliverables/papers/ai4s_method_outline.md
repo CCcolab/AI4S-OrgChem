@@ -1,7 +1,7 @@
 # AI4S 方法篇 · 骨架
 
 **状态**：骨架（未定稿）。案例数据以 [`../final/checklist.md`](../final/checklist.md) 与各 `unit/Pn/VERDICT.md` 为准。  
-**案例项目定位**：采用**最新 AI 技术**的 **AI for Science（AI4S）Agent** 端到端验证（本支路：Cursor · Grok）。
+**案例项目定位**：采用**最新 AI 技术**的 **AI for Science（AI4S）Agent** 端到端验证（本支路：AI4S Agent）。
 
 **拟定标题**  
 *Evidence Gates for Agentic Science: Preventing Confident Wrong Verdicts in LLM-Driven Computational Chemistry*
