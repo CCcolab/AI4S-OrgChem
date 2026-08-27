@@ -135,6 +135,7 @@
 | [docs/directory_structure.md](docs/directory_structure.md) | 目录与落盘约定 |
 | [WSL2/README.md](WSL2/README.md) | **WSL2 计算平面**（Ubuntu + GPU 归档） |
 | [docs/github_upload_plan.md](docs/github_upload_plan.md) | GitHub 发布方案 |
+| [docs/RELEASE_NOTES.md](docs/RELEASE_NOTES.md) | **v1.0.0 冻结版 Release 说明** |
 | [implementation/](implementation/) | 计划表、环境与工具、AI4S 映射 |
 | [NOTICE](NOTICE) | 版权与独立实现声明 |
 

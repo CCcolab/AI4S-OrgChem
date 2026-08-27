@@ -137,6 +137,7 @@ Searchable title: *Questioning Fundamental Principles of Organic Chemistry* (**P
 | [docs/directory_structure.md](docs/directory_structure.md) | Directory & deposit conventions (中文) |
 | [WSL2/README.md](WSL2/README.md) | **WSL2 compute plane** (Ubuntu + GPU archive) |
 | [docs/github_upload_plan.md](docs/github_upload_plan.md) | GitHub release plan (中文) |
+| [docs/RELEASE_NOTES.md](docs/RELEASE_NOTES.md) | **v1.0.0 freeze Release notes** |
 | [implementation/](implementation/) | Plan tables, env/tools, AI4S mapping |
 | [NOTICE](NOTICE) | Copyright & independent-implementation notice |
 | [README.zh-CN.md](README.zh-CN.md) | Chinese homepage |
