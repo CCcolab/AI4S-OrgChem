@@ -4,7 +4,7 @@
 
 **本项目是采用最新 AI 技术的 AI for Science（AI4S）Agent 项目**：由智能体在预注册判据与硬证据门禁下，端到端完成命题拆解、独立编码、量子化学计算编排、质控与正式判定落盘——而不是用聊天模型「口头评论」原著。
 
-**科学任务**：对**虞忠衡教授**《Questioning Fundamental Principles of Organic Chemistry》中与传统有机结构理论相悖的九条核心命题（P1–P9）做第三方独立复现，每条交付 **一致 / 非一致**；计算主引擎为既有环境中的 **PySCF**。
+**科学任务**：对**虞忠衡教授** **《Questioning Fundamental Principles of Organic Chemistry》**中与传统有机结构理论相悖的九条核心命题（P1–P9）做第三方独立复现，每条交付 **一致 / 非一致**；计算主引擎为既有环境中的 **PySCF**。
 
 > **本仓库不提供原著 PDF 或全书抽文本。** 读者请自行在网上依法检索、获取原著。本地工作区中的 `source/`、`data/` **永不上传** GitHub。
 
@@ -120,7 +120,7 @@
 | `deliverables/` 判定、报告、证据包 | Cursor 本机 Canvas 二进制 |
 | `tools/` 环境核查等 | 任何需改系统包版本才能跑的依赖假设 |
 
-原著书名可检索：*Questioning Fundamental Principles of Organic Chemistry*（**虞忠衡教授** / Professor Zhongheng Yu）。获取后，公开定义与数值表即可对照本仓库的判据与结果；**无需**本仓库提供电子版。
+原著书名可检索：**Questioning Fundamental Principles of Organic Chemistry**（**虞忠衡教授** / Professor Zhongheng Yu）。获取后，公开定义与数值表即可对照本仓库的判据与结果；**无需**本仓库提供电子版。
 
 ---
 

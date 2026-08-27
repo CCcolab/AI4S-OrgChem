@@ -13,7 +13,7 @@ gh release edit v1.0.0-freeze-2026-08-25 --title "v1.0.0 Freeze 2026-08-25 — 8
 ## AI4S-OrgChem v1.0.0 — Freeze 2026-08-25
 
 **AI-for-Science (AI4S) Agent** arm (this repository)  
-Independent third-party **PySCF** replication of nine propositions (P1–P9) from **Professor Zhongheng Yu**, *Questioning Fundamental Principles of Organic Chemistry*.
+Independent third-party **PySCF** replication of nine propositions (P1–P9) from **Professor Zhongheng Yu**, **Questioning Fundamental Principles of Organic Chemistry**.
 
 | | |
 |--|--|

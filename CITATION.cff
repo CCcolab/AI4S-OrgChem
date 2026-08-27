@@ -12,8 +12,7 @@ authors:
 abstract: >
   An AI-for-Science (AI4S) agent project using state-of-the-art LLM agent technology
   (AI4S Agent) with PySCF to independently verify nine propositions (P1–P9) from
-  Professor Zhongheng Yu's Questioning Fundamental Principles of Organic
-  Chemistry under pre-registered criteria and hard evidence gates. Result of this arm:
+  Professor Zhongheng Yu's Questioning Fundamental Principles of Organic Chemistry under pre-registered criteria and hard evidence gates. Result of this arm:
   8 agree, 1 dissent (P1). One of three planned independent LLM-agent verification arms.
   Does not redistribute the copyrighted book PDF or extracted full text.
 keywords:

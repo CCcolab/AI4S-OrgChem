@@ -4,7 +4,7 @@
 
 **This is an AI-for-Science (AI4S) Agent project** using state-of-the-art LLM agent technology: an agent end-to-end decomposes propositions, independently writes code, orchestrates quantum-chemical calculations, enforces hard evidence gates, and writes formal verdicts—rather than using a chat model to “comment” on a book.
 
-**Scientific task**: Independent third-party replication of nine core propositions (P1–P9) from **Professor Zhongheng Yu**’s *Questioning Fundamental Principles of Organic Chemistry* that challenge traditional organic structural theory. Each proposition receives an **Agree / Disagree** verdict. The primary computation engine is **PySCF** in a fixed existing environment.
+**Scientific task**: Independent third-party replication of nine core propositions (P1–P9) from **Professor Zhongheng Yu**’s **Questioning Fundamental Principles of Organic Chemistry** that challenge traditional organic structural theory. Each proposition receives an **Agree / Disagree** verdict. The primary computation engine is **PySCF** in a fixed existing environment.
 
 > **This repository does not redistribute the book PDF or full-text extract.** Please obtain the monograph yourself through lawful channels. Local workspace folders `source/` and `data/` are **never** uploaded to GitHub.
 
@@ -120,7 +120,7 @@ One-page summary · table · full report:
 | `deliverables/` verdicts, reports, evidence pack | Local Cursor Canvas binaries |
 | `tools/` env checks, etc. | Assumptions that require changing system package versions |
 
-Searchable title: *Questioning Fundamental Principles of Organic Chemistry* (**Professor Zhongheng Yu**). Once obtained, public definitions and numerical tables can be checked against this repo’s criteria and results; **no** electronic copy is provided here.
+Searchable title: **Questioning Fundamental Principles of Organic Chemistry** (**Professor Zhongheng Yu**). Once obtained, public definitions and numerical tables can be checked against this repo’s criteria and results; **no** electronic copy is provided here.
 
 ---
 

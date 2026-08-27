@@ -2,7 +2,7 @@
 
 **English** | [中文](FULL_REPORT.md)
 
-**Subject**: Nine core propositions (P1–P9) in **Professor Zhongheng Yu**’s *Questioning Fundamental Principles of Organic Chemistry* that challenge traditional organic structural theory  
+**Subject**: Nine core propositions (P1–P9) in **Professor Zhongheng Yu**’s **Questioning Fundamental Principles of Organic Chemistry** that challenge traditional organic structural theory  
 **Book author (subject of verification)**: **Professor Zhongheng Yu**  
 **Execution**: AI Agent + WSL PySCF 2.14.0; pre-registered criteria + hard evidence gates  
 **Freeze date**: 2026-08-25  

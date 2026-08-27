@@ -2,7 +2,7 @@
 
 **English** | [中文](propositions.md)
 
-> **Project**: **AI-for-Science (AI4S) Agent** using state-of-the-art AI; third-party verification with WSL/PySCF (no changes to the existing environment) of claims in **Professor Zhongheng Yu**’s *Questioning Fundamental Principles of Organic Chemistry* that challenge traditional organic structural theory.  
+> **Project**: **AI-for-Science (AI4S) Agent** using state-of-the-art AI; third-party verification with WSL/PySCF (no changes to the existing environment) of claims in **Professor Zhongheng Yu**’s **Questioning Fundamental Principles of Organic Chemistry** that challenge traditional organic structural theory.  
 > **Freeze (2026-08-25)**: **8 Agree + 1 Disagree (P1)**. Formal verdicts: `deliverables/unit/Pn/VERDICT.md` and `deliverables/final/`.  
 > **Delivery**: each proposition gets **Agree** or **Disagree**; conclusions must withstand expert review.  
 > **Compliance**: published math, orbital diagrams, energy expressions, and numerical tables only—no use/copy/decompile/translate of the author’s programs. Book PDF / extract **not** in the repo.  
