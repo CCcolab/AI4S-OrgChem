@@ -128,6 +128,7 @@
 |------|------|
 | [docs/propositions.md](docs/propositions.md) | 命题权威规格 |
 | [docs/quality_gates.md](docs/quality_gates.md) | 证据质控硬闸 G1–G5 |
+| [**docs/expert_quick_review_guide.md**](docs/expert_quick_review_guide.md) | **量子化学专家快速审阅指南（中英）** |
 | [docs/research_plan.md](docs/research_plan.md) | 实施方案 |
 | [docs/directory_structure.md](docs/directory_structure.md) | 目录与落盘约定 |
 | [WSL2/README.md](WSL2/README.md) | **WSL2 计算平面**（Ubuntu + GPU 归档） |

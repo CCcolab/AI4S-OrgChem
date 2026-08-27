@@ -6,6 +6,7 @@ authors:
   - family-names: "Chen"
     given-names: "Xiao"
     alias: "Xiao Chen"
+    email: "chenxiao0101@gmail.com"
   - name: "AI4S-OrgChem Cursor Grok Agent arm"
     alias: "Cursor Grok AI4S Agent"
 abstract: >
