@@ -219,7 +219,8 @@
 ## 11. 文件地图（只看化学）/ File map (chemistry only)
 
 ```
-README.md                          ← 项目背景（含 AI 说明，可略读）
+README.md                          ← English homepage (default on GitHub)
+README.zh-CN.md                    ← 中文首页
 deliverables/final/
   EXECUTIVE_SUMMARY.md               ← ★ 先读
   VERDICT_TABLE.md                   ← ★ 审计总表

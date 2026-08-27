@@ -13,7 +13,8 @@
 ```
 AI4S-OrgChem/
 │
-├── README.md                 # AI4S Agent 定位 · 背景 · 价值 · 成就 · 复现入口
+├── README.md                 # English homepage（GitHub 默认打开）
+├── README.zh-CN.md           # 中文首页
 ├── NOTICE                    # 版权与独立实现声明
 ├── LICENSE                   # MIT
 ├── CITATION.cff              # 学术引用元数据
@@ -208,7 +209,7 @@ results/Pn  →  deliverables/unit/Pn  →  deliverables/final
 
 | 路径 | 状态 |
 |------|------|
-| 根：`README` / `NOTICE` / `LICENSE` / `CITATION.cff` / `.gitignore` | ✅ |
+| 根：`README.md` / `README.zh-CN.md` / `NOTICE` / `LICENSE` / `CITATION.cff` / `.gitignore` | ✅ |
 | `docs/`、`implementation/`、`src/`、`tools/` | ✅ |
 | `results/P1–P9/tables/` + P3 `invalid_wrong_geometry/` | ✅ |
 | `deliverables/unit/P1–P9/` 四件套 | ✅ 9/9 |

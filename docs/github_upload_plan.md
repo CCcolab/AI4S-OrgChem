@@ -41,7 +41,7 @@
 
 ```
 AI4S-OrgChem/
-├── README.md · NOTICE · LICENSE · CITATION.cff · .gitignore
+├── README.md · README.zh-CN.md · NOTICE · LICENSE · CITATION.cff · .gitignore
 ├── docs/                 # 含本文件、propositions、quality_gates、directory_structure…
 ├── implementation/       # 预注册计划表
 ├── src/                  # 自研九命题包 + localization
