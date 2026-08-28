@@ -6,6 +6,9 @@
 /data/**
 !/data/README.md
 
+# —— 本地过程纪事（不推送 GitHub）——
+开发过程全记录.md
+
 # —— IDE / Agent 本地 ——
 .cursor/
 .specstory/
