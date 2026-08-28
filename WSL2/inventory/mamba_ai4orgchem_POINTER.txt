@@ -1,3 +1,3 @@
-path: /home/cascade/micromamba/envs/ai4orgchem
-8.9G	/home/cascade/micromamba/envs/ai4orgchem
+path: /home/wsluser/micromamba/envs/ai4orgchem
+8.9G	/home/wsluser/micromamba/envs/ai4orgchem
 NOTE: full env NOT copied into Windows tree (multi-GB); see packages list above.

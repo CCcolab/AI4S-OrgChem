@@ -1,4 +1,4 @@
-List of packages in environment: "/home/cascade/micromamba/envs/ai4orgchem"
+List of packages in environment: "/home/wsluser/micromamba/envs/ai4orgchem"
 
   Name                       Version       Build                 Channel    
 ──────────────────────────────────────────────────────────────────────────────

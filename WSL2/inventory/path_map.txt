@@ -1,29 +1,29 @@
 # WSL Linux filesystem paths related to AI4S-OrgChem
 
-192K	/home/cascade/p3run
-32K	/home/cascade/ai4orgchem_env
-16K	/home/cascade/ai4orgchem-scratch
-8.9G	/home/cascade/micromamba/envs/ai4orgchem
-6.6G	/home/cascade/micromamba/envs/ai4orgchem-nequip
-190M	/home/cascade/.local/lib/python3.12/site-packages/pyscf
+192K	/home/wsluser/p3run
+32K	/home/wsluser/ai4orgchem_env
+16K	/home/wsluser/ai4orgchem-scratch
+8.9G	/home/wsluser/micromamba/envs/ai4orgchem
+6.6G	/home/wsluser/micromamba/envs/ai4orgchem-nequip
+190M	/home/wsluser/.local/lib/python3.12/site-packages/pyscf
 
 # Windows mount (same inode tree as D:\AI4S-OrgChem)
 total 24
-drwxrwxrwx 1 cascade cascade  4096 Aug 26 16:48 .
-drwxrwxrwx 1 cascade cascade  4096 Aug 26 17:02 ..
-drwxrwxrwx 1 cascade cascade  4096 Aug 23 09:20 .cursor
--rwxrwxrwx 1 cascade cascade   627 Aug 26 16:33 .gitignore
-drwxrwxrwx 1 cascade cascade  4096 Aug 22 18:12 .specstory
--rwxrwxrwx 1 cascade cascade  1174 Aug 25 08:58 CITATION.cff
--rwxrwxrwx 1 cascade cascade  1105 Aug 25 08:50 LICENSE
--rwxrwxrwx 1 cascade cascade  1718 Aug 25 08:58 NOTICE
--rwxrwxrwx 1 cascade cascade 10863 Aug 26 16:59 README.md
-drwxrwxrwx 1 cascade cascade  4096 Aug 26 16:47 WSL2
-drwxrwxrwx 1 cascade cascade  4096 Aug 25 08:50 data
-drwxrwxrwx 1 cascade cascade  4096 Aug 25 07:45 deliverables
-drwxrwxrwx 1 cascade cascade  4096 Aug 25 08:50 docs
-drwxrwxrwx 1 cascade cascade  4096 Aug 24 19:32 implementation
-drwxrwxrwx 1 cascade cascade  4096 Aug 23 09:12 results
-drwxrwxrwx 1 cascade cascade  4096 Aug 25 08:50 source
-drwxrwxrwx 1 cascade cascade  4096 Aug 24 19:30 src
-drwxrwxrwx 1 cascade cascade  4096 Aug 26 16:58 tools
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 26 16:48 .
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 26 17:02 ..
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 23 09:20 .cursor
+-rwxrwxrwx 1 wsluser wsluser   627 Aug 26 16:33 .gitignore
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 22 18:12 .specstory
+-rwxrwxrwx 1 wsluser wsluser  1174 Aug 25 08:58 CITATION.cff
+-rwxrwxrwx 1 wsluser wsluser  1105 Aug 25 08:50 LICENSE
+-rwxrwxrwx 1 wsluser wsluser  1718 Aug 25 08:58 NOTICE
+-rwxrwxrwx 1 wsluser wsluser 10863 Aug 26 16:59 README.md
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 26 16:47 WSL2
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 25 08:50 data
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 25 07:45 deliverables
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 25 08:50 docs
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 24 19:32 implementation
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 23 09:12 results
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 25 08:50 source
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 24 19:30 src
+drwxrwxrwx 1 wsluser wsluser  4096 Aug 26 16:58 tools
