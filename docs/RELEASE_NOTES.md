@@ -1,3 +1,12 @@
+# Release notes
+
+| Version | Tag | File |
+|---------|-----|------|
+| **v1.0.1** (latest) | `v1.0.1-post-freeze-2026-08-28` | [RELEASE_NOTES_v1.0.1.md](RELEASE_NOTES_v1.0.1.md) |
+| v1.0.0 freeze | `v1.0.0-freeze-2026-08-25` | below |
+
+---
+
 # Release notes — v1.0.0-freeze-2026-08-25
 
 In-repo copy of the GitHub Release. Update the live page with:
