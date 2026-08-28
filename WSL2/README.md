@@ -31,14 +31,14 @@
 |------|------|------|
 | **Windows 工程根** | `D:\AI4S-OrgChem\` | 文档、交付、自研 `src/`、`results/` 主树、本 `WSL2/` 归档 |
 | **WSL 挂载同一树** | `/mnt/d/AI4S-OrgChem/` | **主计算工作目录**（与上表为同一目录，非第二份拷贝） |
-| **WSL Linux 本机盘** | `/home/cascade/…` | PySCF 安装位置、micromamba、早期 `p3run` 切片等 |
+| **WSL Linux 本机盘** | `/home/wsluser/…` | PySCF 安装位置、micromamba、早期 `p3run` 切片等 |
 
 ```
 Windows D:\AI4S-OrgChem\          <──DrvFs──>   WSL /mnt/d/AI4S-OrgChem/
         │                                         │
         │  src/  results/  deliverables/          │  PYTHONPATH=. python3 -m src.…
         │                                         │  → 写回 results/Pn/tables/
-        └── WSL2\  (本目录)  <──归档──  /home/cascade/{p3run,ai4orgchem_*,…}
+        └── WSL2\  (本目录)  <──归档──  /home/wsluser/{p3run,ai4orgchem_*,…}
                                               + inventory/（环境指纹，非 8.9G 全量 env）
 ```
 
@@ -164,7 +164,7 @@ WSL2/
 │   ├── path_map.txt
 │   ├── mamba_ai4orgchem_POINTER.txt
 │   └── …
-├── home_cascade/             # 自 /home/cascade 拷贝的小体积目录
+├── home_cascade/             # 自 /home/wsluser 拷贝的小体积目录
 │   ├── p3run/                # 早期 P3 运行用的 src 切片
 │   ├── ai4orgchem_env/       # 小型 venv 壳（指向 /usr 的符号链接已改为说明文件）
 │   └── ai4orgchem-scratch/
@@ -176,9 +176,9 @@ WSL2/
 
 | 路径（WSL） | 约大小 | 原因 |
 |-------------|--------|------|
-| `/home/cascade/micromamba/envs/ai4orgchem` | ~8.9 GB | 体积过大；以 `inventory/mamba_*` 代替 |
-| `/home/cascade/micromamba/envs/ai4orgchem-nequip` | ~6.6 GB | 非本项目主证据引擎 |
-| `/home/cascade/.local/lib/.../pyscf` 整树 | ~190 MB | 本机已装；版本见 inventory |
+| `/home/wsluser/micromamba/envs/ai4orgchem` | ~8.9 GB | 体积过大；以 `inventory/mamba_*` 代替 |
+| `/home/wsluser/micromamba/envs/ai4orgchem-nequip` | ~6.6 GB | 非本项目主证据引擎 |
+| `/home/wsluser/.local/lib/.../pyscf` 整树 | ~190 MB | 本机已装；版本见 inventory |
 
 ---
 

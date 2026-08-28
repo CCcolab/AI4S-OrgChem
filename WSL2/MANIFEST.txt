@@ -1,5 +1,5 @@
 created: 2026-08-26T17:13:45+08:00
-host: chen
+host: wsl-host
 MANIFEST.txt
 README.md
 home_cascade/ai4orgchem-scratch/julia/environments/pyjuliapkg/lock.pid
