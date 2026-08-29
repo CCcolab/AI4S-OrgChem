@@ -2,6 +2,30 @@
 
 **English** | [中文](README.zh-CN.md)
 
+**This is an AI-for-Science (AI4S) Agent project** using state-of-the-art LLM agent technology: an agent end-to-end decomposes propositions, independently writes code, orchestrates quantum-chemical calculations, enforces hard evidence gates, and writes formal verdicts—rather than using a chat model to “comment” on a book.
+
+**Scientific task**: Independent third-party replication of nine core propositions (P1–P9) from **Professor Zhongheng Yu**’s **Questioning Fundamental Principles of Organic Chemistry** that challenge traditional organic structural theory. Each proposition receives an **Agree / Disagree** verdict. The primary computation engine is **PySCF** in a fixed existing environment.
+
+> **This repository does not redistribute the book PDF or full-text extract.** Please obtain the monograph yourself through lawful channels. Local workspace folders `source/` and `data/` are **never** uploaded to GitHub.
+
+---
+
+## What this is: an AI4S Agent, not “AI-written reports”
+
+| Dimension | This project |
+|-----------|--------------|
+| **Paradigm** | **AI for Science (AI4S)**: frontier LLM agents drive an auditable research workflow |
+| **Execution** | **Agent loop**: read specs → write/edit code → run PySCF → pass G1–G5 gates → write `VERDICT`; on failure, isolate voided data and rerun |
+| **Stack** | Latest-generation LLM agent (this arm) + electronic structure (PySCF) + project Rules/gates (not one-shot prompts) |
+| **Outputs** | Reproducible scripts, result tables with `quality_gate`, unit verdicts, five-piece freeze pack—all re-runnable by others |
+| **Deliberately not done** | No ML potentials / symbolic regression as primary evidence; no chat conclusions as formal verdicts; no copying of the author’s programs |
+
+Authority of scientific claims comes from a **gate-authorized evidence chain**. The AI4S Agent’s value is running that chain end-to-end, leaving a trail, and making it reviewable.
+
+---
+
+---
+
 ## Final verdict — replication of Professor Yu’s P1–P9
 
 **Under the monograph’s own published definitions and reference-state protocols:**
@@ -129,6 +153,8 @@ One-page summary · table · full report:
 - Energy decompositions are **reference-state dependent**; protocols are logged with sensitivities.
 - Yu himself uses split definitions: local conjugation destabilization (ΔEAm>0) and benzene extra delocalization stabilization (ESE<0) must not be collapsed into “all conjugation destabilizes.”
 - This repo did **not** use, copy, or translate any of the author’s program code; primary evidence is **PySCF** in the existing environment only.
+
+---
 
 ---
 
