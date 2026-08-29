@@ -10,19 +10,46 @@
 
 ---
 
+## Background
+
+Conjugation stabilization and aromaticity energy criteria are among the bedrock tenets of organic structural theory. **Professor Zhongheng Yu**'s monograph systematically questions several of these "fundamental principles"—e.g., local/pairwise conjugation being destabilizing relative to localized references, geometric distortions attributable to π rather than strain, large annulenes approaching polyene character, and furan-type rings requiring distinct criteria from benzene-like ESE. These propositions rely heavily on author-developed localized energy decompositions, **previously lacking independent third-party testing implemented from public definitions alone**.
+
+This project operationalized those challenges into nine testable proposition units (P1–P9): locking criteria and thresholds before execution (pre-registration), having an **Agent independently write** PySCF scripts using only public mathematical definitions, orbital diagrams, and energy formulas from the PDF, and enforcing hard evidence quality gates (topology / geometry / convergence / scale / clean path) before recording formal verdicts.
+
+**Genre**: An independent replication/verification study embedded in an AI4S Agent workflow—neither a polemic nor promotional material. "Agree" indicates replicability under the monograph's own definitions; **it does not imply** the energy decomposition is the sole physically correct picture, **nor does it imply** textbook organic chemistry is overturned.
+
+---
+
 ## What this is: an AI4S Agent, not “AI-written reports”
 
 | Dimension | This project |
 |-----------|--------------|
 | **Paradigm** | **AI for Science (AI4S)**: frontier LLM agents drive an auditable research workflow |
 | **Execution** | **Agent loop**: read specs → write/edit code → run PySCF → pass G1–G5 gates → write `VERDICT`; on failure, isolate voided data and rerun |
-| **Stack** | Latest-generation LLM agent (this arm) + electronic structure (PySCF) + project Rules/gates (not one-shot prompts) |
-| **Outputs** | Reproducible scripts, result tables with `quality_gate`, unit verdicts, five-piece freeze pack—all re-runnable by others |
-| **Deliberately not done** | No ML potentials / symbolic regression as primary evidence; no chat conclusions as formal verdicts; no copying of the author’s programs |
+| **Stack** | Latest-generation LLM Agent + electronic-structure compute (PySCF) + project-level rules/gates (not one-off prompts) |
+| **Output** | Reproducible scripts, tables with `quality_gate`, unit verdicts, freeze pack—all runnable and auditable by third parties |
+| **Deliberately omitted** | No ML potentials/symbolic regression in place of primary evidence; no chat statements treated as formal verdicts; no copying author code |
 
-Authority of scientific claims comes from a **gate-authorized evidence chain**. The AI4S Agent’s value is running that chain end-to-end, leaving a trail, and making it reviewable.
+Scientific authority derives from **gated evidence chains**; the value of the AI4S Agent is executing, logging, and exposing this chain.
 
 ---
+
+## Research value
+
+1. **Auditable research paradigm for AI4S Agents**  
+   Demonstrates how modern AI can execute a **genuine research loop** (code—compute—gate—verdict) rather than unverified narratives. If gates fail, the status remains "undetermined"—providing a valid exit path for insufficient evidence and curbing confident errors.
+
+2. **Replicability before correctness judgments**  
+   First answering whether claims can be reproduced under public definitions by a third party before debating theoretical merits.
+
+3. **Pre-registered criteria + hard evidence gates**  
+   Criteria are locked before runs; G1–G5 failures block verdicts. P3 nearly received a wrong **Disagree** from a misbuilt molecule and under-converged PES; gates stopped it, voided data were isolated, and a rerun flipped to **Agree**—verdicts follow the evidence process, not model verbal preference.
+
+4. **Independent implementation from public definitions only**  
+   No contact with or copying of the author’s programs; testing definition-level replicability is stronger than “same code, same number.”
+
+5. **Restrained academic framing**  
+   Reference-state dependence of energy decomposition, explicit caveats, and one formal **Disagree** (P1) are stated upfront. A replication with dissent is more credible than unanimous agreement.
 
 ---
 
@@ -46,92 +73,6 @@ Authority of scientific claims comes from a **gate-authorized evidence chain**. 
 
 > **Agree / Disagree = replicability under Yu’s definitions**, not “the book is right/wrong” or “textbook theory is overturned.” See the executive summary for caveats.
 
----
-
-**This is an AI-for-Science (AI4S) Agent project** using state-of-the-art LLM agent technology: an agent end-to-end decomposes propositions, independently writes code, orchestrates quantum-chemical calculations, enforces hard evidence gates, and writes formal verdicts—rather than using a chat model to “comment” on a book.
-
-**Scientific task**: Independent third-party replication of nine core propositions (P1–P9) from **Professor Zhongheng Yu**’s **Questioning Fundamental Principles of Organic Chemistry** that challenge traditional organic structural theory. Each proposition receives an **Agree / Disagree** verdict. The primary computation engine is **PySCF** in a fixed existing environment.
-
-> **This repository does not redistribute the book PDF or full-text extract.** Please obtain the monograph yourself through lawful channels. Local workspace folders `source/` and `data/` are **never** uploaded to GitHub.
-
----
-
-## What this is: an AI4S Agent, not “AI-written reports”
-
-| Dimension | This project |
-|-----------|--------------|
-| **Paradigm** | **AI for Science (AI4S)**: frontier LLM agents drive an auditable research workflow |
-| **Execution** | **Agent loop**: read specs → write/edit code → run PySCF → pass G1–G5 gates → write `VERDICT`; on failure, isolate voided data and rerun |
-| **Stack** | Latest-generation LLM agent (this arm) + electronic structure (PySCF) + project Rules/gates (not one-shot prompts) |
-| **Outputs** | Reproducible scripts, result tables with `quality_gate`, unit verdicts, five-piece freeze pack—all re-runnable by others |
-| **Deliberately not done** | No ML potentials / symbolic regression as primary evidence; no chat conclusions as formal verdicts; no copying of the author’s programs |
-
-Authority of scientific claims comes from a **gate-authorized evidence chain**. The AI4S Agent’s value is running that chain end-to-end, leaving a trail, and making it reviewable.
-
----
-
-## Background
-
-Conjugation stabilization and aromaticity energy criteria are foundational statements in organic structural theory. **Professor Zhongheng Yu**’s monograph systematically challenges several of these “fundamentals”—e.g. local/pairwise conjugation as destabilizing under a localized reference, geometric distortion attributable to π rather than strain, large annulenes trending polyene-like, and furan-like systems not being scored with benzene-like ESE. These claims rest heavily on the author’s localization-based energy decompositions, and **had lacked independent third-party tests implemented from published definitions**.
-
-This project turns those challenges into nine AI4S-Agent-executable propositions (P1–P9): criteria and thresholds are locked before computing (pre-registration); PySCF scripts are **written independently by the agent** from public math, orbital diagrams, and energy expressions in the PDF; formal verdicts are allowed only after hard evidence gates (topology / geometry / convergence / energy scale / clean paths).
-
-**Genre**: a replication / verification study embedded in an AI4S Agent workflow—not advocacy and not promotional material for the book. **Agree** means reproducible under Yu’s own definitions; it does **not** mean that decomposition is the unique correct physical picture, nor that textbook theory is overturned.
-
-### Three-LLM independent verification plan
-
-The overall design is **three frontier LLM Agents**, each completing a full or equivalent verification **independently**—no shared implementation code or intermediate verdicts—then cross-comparing afterward, to reduce single-model bias and “pleasing the source” risk. That design is itself an AI4S credibility experiment.
-
-| Arm | Environment | Status |
-|-----|-------------|--------|
-| **This repo** | Independent AI4S Agent run | **Frozen** (2026-08-25): 8 Agree + 1 Disagree |
-| Arm B | Another LLM Agent (separate repo / implementation) | Planned |
-| Arm C | Third LLM Agent (separate repo / implementation) | Planned |
-
-This repository is only the complete audit trail for **this** verification arm. A cross-model consensus table will be published after all three arms are complete.
-
----
-
-## Why it matters
-
-1. **Auditable AI4S research workflow**  
-   Shows how state-of-the-art AI can close a real research loop (code → compute → QC → verdict), not produce unverifiable prose. Failed gates force **Pending**—a legitimate “insufficient evidence” exit that shrinks confident wrong conclusions.
-
-2. **Replicability before adjudicating theory**  
-   First ask whether claims are third-party reproducible under published definitions; theory choice comes later. For heterodox frameworks that long relied on a single program without independent replication, that step was missing.
-
-3. **Pre-registered criteria + hard evidence gates**  
-   Criteria are locked before runs; G1–G5 failures block verdicts. P3 nearly received a wrong **Disagree** from a misbuilt molecule and under-converged PES; gates stopped it, voided data were isolated, and a rerun flipped to **Agree**—verdicts follow the evidence process, not model verbal preference.
-
-4. **Independent implementation from public definitions only**  
-   No contact with or copying of the author’s programs; testing definition-level replicability is stronger than “same code, same number.”
-
-5. **Multi-model independent verification design**  
-   Three LLM Agents in separate repos on the same proposition set provide a citable AI4S cross-check: the contest is signs and magnitudes under gates, not writing style.
-
-6. **Restrained academic framing**  
-   Reference-state dependence of energy decomposition, explicit caveats, and one formal **Disagree** (P1) are stated upfront. A replication with dissent is more credible than unanimous agreement.
-
----
-
-## Results (this arm)
-
-### Overall verdict (frozen 2026-08-25)
-
-**8 Agree + 1 Disagree.**
-
-| Verdict | Propositions |
-|---------|--------------|
-| **Agree** | P2, P3, P4, P5, P6, P7, P8, P9 |
-| **Disagree** | **P1** (butadiene hydrogenation-heat reference sign flip: CE₁ positive at four levels; no flip) |
-
-One-page summary · table · full report:
-
-- [deliverables/final/EXECUTIVE_SUMMARY.en.md](deliverables/final/EXECUTIVE_SUMMARY.en.md) ([中文](deliverables/final/EXECUTIVE_SUMMARY.md))
-- [deliverables/final/VERDICT_TABLE.en.md](deliverables/final/VERDICT_TABLE.en.md) ([中文](deliverables/final/VERDICT_TABLE.md))
-- [deliverables/final/FULL_REPORT.en.md](deliverables/final/FULL_REPORT.en.md) ([中文](deliverables/final/FULL_REPORT.md))
-- [deliverables/final/checklist.en.md](deliverables/final/checklist.en.md) ([中文](deliverables/final/checklist.md))
-
 ### Three strongest positive lines of evidence
 
 | # | Prop. | Key result |
@@ -153,8 +94,6 @@ One-page summary · table · full report:
 - Energy decompositions are **reference-state dependent**; protocols are logged with sensitivities.
 - Yu himself uses split definitions: local conjugation destabilization (ΔEAm>0) and benzene extra delocalization stabilization (ESE<0) must not be collapsed into “all conjugation destabilizes.”
 - This repo did **not** use, copy, or translate any of the author’s program code; primary evidence is **PySCF** in the existing environment only.
-
----
 
 ---
 
