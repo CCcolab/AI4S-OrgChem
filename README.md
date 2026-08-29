@@ -2,6 +2,28 @@
 
 **English** | [中文](README.zh-CN.md)
 
+## Final verdict — replication of Professor Yu’s P1–P9
+
+**Under the monograph’s own published definitions and reference-state protocols:**
+
+| | |
+|--|--|
+| **Overall** | **8 Agree · 1 Disagree** (frozen 2026-08-25) |
+| **Disagree** | **P1** — butadiene conjugation-energy sign flip with reference choice: **not reproduced** (CE₁ stays positive at four theory levels) |
+| **Agree** | P2, P3, P4, P5, P6, P7, P8, P9 |
+
+**Read the conclusions (start here):**
+
+| Doc | Link |
+|-----|------|
+| **Verdict table (audit)** | [deliverables/final/VERDICT_TABLE.en.md](deliverables/final/VERDICT_TABLE.en.md) · [中文](deliverables/final/VERDICT_TABLE.md) |
+| **Executive summary** | [deliverables/final/EXECUTIVE_SUMMARY.en.md](deliverables/final/EXECUTIVE_SUMMARY.en.md) · [中文](deliverables/final/EXECUTIVE_SUMMARY.md) |
+| **Unit verdicts P1–P9** | [deliverables/unit/INDEX.en.md](deliverables/unit/INDEX.en.md) · [中文](deliverables/unit/INDEX.md) |
+
+> **Agree / Disagree = replicability under Yu’s definitions**, not “the book is right/wrong” or “textbook theory is overturned.” See the executive summary for caveats.
+
+---
+
 **This is an AI-for-Science (AI4S) Agent project** using state-of-the-art LLM agent technology: an agent end-to-end decomposes propositions, independently writes code, orchestrates quantum-chemical calculations, enforces hard evidence gates, and writes formal verdicts—rather than using a chat model to “comment” on a book.
 
 **Scientific task**: Independent third-party replication of nine core propositions (P1–P9) from **Professor Zhongheng Yu**’s **Questioning Fundamental Principles of Organic Chemistry** that challenge traditional organic structural theory. Each proposition receives an **Agree / Disagree** verdict. The primary computation engine is **PySCF** in a fixed existing environment.

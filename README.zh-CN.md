@@ -2,6 +2,28 @@
 
 [English](README.md) | **中文**
 
+## 最终结论 — 对虞忠衡教授 P1–P9 的独立验证
+
+**在原著公开定义与参考态口径下：**
+
+| | |
+|--|--|
+| **总判** | **8 一致 · 1 非一致**（2026-08-25 冻结） |
+| **非一致** | **P1** — 丁二烯共轭能随参考分子符号翻转：**未复现**（四种理论层次 CE₁ 均为正） |
+| **一致** | P2、P3、P4、P5、P6、P7、P8、P9 |
+
+**结论入口（建议先看）：**
+
+| 文档 | 链接 |
+|------|------|
+| **判定总表（审计）** | [deliverables/final/VERDICT_TABLE.md](deliverables/final/VERDICT_TABLE.md) · [English](deliverables/final/VERDICT_TABLE.en.md) |
+| **执行摘要** | [deliverables/final/EXECUTIVE_SUMMARY.md](deliverables/final/EXECUTIVE_SUMMARY.md) · [English](deliverables/final/EXECUTIVE_SUMMARY.en.md) |
+| **单元判定 P1–P9** | [deliverables/unit/INDEX.md](deliverables/unit/INDEX.md) · [English](deliverables/unit/INDEX.en.md) |
+
+> **一致 / 非一致 = 在原著口径下能否被第三方复现**，不等于「全书对错」或「教科书理论被推翻」。限定说明见执行摘要。
+
+---
+
 **本项目是采用最新 AI 技术的 AI for Science（AI4S）Agent 项目**：由智能体在预注册判据与硬证据门禁下，端到端完成命题拆解、独立编码、量子化学计算编排、质控与正式判定落盘——而不是用聊天模型「口头评论」原著。
 
 **科学任务**：对**虞忠衡教授** **《Questioning Fundamental Principles of Organic Chemistry》**中与传统有机结构理论相悖的九条核心命题（P1–P9）做第三方独立复现，每条交付 **一致 / 非一致**；计算主引擎为既有环境中的 **PySCF**。
