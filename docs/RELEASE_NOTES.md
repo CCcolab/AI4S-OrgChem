@@ -40,14 +40,14 @@ Under Professor Yu’s published definitions and reference-state protocols, **ei
 
 | Doc | Link |
 |-----|------|
-| Homepage (EN) | [README.md](../README.md) · [中文](../README.zh-CN.md) |
-| Executive summary | [EXECUTIVE_SUMMARY.en.md](../deliverables/final/EXECUTIVE_SUMMARY.en.md) |
-| Verdict table (audit) | [VERDICT_TABLE.en.md](../deliverables/final/VERDICT_TABLE.en.md) |
-| Full report | [FULL_REPORT.en.md](../deliverables/final/FULL_REPORT.en.md) |
-| Unit verdicts P1–P9 | [INDEX.en.md](../deliverables/unit/INDEX.en.md) |
-| QC expert guide (15–30 min) | [expert_quick_review_guide.md](expert_quick_review_guide.md) |
-| Proposition specs | [propositions.en.md](propositions.en.md) |
-| Quality gates G1–G5 | [quality_gates.en.md](quality_gates.en.md) |
+| Homepage (EN) | [README.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/README.md) · [中文](https://github.com/CCcolab/AI4S-OrgChem/blob/main/README.zh-CN.md) |
+| Executive summary | [EXECUTIVE_SUMMARY.en.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/deliverables/final/EXECUTIVE_SUMMARY.en.md) |
+| Verdict table (audit) | [VERDICT_TABLE.en.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/deliverables/final/VERDICT_TABLE.en.md) |
+| Full report | [FULL_REPORT.en.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/deliverables/final/FULL_REPORT.en.md) |
+| Unit verdicts P1–P9 | [INDEX.en.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/deliverables/unit/INDEX.en.md) |
+| QC expert guide (15–30 min) | [expert_quick_review_guide.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/docs/expert_quick_review_guide.md) |
+| Proposition specs | [propositions.en.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/docs/propositions.en.md) |
+| Quality gates G1–G5 | [quality_gates.en.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/docs/quality_gates.en.md) |
 
 ### Scoreboard
 
@@ -97,8 +97,8 @@ cd /mnt/d/AI4S-OrgChem
 PYTHONPATH=. python3 -m src.p6_ese.run_v4_objections --basis '6-31g*'
 ```
 
-Full entry commands: [FULL_REPORT.en.md §7](../deliverables/final/FULL_REPORT.en.md). Scripts exit non-zero if `quality_gate.passed != true`.
+Full entry commands: [FULL_REPORT.en.md §7](https://github.com/CCcolab/AI4S-OrgChem/blob/main/deliverables/final/FULL_REPORT.en.md). Scripts exit non-zero if `quality_gate.passed != true`.
 
 ---
 
-中文读者可从 [README.zh-CN.md](../README.zh-CN.md) 与结题摘要 [EXECUTIVE_SUMMARY.md](../deliverables/final/EXECUTIVE_SUMMARY.md) 开始。
+中文读者可从 [README.zh-CN.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/README.zh-CN.md) 与结题摘要 [EXECUTIVE_SUMMARY.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/deliverables/final/EXECUTIVE_SUMMARY.md) 开始。

@@ -10,7 +10,7 @@
 | File | Content | Tone |
 |------|---------|------|
 | [`EXECUTIVE_SUMMARY.en.md`](EXECUTIVE_SUMMARY.en.md) | One-page conclusion: AI4S Agent framing + 8 Agree + 1 Disagree | Reader-facing summary |
-| [`../docs/expert_quick_review_guide.md`](../docs/expert_quick_review_guide.md) | **QC expert quick-review guide (EN/中文)** | 15–30 min expert path |
+| [`../../docs/expert_quick_review_guide.md`](../../docs/expert_quick_review_guide.md) | **QC expert quick-review guide (EN/中文)** | 15–30 min expert path |
 | [`VERDICT_TABLE.en.md`](VERDICT_TABLE.en.md) | Pre-registered criteria / measured / threshold / gates | **Pure audit** |
 | [`FULL_REPORT.en.md`](FULL_REPORT.en.md) | Genre, methods, results, objections, residuals, reproduce commands | **Replication study** + AI4S Agent |
 | [`checklist.en.md`](checklist.en.md) | Freeze checks: verdicts / G1–G5 / voided data / compliance / sync | Pure audit |

@@ -38,11 +38,11 @@ Patch release aligning the **GitHub Release tarball/zipball** with `main` after 
 
 | Doc | Link |
 |-----|------|
-| Homepage (EN) | [README.md](../README.md) · [中文](../README.zh-CN.md) |
-| v1.0.0 freeze notes | [RELEASE_NOTES.md](RELEASE_NOTES.md) |
-| Executive summary | [EXECUTIVE_SUMMARY.en.md](../deliverables/final/EXECUTIVE_SUMMARY.en.md) |
-| Unit verdicts P1–P9 | [INDEX.en.md](../deliverables/unit/INDEX.en.md) |
-| QC expert guide | [expert_quick_review_guide.md](expert_quick_review_guide.md) |
+| Homepage (EN) | [README.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/README.md) · [中文](https://github.com/CCcolab/AI4S-OrgChem/blob/main/README.zh-CN.md) |
+| v1.0.0 freeze notes | [RELEASE_NOTES.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/docs/RELEASE_NOTES.md) |
+| Executive summary | [EXECUTIVE_SUMMARY.en.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/deliverables/final/EXECUTIVE_SUMMARY.en.md) |
+| Unit verdicts P1–P9 | [INDEX.en.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/deliverables/unit/INDEX.en.md) |
+| QC expert guide | [expert_quick_review_guide.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/docs/expert_quick_review_guide.md) |
 
 ### Scoreboard (unchanged)
 
@@ -59,4 +59,4 @@ Patch release aligning the **GitHub Release tarball/zipball** with `main` after 
 
 ---
 
-中文读者：科学结论与 v1.0.0 冻结版相同；本补丁仅同步文档、隐私脱敏与 `.gitignore`。请从 [README.zh-CN.md](../README.zh-CN.md) 进入。
+中文读者：科学结论与 v1.0.0 冻结版相同；本补丁仅同步文档、隐私脱敏与 `.gitignore`。请从 [README.zh-CN.md](https://github.com/CCcolab/AI4S-OrgChem/blob/main/README.zh-CN.md) 进入。

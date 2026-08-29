@@ -66,7 +66,7 @@
 
 ## 6. 专家异议预案
 
-完整分层见：[`implementation/P1_计算与论证表.md`](../../implementation/P1_计算与论证表.md) §2。
+完整分层见：[`implementation/P1_计算与论证表.md`](../../../implementation/P1_计算与论证表.md) §2。
 
 | 可能异议 | 回应 |
 |------|------|
@@ -78,7 +78,7 @@
 
 ## 7. 质控闸
 
-对照 [`docs/quality_gates.md`](../../docs/quality_gates.md)：G1–G5 **通过**；`ce_*.json` 已含 `quality_gate`（含回填）。与 P3 误判不同类；**不改写**「非一致」。
+对照 [`docs/quality_gates.md`](../../../docs/quality_gates.md)：G1–G5 **通过**；`ce_*.json` 已含 `quality_gate`（含回填）。与 P3 误判不同类；**不改写**「非一致」。
 
 ## 8. 判定
 

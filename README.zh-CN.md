@@ -11,6 +11,10 @@
 
 [English](README.md) | **中文**
 
+> **本仓库仅指** [`CCcolab/AI4S-OrgChem`](https://github.com/CCcolab/AI4S-OrgChem)（P1–P9 PySCF 复现支路）。  
+> **请勿与同账号下其他支路混淆**：  
+> [`AI4OrgChem`](https://github.com/CCcolab/AI4OrgChem) · [`AI4S-AI4OrgChem`](https://github.com/CCcolab/AI4S-AI4OrgChem) — 独立仓库、独立实现，**本代码库内无指向它们的业务链接**。
+
 **本项目是采用最新 AI 技术的 AI for Science（AI4S）Agent 项目**：由智能体在预注册判据与硬证据门禁下，端到端完成命题拆解、独立编码、量子化学计算编排、质控与正式判定落盘——而不是用聊天模型「口头评论」原著。
 
 **科学任务**：对**虞忠衡教授** **《Questioning Fundamental Principles of Organic Chemistry》**中与传统有机结构理论相悖的九条核心命题（P1–P9）做第三方独立复现，每条交付 **一致 / 非一致**；计算主引擎为既有环境中的 **PySCF**。

@@ -11,6 +11,10 @@
 
 **English** | [中文](README.zh-CN.md)
 
+> **This repository is only** [`CCcolab/AI4S-OrgChem`](https://github.com/CCcolab/AI4S-OrgChem) (P1–P9 PySCF replication arm).  
+> Do **not** confuse with sibling arms under the same owner:  
+> [`AI4OrgChem`](https://github.com/CCcolab/AI4OrgChem) · [`AI4S-AI4OrgChem`](https://github.com/CCcolab/AI4S-AI4OrgChem) — separate repos, separate implementations, **not** linked from this codebase.
+
 **This is an AI-for-Science (AI4S) Agent project** using state-of-the-art LLM agent technology: an agent end-to-end decomposes propositions, independently writes code, orchestrates quantum-chemical calculations, enforces hard evidence gates, and writes formal verdicts—rather than using a chat model to “comment” on a book.
 
 **Scientific task**: Independent third-party replication of nine core propositions (P1–P9) from **Professor Zhongheng Yu**’s **Questioning Fundamental Principles of Organic Chemistry** that challenge traditional organic structural theory. Each proposition receives an **Agree / Disagree** verdict. The primary computation engine is **PySCF** in a fixed existing environment.
