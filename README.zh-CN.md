@@ -1,5 +1,14 @@
 # AI4S-OrgChem
 
+[![release](https://img.shields.io/badge/release-v1.0.1-orange)](https://github.com/CCcolab/AI4S-OrgChem/releases/tag/v1.0.1-post-freeze-2026-08-28)
+[![verdict](https://img.shields.io/badge/verdict-8_一致_1_非一致-success)](deliverables/final/VERDICT_TABLE.md)
+[![quality gates](https://img.shields.io/badge/quality_gates-G1--G5_通过-success)](docs/quality_gates.md)
+[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
+[![evidence](https://img.shields.io/badge/evidence-P1--P9_已验证-green)](deliverables/unit/INDEX.md)
+[![WSL2](https://img.shields.io/badge/WSL2-Ubuntu_24.04-blue)](WSL2/README.md)
+[![PySCF](https://img.shields.io/badge/PySCF-2.14.0-blue)](WSL2/README.md)
+[![AI4S](https://img.shields.io/badge/AI4S-Agent-purple)](docs/expert_quick_review_guide.md)
+
 [English](README.md) | **中文**
 
 **本项目是采用最新 AI 技术的 AI for Science（AI4S）Agent 项目**：由智能体在预注册判据与硬证据门禁下，端到端完成命题拆解、独立编码、量子化学计算编排、质控与正式判定落盘——而不是用聊天模型「口头评论」原著。

@@ -1,5 +1,14 @@
 # AI4S-OrgChem
 
+[![release](https://img.shields.io/badge/release-v1.0.1-orange)](https://github.com/CCcolab/AI4S-OrgChem/releases/tag/v1.0.1-post-freeze-2026-08-28)
+[![verdict](https://img.shields.io/badge/verdict-8_Agree_1_Disagree-success)](deliverables/final/VERDICT_TABLE.en.md)
+[![quality gates](https://img.shields.io/badge/quality_gates-G1--G5_passed-success)](docs/quality_gates.en.md)
+[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
+[![evidence](https://img.shields.io/badge/evidence-P1--P9_validated-green)](deliverables/unit/INDEX.en.md)
+[![WSL2](https://img.shields.io/badge/WSL2-Ubuntu_24.04-blue)](WSL2/README.md)
+[![PySCF](https://img.shields.io/badge/PySCF-2.14.0-blue)](WSL2/README.md)
+[![AI4S](https://img.shields.io/badge/AI4S-Agent-purple)](docs/expert_quick_review_guide.md)
+
 **English** | [中文](README.zh-CN.md)
 
 **This is an AI-for-Science (AI4S) Agent project** using state-of-the-art LLM agent technology: an agent end-to-end decomposes propositions, independently writes code, orchestrates quantum-chemical calculations, enforces hard evidence gates, and writes formal verdicts—rather than using a chat model to “comment” on a book.
