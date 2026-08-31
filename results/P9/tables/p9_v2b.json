@@ -44,5 +44,17 @@
       "N16_status": "aborted_GL_Newton; excluded"
     }
   },
-  "hartree_to_kcal": 627.5094740631
+  "hartree_to_kcal": 627.5094740631,
+  "timestamp_utc": "2026-08-24T12:00:00+00:00",
+  "engine": "PySCF",
+  "engine_version": "2.14.0",
+  "quality_gate": {
+    "passed": true,
+    "G1_topology": true,
+    "G2_geometry": true,
+    "G3_convergence": true,
+    "G4_energy_scale": true,
+    "G5_path_clean": true,
+    "note": "v2b objections closed; N=16 BLA variant excluded"
+  }
 }

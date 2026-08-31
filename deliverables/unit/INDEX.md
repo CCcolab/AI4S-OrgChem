@@ -16,6 +16,7 @@
 
 **齐套状态（2026-08-25）**：9/9 命题均具 `VERDICT.md` + `VERDICT.en.md` + `report.md` + `evidence/` + `canvas_link.md`；G1–G5 全过 → 已冻结 [`deliverables/final/`](../final/)。
 
-正式判定文件（权威）：各目录下 `VERDICT.md`；英文镜像：`VERDICT.en.md`。
+**正式判定（L1 唯一权威）**：各目录下 `VERDICT.md`（英文镜像 `VERDICT.en.md`）。  
+**冻结总判**：**8 一致 · 1 非一致**（2026-08-25）——见 [`docs/FROZEN_VERDICT_AUTHORITY.md`](../../docs/FROZEN_VERDICT_AUTHORITY.md)。
 
-**定判纪律**：须通过 [`docs/quality_gates.md`](../../docs/quality_gates.md)（G1–G5）。
+**定判纪律**：须通过 [`docs/quality_gates.md`](../../docs/quality_gates.md)（G1–G5）。措辞修订、阅读辅助五态 **不改变** L1 冻结判定。

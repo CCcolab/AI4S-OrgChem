@@ -4,7 +4,8 @@
 
 > **Pure audit** record: pre-registered criteria, measured values, threshold met?, quality gates.  
 > No theory-layer commentary (see [`FULL_REPORT.en.md`](FULL_REPORT.en.md)).  
-> Authoritative sources: each `deliverables/unit/Pn/VERDICT.md`. Freeze date: 2026-08-25.
+> **L1 authority**: each `deliverables/unit/Pn/VERDICT.md` · **Freeze**: 2026-08-25 · **Zero-ambiguity policy**: [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../docs/FROZEN_VERDICT_AUTHORITY.en.md)  
+> **Frozen tally is not changed by wording edits, reading-aid labels, or third-party review responses**; reversals only per that document §5.
 
 ## 1. Totals
 
@@ -30,7 +31,7 @@ All nine unit `VERDICT.md` files present; G1–G5 passed → freeze prerequisite
 | G1–G5 | Pass |
 | **Verdict** | **Disagree** (~98%) |
 
-### P2 — Conjugation destabilizes and drives distortion (umbrella)
+### P2 — Conjugation destabilizes and drives distortion (meta aggregate)
 
 | Item | Content |
 |------|---------|
@@ -53,7 +54,7 @@ All nine unit `VERDICT.md` files present; G1–G5 passed → freeze prerequisite
 | G1–G5 | Pass (**previously rejected**: wrong-ring data in `results/P3/invalid_wrong_geometry/`) |
 | **Verdict** | **Agree** (~95%) |
 
-### P4 — Benzene D₆ₕ driven by nuclear repulsion
+### P4 — Benzene D₆ₕ: signs pass on frozen BLA path
 
 | Item | Content |
 |------|---------|
@@ -63,7 +64,7 @@ All nine unit `VERDICT.md` files present; G1–G5 passed → freeze prerequisite
 | G1–G5 | Pass |
 | **Verdict** | **Agree** (~90%) |
 
-### P5 — Local ΔEAm always destabilizing; single-bond lengthening
+### P5 — Local ΔEAm: positive in tested set; Δr>0
 
 | Item | Content |
 |------|---------|
@@ -83,7 +84,7 @@ All nine unit `VERDICT.md` files present; G1–G5 passed → freeze prerequisite
 | G1–G5 | Pass |
 | **Verdict** | **Agree** (~98%, v4 three objections closed) |
 
-### P7 — Strained-aromatic BLA attributed to π delocalization
+### P7 — C₁₂H₆: significant BLA collapse under PLG (single system)
 
 | Item | Content |
 |------|---------|
@@ -105,7 +106,7 @@ All nine unit `VERDICT.md` files present; G1–G5 passed → freeze prerequisite
 | G1–G5 | Pass |
 | **Verdict** | **Agree** (~96%, v2 three objections closed) |
 
-### P9 — Large [N]annulenes trend polyene-like
+### P9 — Large [N]annulenes: N=8–18 gap convergence trend
 
 | Item | Content |
 |------|---------|

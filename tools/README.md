@@ -11,3 +11,5 @@
 | `extract_pdf.py` | **仅本地**从 PDF 抽文本到 `data/`；**输出不得提交** |
 
 一次性调试探针已删除，不进入 GitHub。
+
+| `validate_repo.py` | 冻结 L1 一致性、JSON 解析、关键 evidence 的 `quality_gate` 检查 |

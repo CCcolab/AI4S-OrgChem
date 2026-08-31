@@ -2,6 +2,9 @@
 
 [English](VERDICT.en.md) | **中文**
 
+> **冻结判定（L1 唯一权威）**：**一致** · 冻结日 **2026-08-25**。  
+> 「source-aligned operational estimator」为范围说明；**不改变** L1。见 [`docs/FROZEN_VERDICT_AUTHORITY.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.md)。
+
 - **判定：一致**
 - 日期：2026-08-24（v4 异议闭合）
 - 完成度：**~98%**

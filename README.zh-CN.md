@@ -1,13 +1,13 @@
 # AI4S-OrgChem
 
 [![release](https://img.shields.io/badge/release-v1.0.1-orange)](https://github.com/CCcolab/AI4S-OrgChem/releases/tag/v1.0.1-post-freeze-2026-08-28)
-[![verdict](https://img.shields.io/badge/verdict-8_一致_1_非一致-success)](deliverables/final/VERDICT_TABLE.md)
+[![verdict](https://img.shields.io/badge/verdict-8_一致_1_非一致_(冻结)-success)](deliverables/final/VERDICT_TABLE.md)
 [![quality gates](https://img.shields.io/badge/quality_gates-G1--G5_通过-success)](docs/quality_gates.md)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
-[![evidence](https://img.shields.io/badge/evidence-P1--P9_已验证-green)](deliverables/unit/INDEX.md)
+[![evidence](https://img.shields.io/badge/evidence-P1--P9_证据包-blue)](deliverables/unit/INDEX.md)
 [![WSL2](https://img.shields.io/badge/WSL2-Ubuntu_24.04-blue)](WSL2/README.md)
 [![PySCF](https://img.shields.io/badge/PySCF-2.14.0-blue)](WSL2/README.md)
-[![AI4S](https://img.shields.io/badge/AI4S-Agent-purple)](docs/expert_quick_review_guide.md)
+[![AI4S](https://img.shields.io/badge/AI4S-Cursor--assisted_workflow-purple)](docs/expert_quick_review_guide.md)
 
 [English](README.md) | **中文**
 
@@ -15,7 +15,7 @@
 > **请勿与同账号下其他支路混淆**：  
 > [`AI4OrgChem`](https://github.com/CCcolab/AI4OrgChem) · [`AI4S-AI4OrgChem`](https://github.com/CCcolab/AI4S-AI4OrgChem) — 独立仓库、独立实现，**本代码库内无指向它们的业务链接**。
 
-**本项目是采用最新 AI 技术的 AI for Science（AI4S）Agent 项目**：由智能体在预注册判据与硬证据门禁下，端到端完成命题拆解、独立编码、量子化学计算编排、质控与正式判定落盘——而不是用聊天模型「口头评论」原著。
+**本项目是 Cursor 辅助的 AI for Science（AI4S）工作流**：在预注册判据与硬证据门禁下，完成命题拆解、独立编码、量子化学计算编排、质控与正式判定落盘——而不是用聊天模型「口头评论」原著。（Agent 运行时轨迹公开前，对外称 **Cursor-assisted workflow**，见 [`docs/FROZEN_VERDICT_AUTHORITY.md`](docs/FROZEN_VERDICT_AUTHORITY.md)。）
 
 **科学任务**：对**虞忠衡教授** **《Questioning Fundamental Principles of Organic Chemistry》**中与传统有机结构理论相悖的九条核心命题（P1–P9）做第三方独立复现，每条交付 **一致 / 非一致**；计算主引擎为既有环境中的 **PySCF**。
 
@@ -68,19 +68,23 @@
 
 ## 最终结论 — 对虞忠衡教授 P1–P9 的独立验证
 
+> **冻结判定零歧义**：正式判定 **仅** 以各 [`deliverables/unit/Pn/VERDICT.md`](deliverables/unit/INDEX.md) 为准（L1）；下表为冻结审计摘要（2026-08-25）。  
+> 权威层级、改判纪律、阅读辅助五态见 **[`docs/FROZEN_VERDICT_AUTHORITY.md`](docs/FROZEN_VERDICT_AUTHORITY.md)**。措辞修订 **不改变** 下表判定。
+
 **在原著公开定义与参考态口径下：**
 
 | | |
 |--|--|
-| **总判** | **8 一致 · 1 非一致**（2026-08-25 冻结） |
+| **总判（冻结 L1）** | **8 一致 · 1 非一致**（2026-08-25；**不可因措辞修订而改变**） |
 | **非一致** | **P1** — 丁二烯共轭能随参考分子符号翻转：**未复现**（四种理论层次 CE₁ 均为正） |
-| **一致** | P2、P3、P4、P5、P6、P7、P8、P9 |
+| **一致** | P2（元命题汇总）、P3、P4、P5、P6、P7、P8、P9 |
 
 **结论入口（建议先看）：**
 
 | 文档 | 链接 |
 |------|------|
 | **判定总表（审计）** | [deliverables/final/VERDICT_TABLE.md](deliverables/final/VERDICT_TABLE.md) · [English](deliverables/final/VERDICT_TABLE.en.md) |
+| **冻结判定权威层级** | [**docs/FROZEN_VERDICT_AUTHORITY.md**](docs/FROZEN_VERDICT_AUTHORITY.md) · [English](docs/FROZEN_VERDICT_AUTHORITY.en.md) |
 | **执行摘要** | [deliverables/final/EXECUTIVE_SUMMARY.md](deliverables/final/EXECUTIVE_SUMMARY.md) · [English](deliverables/final/EXECUTIVE_SUMMARY.en.md) |
 | **单元判定 P1–P9** | [deliverables/unit/INDEX.md](deliverables/unit/INDEX.md) · [English](deliverables/unit/INDEX.en.md) |
 
@@ -130,6 +134,7 @@
 |------|------|
 | [docs/propositions.md](docs/propositions.md) | 命题权威规格 |
 | [docs/quality_gates.md](docs/quality_gates.md) | 证据质控硬闸 G1–G5 |
+| [**docs/FROZEN_VERDICT_AUTHORITY.md**](docs/FROZEN_VERDICT_AUTHORITY.md) | **冻结判定权威层级（零歧义）** |
 | [**docs/expert_quick_review_guide.md**](docs/expert_quick_review_guide.md) | **量子化学专家快速审阅指南（中英）** |
 | [docs/research_plan.md](docs/research_plan.md) | 实施方案 |
 | [docs/directory_structure.md](docs/directory_structure.md) | 目录与落盘约定 |

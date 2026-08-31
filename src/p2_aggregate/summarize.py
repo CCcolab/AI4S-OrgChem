@@ -1,12 +1,14 @@
 """
 P2 v2 — aggregate closed unit verdicts (P1, P3–P9) + LFMO-lite.
 
+Unit verdict strings are read from deliverables/unit/Pn/VERDICT.md (L1 authority).
 Quality gates: units inherited; LFMO-lite has its own G1–G5 in
 results/P2/tables/p2_v2_lfmo_lite.json.
 """
 from __future__ import annotations
 
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -17,104 +19,110 @@ if str(ROOT) not in sys.path:
 
 from src.common.units import HARTREE_TO_KCAL, ensure_dir, write_json  # noqa: E402
 
-UNITS = [
+VERDICT_LINE = re.compile(r"- \*\*判定[：:]\s*(一致|非一致)\*\*")
+
+# Narrative metadata only — verdict comes from VERDICT.md
+UNIT_META: list[dict] = [
     {
         "id": "P1",
-        "verdict": "非一致",
         "progress_pct": 98,
         "role_in_P2": "热化学前置；L3 GL 去稳定同号",
         "supports_destabilize": True,
         "supports_drive_distortion": None,
         "note": "CE1/CE2 均正，无符号翻转 → 单元非一致；GL ΔE≈+4.06 去稳定，不改 P1 判定。",
         "key": "CE2=+1.86；GL ΔE=+4.06",
-        "gates_passed": True,
-        "source": "deliverables/unit/P1/VERDICT.md",
     },
     {
         "id": "P3",
-        "verdict": "一致",
         "progress_pct": 95,
         "role_in_P2": "NBA 型：拥挤大扭转可最稳",
         "supports_destabilize": None,
         "supports_drive_distortion": True,
         "note": "E_min≈44.9°；自由 B3LYP 折叠≈34.5°。LFMO-lite 在 P2 v2。",
         "key": "θ_min=44.9°；ΔE(0–90°)≈1.9 kcal",
-        "gates_passed": True,
-        "source": "deliverables/unit/P3/VERDICT.md",
     },
     {
         "id": "P4",
-        "verdict": "一致",
         "progress_pct": 90,
-        "role_in_P2": "芳香几何：π(Ee) 倾向 BLA，EN 主导 D6h",
+        "role_in_P2": "芳香几何：沿冻结 BLA 路径符号达阈",
         "supports_destabilize": True,
         "supports_drive_distortion": True,
-        "note": "趋向等键长：ΔEN=−96，ΔEe=+88；Ee 极小在 δ=0.12 Å。",
+        "note": "δ=0 处 E_tot/EN 最低；趋向均化 ΔEN<0、ΔEe>0。",
         "key": "E_min 与 EN_min 均在 δ=0",
-        "gates_passed": True,
-        "source": "deliverables/unit/P4/VERDICT.md",
     },
     {
         "id": "P5",
-        "verdict": "一致",
         "progress_pct": 96,
         "role_in_P2": "多烯/芳香局部：ΔEAm>0 且单键伸长",
         "supports_destabilize": True,
         "supports_drive_distortion": True,
         "note": "6/6 ΔEAm>0；丁二烯 Δr=+0.018；己三烯 Δr*=+0.0045。",
         "key": "ΔEAm 全正；Δr>0",
-        "gates_passed": True,
-        "source": "deliverables/unit/P5/VERDICT.md",
     },
     {
         "id": "P6",
-        "verdict": "一致",
         "progress_pct": 98,
         "role_in_P2": "ESE 口径：局部去稳定 vs 环额外稳定须分开",
         "supports_destabilize": True,
         "supports_drive_distortion": None,
         "note": "苯 ESE≈−35.4（环额外稳定）；CBD ΔEA≈+54–66（去稳定）。",
         "key": "苯 ESE=−35.44；CBD vert@G*=+53.98",
-        "gates_passed": True,
-        "source": "deliverables/unit/P6/VERDICT.md",
     },
     {
         "id": "P7",
-        "verdict": "一致",
         "progress_pct": 90,
         "role_in_P2": "张力芳香 BLA 归因于 π 耦合",
         "supports_destabilize": None,
         "supports_drive_distortion": True,
         "note": "Δr(G)=+0.21 → PLG*=+0.02。",
         "key": "drop Δr=+0.1865 Å",
-        "gates_passed": True,
-        "source": "deliverables/unit/P7/VERDICT.md",
     },
     {
         "id": "P8",
-        "verdict": "一致",
         "progress_pct": 96,
         "role_in_P2": "呋喃类 ΔEA>0（局部去稳定）≠ 苯 ESE",
         "supports_destabilize": True,
         "supports_drive_distortion": None,
         "note": "呋喃 LDE(G*)=−39.04；苯 ΔEA<0。",
         "key": "呋喃 ΔEA=+28.6；LDE≈−39",
-        "gates_passed": True,
-        "source": "deliverables/unit/P8/VERDICT.md",
     },
     {
         "id": "P9",
-        "verdict": "一致",
         "progress_pct": 94,
         "role_in_P2": "大环芳香/反芳香差距收敛",
         "supports_destabilize": None,
         "supports_drive_distortion": None,
         "note": "N=8–18 符号守 4n+2；gap 2.84→0.42。",
         "key": "gap(16–18)=0.424",
-        "gates_passed": True,
-        "source": "deliverables/unit/P9/VERDICT.md",
     },
 ]
+
+
+def parse_verdict_zh(verdict_path: Path) -> str:
+    for line in verdict_path.read_text(encoding="utf-8").splitlines():
+        m = VERDICT_LINE.search(line)
+        if m:
+            return m.group(1)
+    raise RuntimeError(f"No L1 verdict line in {verdict_path}")
+
+
+def load_units() -> list[dict]:
+    units: list[dict] = []
+    for meta in UNIT_META:
+        pid = meta["id"]
+        rel = Path("deliverables") / "unit" / pid / "VERDICT.md"
+        vpath = ROOT / rel
+        verdict = parse_verdict_zh(vpath)
+        units.append(
+            {
+                **meta,
+                "verdict": verdict,
+                "gates_passed": True,
+                "source": rel.as_posix(),
+                "derivation": "read_from_VERDICT_md",
+            }
+        )
+    return units
 
 
 def load_lfmo(path: Path) -> dict | None:
@@ -145,7 +153,7 @@ def analyze(units: list[dict], lfmo: dict | None) -> dict:
     if gates:
         completion += 5
     if lfmo_ok:
-        completion += 6  # π–π + nonbonded σ–σ + Eπσ(0); slope of Eπσ not isolated
+        completion += 6
     completion = min(94, completion)
     return {
         "two_class_ok": two_class,
@@ -156,6 +164,7 @@ def analyze(units: list[dict], lfmo: dict | None) -> dict:
         "p1_ce_sign_flip": p1_flip_ok,
         "agree": agree,
         "completion_estimate_pct": completion,
+        "meta_proposition": True,
         "scope": (
             "局部/成对 π 离域去稳定（ΔEAm、多烯 GL ΔE、呋喃 ΔEA、CBD ΔEA）"
             "且 π 驱动畸变（BLA、单键伸长、张力芳香）；"
@@ -170,9 +179,10 @@ def analyze(units: list[dict], lfmo: dict | None) -> dict:
 def main() -> None:
     out = ROOT / "results" / "P2"
     ensure_dir(out / "tables")
+    units = load_units()
     lfmo = load_lfmo(out / "tables" / "p2_v2_lfmo_lite.json")
-    analysis = analyze(UNITS, lfmo)
-    gates_ok = all(u["gates_passed"] for u in UNITS)
+    analysis = analyze(units, lfmo)
+    gates_ok = all(u["gates_passed"] for u in units)
     lfmo_gate = bool(lfmo and lfmo.get("quality_gate", {}).get("passed"))
     remainder = [
         "π–σ 随 θ 的阻力斜率未用 AO 代理独立隔离（大扭转 π 指派/Ne 问题）",
@@ -181,8 +191,10 @@ def main() -> None:
     pack = {
         "proposition": "P2",
         "version": "v2",
-        "protocol": "aggregate closed unit VERDICTs + LFMO-lite (RHF/STO-3G NBA)",
-        "units": UNITS,
+        "protocol": "aggregate: verdicts read from unit VERDICT.md + LFMO-lite (RHF/STO-3G NBA)",
+        "derivation_type": "aggregate",
+        "frozen_verdict_authority": "docs/FROZEN_VERDICT_AUTHORITY.md",
+        "units": units,
         "lfmo_lite": None
         if lfmo is None
         else {
@@ -199,7 +211,7 @@ def main() -> None:
             "G3_convergence": True,
             "G4_energy_scale": True,
             "G5_path_clean": True,
-            "note": "Units inherited; LFMO-lite has its own G1–G5.",
+            "note": "Units inherited from L1 VERDICT.md; LFMO-lite has its own G1–G5.",
         },
         "agree": analysis["agree"] if gates_ok else None,
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),
@@ -214,11 +226,12 @@ def main() -> None:
         f"completion~{analysis['completion_estimate_pct']}%",
         f"- two_class={analysis['two_class_ok']} "
         f"LFMO_two_channel={analysis['lfmo_two_channel_ok']}",
+        "- unit verdicts **read from** `deliverables/unit/Pn/VERDICT.md` (L1)",
         "",
         "| ID | 判定 | 去稳定 | 驱动畸变 | 要点 |",
         "|----|------|--------|----------|------|",
     ]
-    for u in UNITS:
+    for u in units:
         d = {True: "是", False: "否", None: "—"}[u["supports_destabilize"]]
         t = {True: "是", False: "否", None: "—"}[u["supports_drive_distortion"]]
         lines.append(

@@ -1,103 +1,113 @@
 {
   "proposition": "P2",
   "version": "v2",
-  "protocol": "aggregate closed unit VERDICTs + LFMO-lite (RHF/STO-3G NBA)",
+  "protocol": "aggregate: verdicts read from unit VERDICT.md + LFMO-lite (RHF/STO-3G NBA)",
+  "derivation_type": "aggregate",
+  "frozen_verdict_authority": "docs/FROZEN_VERDICT_AUTHORITY.md",
   "units": [
     {
       "id": "P1",
-      "verdict": "非一致",
       "progress_pct": 98,
       "role_in_P2": "热化学前置；L3 GL 去稳定同号",
       "supports_destabilize": true,
       "supports_drive_distortion": null,
       "note": "CE1/CE2 均正，无符号翻转 → 单元非一致；GL ΔE≈+4.06 去稳定，不改 P1 判定。",
       "key": "CE2=+1.86；GL ΔE=+4.06",
+      "verdict": "非一致",
       "gates_passed": true,
-      "source": "deliverables/unit/P1/VERDICT.md"
+      "source": "deliverables/unit/P1/VERDICT.md",
+      "derivation": "read_from_VERDICT_md"
     },
     {
       "id": "P3",
-      "verdict": "一致",
       "progress_pct": 95,
       "role_in_P2": "NBA 型：拥挤大扭转可最稳",
       "supports_destabilize": null,
       "supports_drive_distortion": true,
       "note": "E_min≈44.9°；自由 B3LYP 折叠≈34.5°。LFMO-lite 在 P2 v2。",
       "key": "θ_min=44.9°；ΔE(0–90°)≈1.9 kcal",
+      "verdict": "一致",
       "gates_passed": true,
-      "source": "deliverables/unit/P3/VERDICT.md"
+      "source": "deliverables/unit/P3/VERDICT.md",
+      "derivation": "read_from_VERDICT_md"
     },
     {
       "id": "P4",
-      "verdict": "一致",
       "progress_pct": 90,
-      "role_in_P2": "芳香几何：π(Ee) 倾向 BLA，EN 主导 D6h",
+      "role_in_P2": "芳香几何：沿冻结 BLA 路径符号达阈",
       "supports_destabilize": true,
       "supports_drive_distortion": true,
-      "note": "趋向等键长：ΔEN=−96，ΔEe=+88；Ee 极小在 δ=0.12 Å。",
+      "note": "δ=0 处 E_tot/EN 最低；趋向均化 ΔEN<0、ΔEe>0。",
       "key": "E_min 与 EN_min 均在 δ=0",
+      "verdict": "一致",
       "gates_passed": true,
-      "source": "deliverables/unit/P4/VERDICT.md"
+      "source": "deliverables/unit/P4/VERDICT.md",
+      "derivation": "read_from_VERDICT_md"
     },
     {
       "id": "P5",
-      "verdict": "一致",
       "progress_pct": 96,
       "role_in_P2": "多烯/芳香局部：ΔEAm>0 且单键伸长",
       "supports_destabilize": true,
       "supports_drive_distortion": true,
       "note": "6/6 ΔEAm>0；丁二烯 Δr=+0.018；己三烯 Δr*=+0.0045。",
       "key": "ΔEAm 全正；Δr>0",
+      "verdict": "一致",
       "gates_passed": true,
-      "source": "deliverables/unit/P5/VERDICT.md"
+      "source": "deliverables/unit/P5/VERDICT.md",
+      "derivation": "read_from_VERDICT_md"
     },
     {
       "id": "P6",
-      "verdict": "一致",
       "progress_pct": 98,
       "role_in_P2": "ESE 口径：局部去稳定 vs 环额外稳定须分开",
       "supports_destabilize": true,
       "supports_drive_distortion": null,
       "note": "苯 ESE≈−35.4（环额外稳定）；CBD ΔEA≈+54–66（去稳定）。",
       "key": "苯 ESE=−35.44；CBD vert@G*=+53.98",
+      "verdict": "一致",
       "gates_passed": true,
-      "source": "deliverables/unit/P6/VERDICT.md"
+      "source": "deliverables/unit/P6/VERDICT.md",
+      "derivation": "read_from_VERDICT_md"
     },
     {
       "id": "P7",
-      "verdict": "一致",
       "progress_pct": 90,
       "role_in_P2": "张力芳香 BLA 归因于 π 耦合",
       "supports_destabilize": null,
       "supports_drive_distortion": true,
       "note": "Δr(G)=+0.21 → PLG*=+0.02。",
       "key": "drop Δr=+0.1865 Å",
+      "verdict": "一致",
       "gates_passed": true,
-      "source": "deliverables/unit/P7/VERDICT.md"
+      "source": "deliverables/unit/P7/VERDICT.md",
+      "derivation": "read_from_VERDICT_md"
     },
     {
       "id": "P8",
-      "verdict": "一致",
       "progress_pct": 96,
       "role_in_P2": "呋喃类 ΔEA>0（局部去稳定）≠ 苯 ESE",
       "supports_destabilize": true,
       "supports_drive_distortion": null,
       "note": "呋喃 LDE(G*)=−39.04；苯 ΔEA<0。",
       "key": "呋喃 ΔEA=+28.6；LDE≈−39",
+      "verdict": "一致",
       "gates_passed": true,
-      "source": "deliverables/unit/P8/VERDICT.md"
+      "source": "deliverables/unit/P8/VERDICT.md",
+      "derivation": "read_from_VERDICT_md"
     },
     {
       "id": "P9",
-      "verdict": "一致",
       "progress_pct": 94,
       "role_in_P2": "大环芳香/反芳香差距收敛",
       "supports_destabilize": null,
       "supports_drive_distortion": null,
       "note": "N=8–18 符号守 4n+2；gap 2.84→0.42。",
       "key": "gap(16–18)=0.424",
+      "verdict": "一致",
       "gates_passed": true,
-      "source": "deliverables/unit/P9/VERDICT.md"
+      "source": "deliverables/unit/P9/VERDICT.md",
+      "derivation": "read_from_VERDICT_md"
     }
   ],
   "lfmo_lite": {
@@ -138,6 +148,7 @@
     "p1_ce_sign_flip": false,
     "agree": true,
     "completion_estimate_pct": 94,
+    "meta_proposition": true,
     "scope": "局部/成对 π 离域去稳定（ΔEAm、多烯 GL ΔE、呋喃 ΔEA、CBD ΔEA）且 π 驱动畸变（BLA、单键伸长、张力芳香）；NBA 提供「共平面因共轭最稳」的构象反例。苯环额外 ESE<0 按原著自身口径与局部 ΔEAm 分开。LFMO-lite：EV>0 且 dEV/dθ<0（0–30°）；Enσσ>0 且 dEnσσ/dθ<0（0–45°）；Eπσ(0)≈0（对表 5-16）。"
   },
   "quality_gate": {
@@ -147,10 +158,10 @@
     "G3_convergence": true,
     "G4_energy_scale": true,
     "G5_path_clean": true,
-    "note": "Units inherited; LFMO-lite has its own G1–G5."
+    "note": "Units inherited from L1 VERDICT.md; LFMO-lite has its own G1–G5."
   },
   "agree": true,
-  "timestamp_utc": "2026-08-24T12:47:19.315259+00:00",
+  "timestamp_utc": "2026-08-31T03:00:00.277223+00:00",
   "hartree_to_kcal": 627.5094740631,
   "remainder": [
     "π–σ 随 θ 的阻力斜率未用 AO 代理独立隔离（大扭转 π 指派/Ne 问题）",

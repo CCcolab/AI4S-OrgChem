@@ -2,7 +2,7 @@
 
 **English** | [中文](EXECUTIVE_SUMMARY.md)
 
-**Date**: 2026-08-25 · **Verdicts**: [`VERDICT_TABLE.en.md`](VERDICT_TABLE.en.md) · **Methods**: [`FULL_REPORT.en.md`](FULL_REPORT.en.md)  
+**Date**: 2026-08-25 · **Verdicts**: [`VERDICT_TABLE.en.md`](VERDICT_TABLE.en.md) · **Frozen authority**: [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../docs/FROZEN_VERDICT_AUTHORITY.en.md) · **Methods**: [`FULL_REPORT.en.md`](FULL_REPORT.en.md)  
 **Book author (subject of verification)**: **Professor Zhongheng Yu**  
 **Project type**: An **AI-for-Science (AI4S) Agent** project using state-of-the-art AI—an agent executes verification end-to-end under pre-registered criteria and hard evidence gates, not verbal commentary.  
 **Verification arm**: This repository (one of three planned independent LLM-Agent arms; this summary covers **this arm only**)
@@ -11,21 +11,22 @@
 
 ## One-sentence conclusion
 
-Under **Professor Zhongheng Yu**’s own published definitions and reference-state protocols, **eight of nine core propositions are independently third-party reproducible (Agree); one is not (Disagree)**. This neither overturns traditional conjugation/aromaticity theory nor establishes Professor Yu’s energy decomposition as the unique correct physical picture.
+Under **Professor Zhongheng Yu**’s own published definitions and reference-state protocols, **eight of nine core propositions are independently third-party reproducible (Agree); one is not (Disagree)** (frozen L1, 2026-08-25). This neither overturns traditional conjugation/aromaticity theory nor establishes Professor Yu’s energy decomposition as the unique correct physical picture.  
+**Formal verdicts live only in each unit `VERDICT.md`; wording edits and reading-aid labels do not change the frozen tally** (see [`FROZEN_VERDICT_AUTHORITY.en.md`](../../docs/FROZEN_VERDICT_AUTHORITY.en.md)).
 
 ## Scoreboard
 
 | Prop. | Claim (short) | Verdict | Completeness |
 |-------|---------------|---------|--------------|
 | **P1** | Butadiene conjugation energy flips sign when the reference molecule changes | **Disagree** | ~98% |
-| **P2** | Conjugation destabilizes and drives distortion (umbrella claim) | **Agree** | ~94% |
+| **P2** | Conjugation destabilization & distortion (**meta aggregate**) | **Agree** | ~94% |
 | **P3** | Crowded large-twist NBA-type conformations can be most stable | **Agree** | ~95% |
-| **P4** | Benzene D₆ₕ is driven by nuclear-repulsion minimization | **Agree** | ~90% |
-| **P5** | Local conjugation energy ΔEAm is always destabilizing and lengthens the single bond | **Agree** | ~96% |
+| **P4** | On frozen BLA path: E_tot/EN min at δ=0; ΔEN/ΔEe signs pass threshold | **Agree** | ~90% |
+| **P5** | Tested set: ΔEAm>0 and single-bond Δr>0 (within scope) | **Agree** | ~96% |
 | **P6** | Parameter-free ESE: benzene ≈ −36; cyclobutadiene ≈ +54 | **Agree** | ~98% |
-| **P7** | Strained-aromatic BLA arises from π delocalization, not angle strain | **Agree** | ~90% |
-| **P8** | Furan-like systems should use LDE, not benzene-like ESE for aromaticity | **Agree** | ~96% |
-| **P9** | Large [N]annulenes trend polyene-like | **Agree** | ~94% |
+| **P7** | C₁₂H₆: significant BLA collapse under PLG (single system) | **Agree** | ~90% |
+| **P8** | Furan-like LDE vs benzene ESE sign split | **Agree** | ~96% |
+| **P9** | N=8–18: 4n/4n+2 signs correct; gap trend (2007 proxy) | **Agree** | ~94% |
 
 ## Three strongest positive lines among the eight Agrees
 

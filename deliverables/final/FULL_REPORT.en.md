@@ -82,7 +82,7 @@ Measured values, thresholds, and pass/fail: [`VERDICT_TABLE.en.md`](VERDICT_TABL
 Strongest cluster. P6 hits two **opposite-sign** benchmarks with one localization + virtual-reference pipeline: benzene ESE = −35.44 (stabilizing); CBD ΔEA = +53.98 (destabilizing). P8 extends to heterocycles: furan-like ΔEA>0 vs benzene ΔEA<0. Persuasion comes from “one protocol, multiple sign directions, no tunable parameters.”
 
 **Cluster B — Geometric attribution (P4, P7)**  
-Energy components and localization answer what drives geometry. P4: toward equal bonds ΔEN = −96, ΔEe = +88 kcal/mol (nuclear repulsion favors D₆ₕ; electronic term favors alternation). P7: after cutting π coupling, central BLA 0.207 → 0.020 Å—contrary to Mills–Nixon angle-strain dominance.
+Frozen BLA path plus localization contrasts describe geometric components. P4: toward equal bonds ΔEN = −96, ΔEe = +88 kcal/mol (signs pass threshold; E_tot/EN min at δ=0; **no causal “driving” claim**). P7: C₁₂H₆ after cutting π coupling, central BLA 0.207 → 0.020 Å (single system; contrary to Mills–Nixon angle-strain dominance expectation).
 
 **Cluster C — Conformational counterexamples (P3, P2)**  
 P3: crowded large twist can be most stable (θ_min≈44.9°; free opt ≈34.5°). P2: on NBA, destabilizing terms fall with twist (dEV/dθ<0, dEnσσ/dθ<0)—they not only destabilize but **drive** distortion.

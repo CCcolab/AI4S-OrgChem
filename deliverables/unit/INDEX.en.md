@@ -2,7 +2,8 @@
 
 **English** | [中文](INDEX.md)
 
-Formal Chinese files remain authoritative: each `Pn/VERDICT.md`. English mirrors: `Pn/VERDICT.en.md`.
+Formal Chinese files remain authoritative (L1): each `Pn/VERDICT.md`. English mirrors: `Pn/VERDICT.en.md`.  
+**Frozen tally**: **8 Agree · 1 Disagree** (2026-08-25) — [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../docs/FROZEN_VERDICT_AUTHORITY.en.md). Wording edits and reading-aid labels **do not** change L1.
 
 | ID | Verdict | Completeness | English | Chinese |
 |----|---------|--------------|---------|---------|

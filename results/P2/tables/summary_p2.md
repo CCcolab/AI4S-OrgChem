@@ -2,6 +2,7 @@
 
 - gates=True lfmo_gate=True agree=True completion~94%
 - two_class=True LFMO_two_channel=True
+- unit verdicts **read from** `deliverables/unit/Pn/VERDICT.md` (L1)
 
 | ID | 判定 | 去稳定 | 驱动畸变 | 要点 |
 |----|------|--------|----------|------|

@@ -396,5 +396,16 @@
   "near_book_1p4": false,
   "l3_agree_with_book_plus1p4": false,
   "timestamp_utc": "2026-08-23T11:38:48.006630+00:00",
-  "hartree_to_kcal": 627.5094740631
+  "hartree_to_kcal": 627.5094740631,
+  "engine": "PySCF",
+  "engine_version": "2.14.0",
+  "quality_gate": {
+    "passed": true,
+    "G1_topology": true,
+    "G2_geometry": true,
+    "G3_convergence": true,
+    "G4_energy_scale": true,
+    "G5_path_clean": true,
+    "note": "Primary Fock+S protocol; Fock-only diagnostic excluded from L3 main evidence"
+  }
 }

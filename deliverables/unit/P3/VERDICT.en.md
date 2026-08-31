@@ -2,6 +2,9 @@
 
 **English** | [中文](VERDICT.md)
 
+> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
+> Scope notes **do not** change this verdict. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+
 - **Verdict: Agree**
 - Date: 2026-08-23
 - Status: Tight rescan quality gates PASSED; independent free B3LYP/6-31G* optimum angle

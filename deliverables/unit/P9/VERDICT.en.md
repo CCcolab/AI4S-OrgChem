@@ -2,6 +2,9 @@
 
 **English** | [中文](VERDICT.md)
 
+> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
+> Reading aid: `SUPPORTED_WITHIN_SCOPE` (trend layer; protocol limits in body)—**maps to L1 Agree**. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+
 - **Verdict: Agree**
 - Date: 2026-08-24 (v2b deepened)
 - Completeness: **~94%**
@@ -25,11 +28,12 @@
 | O2 | 2011 protocol | 2011-lite all signs correct; nearly coincides with 2007 | **Closed** |
 | O3 | Single Kekulé bond lengths | BLA 1.34/1.46 signs unchanged | **Closed** |
 
-## Protocol notes (no verdict change)
+## Protocol notes (scope limits; L1 remains Agree)
 
 - VDE uses independent **2007 ESE proxy**, not absolute EV(2011) from Yu Table 9-5.
 - Planar Kekulé; nonplanar large rings not included.
 - N=20–26 not scanned; N=16 BLA aborted (GL Newton cost) and isolated.
+- **These limits narrow interpretive scope; they do not change L1 Agree under pre-registered thresholds.**
 
 ## Quality gates
 

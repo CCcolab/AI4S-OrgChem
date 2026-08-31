@@ -2,6 +2,9 @@
 
 [English](VERDICT.en.md) | **中文**
 
+> **冻结判定（L1 唯一权威）**：**一致** · 冻结日 **2026-08-25**。  
+> 下文范围说明 **不改变**本判定。见 [`docs/FROZEN_VERDICT_AUTHORITY.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.md)。
+
 - **判定：一致**
 - 日期：2026-08-23
 - 状态：加严重扫质控闸 PASSED；B3LYP/6-31G* 自由最优角独立复核

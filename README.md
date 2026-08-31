@@ -1,13 +1,13 @@
 # AI4S-OrgChem
 
 [![release](https://img.shields.io/badge/release-v1.0.1-orange)](https://github.com/CCcolab/AI4S-OrgChem/releases/tag/v1.0.1-post-freeze-2026-08-28)
-[![verdict](https://img.shields.io/badge/verdict-8_Agree_1_Disagree-success)](deliverables/final/VERDICT_TABLE.en.md)
+[![verdict](https://img.shields.io/badge/verdict-8_Agree_1_Disagree_(frozen)-success)](deliverables/final/VERDICT_TABLE.en.md)
 [![quality gates](https://img.shields.io/badge/quality_gates-G1--G5_passed-success)](docs/quality_gates.en.md)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
-[![evidence](https://img.shields.io/badge/evidence-P1--P9_validated-green)](deliverables/unit/INDEX.en.md)
+[![evidence](https://img.shields.io/badge/evidence-P1--P9_evidence_pack-blue)](deliverables/unit/INDEX.en.md)
 [![WSL2](https://img.shields.io/badge/WSL2-Ubuntu_24.04-blue)](WSL2/README.md)
 [![PySCF](https://img.shields.io/badge/PySCF-2.14.0-blue)](WSL2/README.md)
-[![AI4S](https://img.shields.io/badge/AI4S-Agent-purple)](docs/expert_quick_review_guide.md)
+[![AI4S](https://img.shields.io/badge/AI4S-Cursor--assisted_workflow-purple)](docs/expert_quick_review_guide.md)
 
 **English** | [中文](README.zh-CN.md)
 
@@ -15,7 +15,7 @@
 > Do **not** confuse with sibling arms under the same owner:  
 > [`AI4OrgChem`](https://github.com/CCcolab/AI4OrgChem) · [`AI4S-AI4OrgChem`](https://github.com/CCcolab/AI4S-AI4OrgChem) — separate repos, separate implementations, **not** linked from this codebase.
 
-**This is an AI-for-Science (AI4S) Agent project** using state-of-the-art LLM agent technology: an agent end-to-end decomposes propositions, independently writes code, orchestrates quantum-chemical calculations, enforces hard evidence gates, and writes formal verdicts—rather than using a chat model to “comment” on a book.
+**This is a Cursor-assisted AI-for-Science (AI4S) workflow**: pre-registered criteria and hard evidence gates drive proposition decomposition, independent coding, QC orchestration, and formal verdicts—not chat commentary on the book. (Until agent runtime traces are public, we use **Cursor-assisted workflow**; see [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](docs/FROZEN_VERDICT_AUTHORITY.en.md).)
 
 **Scientific task**: Independent third-party replication of nine core propositions (P1–P9) from **Professor Zhongheng Yu**’s **Questioning Fundamental Principles of Organic Chemistry** that challenge traditional organic structural theory. Each proposition receives an **Agree / Disagree** verdict. The primary computation engine is **PySCF** in a fixed existing environment.
 
@@ -68,19 +68,23 @@ Scientific authority derives from **gated evidence chains**; the value of the AI
 
 ## Final verdict — replication of Professor Yu’s P1–P9
 
+> **Frozen verdict, zero ambiguity**: Formal verdicts live **only** in each [`deliverables/unit/Pn/VERDICT.md`](deliverables/unit/INDEX.en.md) (L1). The table below is the frozen audit summary (2026-08-25).  
+> Authority tiers, change procedure, and reading-aid labels: **[`docs/FROZEN_VERDICT_AUTHORITY.en.md`](docs/FROZEN_VERDICT_AUTHORITY.en.md)**. Wording edits **do not** change the verdicts below.
+
 **Under the monograph’s own published definitions and reference-state protocols:**
 
 | | |
 |--|--|
-| **Overall** | **8 Agree · 1 Disagree** (frozen 2026-08-25) |
+| **Overall (frozen L1)** | **8 Agree · 1 Disagree** (2026-08-25; **unchanged by wording edits**) |
 | **Disagree** | **P1** — butadiene conjugation-energy sign flip with reference choice: **not reproduced** (CE₁ stays positive at four theory levels) |
-| **Agree** | P2, P3, P4, P5, P6, P7, P8, P9 |
+| **Agree** | P2 (meta aggregate), P3, P4, P5, P6, P7, P8, P9 |
 
 **Read the conclusions (start here):**
 
 | Doc | Link |
 |-----|------|
 | **Verdict table (audit)** | [deliverables/final/VERDICT_TABLE.en.md](deliverables/final/VERDICT_TABLE.en.md) · [中文](deliverables/final/VERDICT_TABLE.md) |
+| **Frozen verdict authority** | [**docs/FROZEN_VERDICT_AUTHORITY.en.md**](docs/FROZEN_VERDICT_AUTHORITY.en.md) · [中文](docs/FROZEN_VERDICT_AUTHORITY.md) |
 | **Executive summary** | [deliverables/final/EXECUTIVE_SUMMARY.en.md](deliverables/final/EXECUTIVE_SUMMARY.en.md) · [中文](deliverables/final/EXECUTIVE_SUMMARY.md) |
 | **Unit verdicts P1–P9** | [deliverables/unit/INDEX.en.md](deliverables/unit/INDEX.en.md) · [中文](deliverables/unit/INDEX.md) |
 
@@ -130,6 +134,7 @@ Searchable title: **Questioning Fundamental Principles of Organic Chemistry** (*
 |----------|-------------|
 | [docs/propositions.en.md](docs/propositions.en.md) | Authoritative proposition specs ([中文](docs/propositions.md)) |
 | [docs/quality_gates.en.md](docs/quality_gates.en.md) | Hard evidence gates G1–G5 ([中文](docs/quality_gates.md)) |
+| [**docs/FROZEN_VERDICT_AUTHORITY.en.md**](docs/FROZEN_VERDICT_AUTHORITY.en.md) | **Frozen verdict authority (zero ambiguity)** ([中文](docs/FROZEN_VERDICT_AUTHORITY.md)) |
 | [**docs/expert_quick_review_guide.md**](docs/expert_quick_review_guide.md) | **Quick review guide for quantum-chemistry experts (EN/中文)** |
 | [deliverables/final/README.en.md](deliverables/final/README.en.md) | Freeze pack index ([中文](deliverables/final/README.md)) |
 | [deliverables/unit/INDEX.en.md](deliverables/unit/INDEX.en.md) | Unit verdicts P1–P9 ([中文](deliverables/unit/INDEX.md)) |

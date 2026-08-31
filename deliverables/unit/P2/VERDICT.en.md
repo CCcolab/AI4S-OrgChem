@@ -2,6 +2,10 @@
 
 **English** | [中文](VERDICT.md)
 
+> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
+> **Meta-proposition**: aggregate of P1, P3–P9 + LFMO-lite; **not** a ninth independent full SCF run.  
+> Scope notes **do not** change this verdict. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+
 - **Verdict: Agree**
 - Date: 2026-08-24 (v2: aggregate + LFMO-lite)
 - Completeness: **~94%**
@@ -13,7 +17,7 @@ This proposition is **not** “all π delocalization always destabilizes.” Yu 
 
 - **Local/pairwise** conjugation (ΔEAm, polyene GL ΔE, furan ΔEA) → destabilizing (positive)
 - **Benzene extra** delocalization (ESE) → stabilizing (negative)
-- **Geometry effects** (BLA, single-bond lengthening, NBA twist) → π/electronic terms favor distortion; nuclear repulsion can pull benzene back to D₆ₕ
+- **Geometry effects** (BLA, single-bond lengthening, NBA twist) → π/electronic terms favor distortion; benzene geometry on **P4** frozen BLA path (description only—not causal verdict here)
 
 The falsifiable core of the umbrella claim: traditional “conjugation stabilization makes coplanar most stable” fails on the molecule classes already tested.
 

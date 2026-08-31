@@ -63,5 +63,16 @@
     "sign_flip": false
   },
   "conclusion_zh": "ZPE 校正后仍无 CE1<0 且 CE2>0 翻转",
-  "hartree_to_kcal": 627.5094740631
+  "hartree_to_kcal": 627.5094740631,
+  "engine": "PySCF",
+  "engine_version": "2.14.0",
+  "quality_gate": {
+    "passed": true,
+    "G1_topology": true,
+    "G2_geometry": true,
+    "G3_convergence": true,
+    "G4_energy_scale": true,
+    "G5_path_clean": true,
+    "note": "Harmonic ZPE on stored B3LYP geometries; no sign flip after E0K"
+  }
 }

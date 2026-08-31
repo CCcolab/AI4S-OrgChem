@@ -104,3 +104,25 @@ When starting a new proposition, copy this row into that plan’s “quality gat
 | Each `implementation/Pn_*` | Proposition-level thresholds & checkboxes |
 
 Sync the table above on revision; major incidents should add a “negative example” subsection.
+
+---
+
+## 8. Frozen verdicts vs gates
+
+- G1–G5 are **preconditions** for writing `VERDICT.md` (**Agree / Disagree**), not verdicts themselves.  
+- The **2026-08-25 frozen tally** and lawful change procedure: [`FROZEN_VERDICT_AUTHORITY.en.md`](FROZEN_VERDICT_AUTHORITY.en.md).  
+- Future G6–G11 (provenance, formal consistency) strengthen engineering; they **do not** auto-overturn frozen L1 without §5 procedure.
+
+---
+
+## 9. GL / PLG energy convention (formal note)
+
+Homemade `gl_2007.py`, `plg.py`, etc. solve modified SCF with altered Fock/overlap blocks; reported energies use converged `kernel()` values.
+
+**In this project**:
+
+- Treat as **operational estimators** per the book’s public matrix-deletion rules;
+- **Not** automatically variational constrained energies of the standard Hamiltonian unless a full Lagrangian and consistent gradients are proven separately;
+- L1 **Agree** when preregistered thresholds are met; interpretive text must separate “reproducing the book’s estimator” from “unique physical causation.”
+
+This section **does not change** frozen L1 verdicts (2026-08-25).

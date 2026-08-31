@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CCcolab/AI4S-OrgChem/schemas/evidence.schema.json",
+  "title": "AI4S-OrgChem evidence JSON (freeze-era minimum)",
+  "description": "Minimum fields for results/Pn/tables/*.json cited in unit VERDICT or evidence_pack. Does not auto-change frozen L1 verdicts.",
+  "type": "object",
+  "required": ["proposition", "quality_gate"],
+  "properties": {
+    "proposition": {
+      "type": "string",
+      "pattern": "^P[1-9]$"
+    },
+    "version": { "type": "string" },
+    "kind": { "type": "string" },
+    "method": { "type": "string" },
+    "basis": { "type": "string" },
+    "protocol": { "type": "string" },
+    "estimand_id": { "type": "string" },
+    "units": { "type": "string", "const": "kcal/mol unless noted" },
+    "engine": { "type": "string" },
+    "engine_version": { "type": "string" },
+    "code_commit": { "type": "string" },
+    "geometry_hash": { "type": "string" },
+    "timestamp_utc": { "type": "string" },
+    "quality_gate": {
+      "type": "object",
+      "required": ["passed"],
+      "properties": {
+        "passed": { "type": "boolean" },
+        "G1_topology": { "type": "boolean" },
+        "G2_geometry": { "type": "boolean" },
+        "G3_convergence": { "type": "boolean" },
+        "G4_energy_scale": { "type": "boolean" },
+        "G5_path_clean": { "type": "boolean" },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "agree": {
+      "type": ["boolean", "null"],
+      "description": "Script suggestion only; formal verdict is deliverables/unit/Pn/VERDICT.md"
+    }
+  },
+  "additionalProperties": true
+}

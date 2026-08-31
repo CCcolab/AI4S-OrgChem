@@ -2,6 +2,9 @@
 
 **English** | [中文](VERDICT.md)
 
+> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
+> Source-aligned operational estimator; **not** proof of unique physical aromatic energy. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+
 - **Verdict: Agree**
 - Date: 2026-08-24 (v4 objections closed)
 - Completeness: **~98%**

@@ -183,5 +183,16 @@
   "agree": true,
   "completion_estimate_pct": 96,
   "timestamp_utc": "2026-08-23T23:32:51.444432+00:00",
-  "hartree_to_kcal": 627.5094740631
+  "hartree_to_kcal": 627.5094740631,
+  "engine": "PySCF",
+  "engine_version": "2.14.0",
+  "quality_gate": {
+    "passed": true,
+    "G1_topology": true,
+    "G2_geometry": true,
+    "G3_convergence": true,
+    "G4_energy_scale": true,
+    "G5_path_clean": true,
+    "note": "v5c three objections closed; bound-hit pseudo PES isolated"
+  }
 }

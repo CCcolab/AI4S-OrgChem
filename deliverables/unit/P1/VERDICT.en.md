@@ -2,6 +2,9 @@
 
 **English** | [中文](VERDICT.md)
 
+> **Frozen verdict (L1 authority)**: **Disagree** · freeze **2026-08-25**.  
+> Sub-estimators and reading aids **do not** change this verdict. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+
 - **Verdict: Disagree**
 - Date: 2026-08-23 (maintained after ZPE + L3 homemade GL)
 - Status: L1/L2 main criteria + RHF/MP2/ZPE sensitivity closed; `quality_gate` logged; L3 homemade 2007-GL measured with **sub-conclusion** on “+1.4” (does not rewrite L1/L2). Completeness **~98%** (2011/2014 exchange deletion not implemented → P5/P6 residual).
@@ -12,6 +15,14 @@
 ΔH_hyd(M) = E(n-butane) − E(M) − n_H2 · E(H2)
 CE_ref    = ΔH_hyd(butadiene) − 2 · ΔH_hyd(ref)
 ```
+
+## Sub-estimators (reading aid; do not change L1 Disagree)
+
+| ID | Estimator | Reading aid | Relation to L1 |
+|----|-----------|-------------|----------------|
+| P1a | Experimental ΔH₂₉₈ hydrogenation differences | `INCOMPARABLE` | Not primary delivery; do not mix with P1b |
+| P1b | E_ele / E₀K (B3LYP, etc.) CE₁/CE₂ | `OPPOSED` | Supports L1 **Disagree** (no sign flip) |
+| P1c | 2007-GL +4.06 vs book +1.4 (2014) | `INCOMPARABLE` | Definitions not equivalent; **does not** rewrite P1b/L1 |
 
 ## Criteria vs results (primary: B3LYP)
 

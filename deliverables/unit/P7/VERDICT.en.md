@@ -2,6 +2,9 @@
 
 **English** | [中文](VERDICT.md)
 
+> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
+> Single system C₁₂H₆; scope note only. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+
 - **Verdict: Agree**
 - Date: 2026-08-24 (v1c)
 - Completeness: **~90%**
