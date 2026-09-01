@@ -2,10 +2,11 @@
 
 **English** | [中文](VERDICT.md)
 
-> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
-> Path-description scope only; causal “driving” language is **not** part of L1. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+> **Public scientific status (L0)**: `PARTIAL` · frozen BLA path signs pass; **causal claim not tested**.  
+> **Pre-registered threshold audit (L1, 2026-08-25 snapshot)**: **Agree** (historical audit; **not** the public scientific score).
 
-- **Verdict: Agree**
+- **Public status (L0)**: `PARTIAL`
+- **Threshold audit (L1)**: **Agree**
 - Date: 2026-08-23
 - Completeness: **~90%** (optional full GL→G / 2011 localization contrasts not done; non-blocking)
 - Methods: B3LYP/6-31G*; D₆ₕ SciPy-BFGS then scan δ=r_a−r_b (r_a=r0+δ/2, r_b=r0−δ/2); Ee = E − EN

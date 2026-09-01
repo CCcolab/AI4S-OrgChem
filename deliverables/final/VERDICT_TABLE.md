@@ -4,16 +4,24 @@
 
 > 本表为**纯审计**记录：只列预注册判据、实测值、是否达阈、质控闸结果。  
 > 不含理论层评价（见 [`FULL_REPORT.md`](FULL_REPORT.md)）。  
-> **L1 权威**：各 `deliverables/unit/Pn/VERDICT.md` · **冻结日**：2026-08-25 · **零歧义层级**：[`docs/FROZEN_VERDICT_AUTHORITY.md`](../../docs/FROZEN_VERDICT_AUTHORITY.md)  
-> **冻结总判不可因措辞修订、阅读辅助标签或第三方评审回应而改变**；改判仅见该文档 §5。
+> **L0 对外科学状态为主键** · **L1 预注册阈值审计（2026-08-25 快照）** 见 [`docs/FROZEN_VERDICT_AUTHORITY.md`](../../docs/FROZEN_VERDICT_AUTHORITY.md)。**禁止**以 §1 二元计数作科学总分。
 
-## 1. 总计
+## 1. L0 总计（对外）
+
+| L0 状态 | 命题 |
+|---------|------|
+| `SUPPORTED_WITHIN_SCOPE` | P3, P5, P6, P8 |
+| `PARTIAL` | P1, P4, P7, P9 |
+| `DERIVED` | P2（**不计**独立验证数） |
+
+**独立验证命题数 = 8**（P2 派生除外）。
+
+## 1b. L1 审计快照（2026-08-25 · 历史）
 
 | 判定 | 命题数 | 命题 |
 |------|--------|------|
 | **一致** | 8 | P2, P3, P4, P5, P6, P7, P8, P9 |
-| **非一致** | 1 | P1 |
-| 待定 | 0 | — |
+| **非一致** | 1 | P1（仅 P1b estimand） |
 
 九命题单元 `VERDICT.md` 齐套，G1–G5 全部通过 → 满足冻结最终交付的前置条件。
 

@@ -2,10 +2,11 @@
 
 **English** | [中文](VERDICT.md)
 
-> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
-> LDE-estimator sign split only; **not** a standalone aromatic/non-aromatic ruling. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+> **Public scientific status (L0)**: `SUPPORTED_WITHIN_SCOPE` · furan LDE vs benzene ESE sign split.  
+> **Pre-registered threshold audit (L1, 2026-08-25 snapshot)**: **Agree** (historical audit; **not** the public scientific score).
 
-- **Verdict: Agree**
+- **Public status (L0)**: `SUPPORTED_WITHIN_SCOPE`
+- **Threshold audit (L1)**: **Agree**
 - Date: 2026-08-24 (v2 deepened)
 - Completeness: **~96%**
 - Methods: 2007 Fock+S; hetero O/N π fragments + 3×GE-m; B3LYP; vertical + semi-adiabatic + basis sensitivity

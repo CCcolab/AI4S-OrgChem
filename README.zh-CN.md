@@ -1,7 +1,7 @@
 # AI4S-OrgChem
 
 [![release](https://img.shields.io/badge/release-v1.0.1-orange)](https://github.com/CCcolab/AI4S-OrgChem/releases/tag/v1.0.1-post-freeze-2026-08-28)
-[![verdict](https://img.shields.io/badge/verdict-8_一致_1_非一致_(冻结)-success)](deliverables/final/VERDICT_TABLE.md)
+[![verdict](https://img.shields.io/badge/L0-estimand_layered-blue)](docs/FROZEN_VERDICT_AUTHORITY.md)
 [![quality gates](https://img.shields.io/badge/quality_gates-G1--G5_通过-success)](docs/quality_gates.md)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
 [![evidence](https://img.shields.io/badge/evidence-P1--P9_证据包-blue)](deliverables/unit/INDEX.md)
@@ -68,16 +68,16 @@
 
 ## 最终结论 — 对虞忠衡教授 P1–P9 的独立验证
 
-> **冻结判定零歧义**：正式判定 **仅** 以各 [`deliverables/unit/Pn/VERDICT.md`](deliverables/unit/INDEX.md) 为准（L1）；下表为冻结审计摘要（2026-08-25）。  
-> 权威层级、改判纪律、阅读辅助五态见 **[`docs/FROZEN_VERDICT_AUTHORITY.md`](docs/FROZEN_VERDICT_AUTHORITY.md)**。措辞修订 **不改变** 下表判定。
+> **对外科学状态（L0）为主键**：正式对外表述见 [`docs/FROZEN_VERDICT_AUTHORITY.md`](docs/FROZEN_VERDICT_AUTHORITY.md) §2。**禁止**用「8 一致 · 1 非一致」作科学总分。  
+> **L1 预注册阈值审计（2026-08-25 快照）** 保留为历史记录，见 [`deliverables/final/VERDICT_TABLE.md`](deliverables/final/VERDICT_TABLE.md)。
 
-**在原著公开定义与参考态口径下：**
+**本仓库定位（2026-09-01 复审后）**：P1–P9 **Cursor-assisted 证据支路**；结果按 **estimand 与受测域** 分层，**8 条独立命题 + P2 派生索引**（P2 不计入独立验证数）。
 
-| | |
-|--|--|
-| **总判（冻结 L1）** | **8 一致 · 1 非一致**（2026-08-25；**不可因措辞修订而改变**） |
-| **非一致** | **P1** — 丁二烯共轭能随参考分子符号翻转：**未复现**（四种理论层次 CE₁ 均为正） |
-| **一致** | P2（元命题汇总）、P3、P4、P5、P6、P7、P8、P9 |
+| L0 状态 | 命题 |
+|---------|------|
+| `SUPPORTED_WITHIN_SCOPE` | P3、P5、P6、P8 |
+| `PARTIAL` | P1（复合 estimand）、P4、P7、P9 |
+| `DERIVED` | P2（元命题汇总） |
 
 **结论入口（建议先看）：**
 
@@ -100,7 +100,7 @@
 
 ### 方法学资产（AI4S Agent 管线）
 
-- **Agent 端到端**：命题规格 → 自研定域代码（`src/localization/`）→ 批量计算 → 门禁 → 判定书，全程可追溯
+- **Cursor-assisted 工作流**：命题规格 → 自研定域代码（`src/localization/`）→ 批量计算 → 门禁 → L0/L1 判定书，全程可追溯
 - 九命题单元齐套：`VERDICT.md` + `report.md` + `evidence/` + 质控闸字段
 - 作废数据隔离：`results/P3/invalid_wrong_geometry/`（可审计，禁止支撑终裁）——Agent「算错了却讲得很顺」时的纠错样板
 - 学术产出骨架：[deliverables/papers/](deliverables/papers/)（化学篇预印本 + **AI4S 方法篇**：证据门禁与判定反转）

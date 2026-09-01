@@ -2,10 +2,11 @@
 
 **English** | [中文](VERDICT.md)
 
-> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
-> Source-aligned operational estimator; **not** proof of unique physical aromatic energy. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+> **Public scientific status (L0)**: `SUPPORTED_WITHIN_SCOPE` · benzene/CBD parameter-free ESE dual benchmarks.  
+> **Pre-registered threshold audit (L1, 2026-08-25 snapshot)**: **Agree** (historical audit; **not** the public scientific score).
 
-- **Verdict: Agree**
+- **Public status (L0)**: `SUPPORTED_WITHIN_SCOPE`
+- **Threshold audit (L1)**: **Agree**
 - Date: 2026-08-24 (v4 objections closed)
 - Completeness: **~98%**
 - Methods: 2007 Fock+S (B3LYP primary); CBD 2D adiabatic; RHF/2011-lite sensitivity

@@ -2,10 +2,11 @@
 
 [English](VERDICT.en.md) | **中文**
 
-> **冻结判定（L1 唯一权威）**：**一致** · 冻结日 **2026-08-25**。  
-> LDE 估计量下的符号分化为范围说明；**不改变** L1。见 [`docs/FROZEN_VERDICT_AUTHORITY.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.md)。
+> **对外科学状态（L0）**：`SUPPORTED_WITHIN_SCOPE` · 呋喃 LDE vs 苯 ESE 符号分化。  
+> **预注册阈值审计（L1，2026-08-25 快照）**：**一致**（历史审计；**不是**对外科学总分）。
 
-- **判定：一致**
+- **对外状态（L0）**：`SUPPORTED_WITHIN_SCOPE`
+- **预注册阈值审计（L1）**：**一致**
 - 日期：2026-08-24（v2 加深）
 - 完成度：**~96%**
 - 方法：2007 Fock+S；杂环 O/N π 片段 + 3×GE-m；B3LYP；垂直 + 半绝热 + 基组敏感性

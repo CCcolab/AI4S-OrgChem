@@ -3,6 +3,7 @@
   "version": "v2",
   "protocol": "aggregate: verdicts read from unit VERDICT.md + LFMO-lite (RHF/STO-3G NBA)",
   "derivation_type": "aggregate",
+  "public_status_L0": "DERIVED",
   "frozen_verdict_authority": "docs/FROZEN_VERDICT_AUTHORITY.md",
   "units": [
     {
@@ -146,7 +147,7 @@
     "lfmo_two_channel_ok": true,
     "lfmo_three_way_done": true,
     "p1_ce_sign_flip": false,
-    "agree": true,
+    "agree": null,
     "completion_estimate_pct": 94,
     "meta_proposition": true,
     "scope": "局部/成对 π 离域去稳定（ΔEAm、多烯 GL ΔE、呋喃 ΔEA、CBD ΔEA）且 π 驱动畸变（BLA、单键伸长、张力芳香）；NBA 提供「共平面因共轭最稳」的构象反例。苯环额外 ESE<0 按原著自身口径与局部 ΔEAm 分开。LFMO-lite：EV>0 且 dEV/dθ<0（0–30°）；Enσσ>0 且 dEnσσ/dθ<0（0–45°）；Eπσ(0)≈0（对表 5-16）。"
@@ -160,8 +161,8 @@
     "G5_path_clean": true,
     "note": "Units inherited from L1 VERDICT.md; LFMO-lite has its own G1–G5."
   },
-  "agree": true,
-  "timestamp_utc": "2026-08-31T03:00:00.277223+00:00",
+  "agree": null,
+  "timestamp_utc": "2026-09-01T03:01:42.470427+00:00",
   "hartree_to_kcal": 627.5094740631,
   "remainder": [
     "π–σ 随 θ 的阻力斜率未用 AO 代理独立隔离（大扭转 π 指派/Ne 问题）",

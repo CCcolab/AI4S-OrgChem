@@ -13,17 +13,19 @@
     "G5_path_clean": true,
     "note": "N=16 BLA incomplete excluded from tables/"
   },
-  "agree": true,
+  "public_status_L0": "PARTIAL",
+  "agree": null,
   "completion_estimate_pct": 94,
   "objections": {
     "O1_extend_N": {
-      "closed": true,
-      "rationale": "Claim threshold is N≳16–18. v1 already has three 4n/4n+2 pairs through N=18 with gap 2.836→1.040→0.424. N=20–26 not scanned (cost); does not reverse the convergence already observed at the claimed threshold.",
+      "closed": false,
+      "rationale": "N=8–18 shows gap convergence under planar Kekulé 2007 proxy, but N=20–26 not scanned, N=16 BLA aborted, nonplanar excluded. Trend does not close exact onset (N≥20) or conformation objections (2026-09-01 review).",
       "v1_gaps": [
         {"pair": [8, 10], "abs_gap": 2.836},
         {"pair": [12, 14], "abs_gap": 1.040},
         {"pair": [16, 18], "abs_gap": 0.424}
-      ]
+      ],
+      "open_items": ["N=20–26 scan", "nonplanar conformers", "N=16 BLA variant"]
     },
     "O2_2011lite": {
       "closed": true,
@@ -47,14 +49,5 @@
   "hartree_to_kcal": 627.5094740631,
   "timestamp_utc": "2026-08-24T12:00:00+00:00",
   "engine": "PySCF",
-  "engine_version": "2.14.0",
-  "quality_gate": {
-    "passed": true,
-    "G1_topology": true,
-    "G2_geometry": true,
-    "G3_convergence": true,
-    "G4_energy_scale": true,
-    "G5_path_clean": true,
-    "note": "v2b objections closed; N=16 BLA variant excluded"
-  }
+  "engine_version": "2.14.0"
 }

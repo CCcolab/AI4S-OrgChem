@@ -2,11 +2,11 @@
 
 **English** | [中文](VERDICT.md)
 
-> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
-> **Meta-proposition**: aggregate of P1, P3–P9 + LFMO-lite; **not** a ninth independent full SCF run.  
-> Scope notes **do not** change this verdict. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+> **Public scientific status (L0)**: **`DERIVED`** · meta aggregate of P1/P3–P9 + LFMO-lite; **excluded** from independent verification count (8 independent + this derived index).  
+> **Pre-registered threshold audit (L1, 2026-08-25 snapshot)**: aggregate threshold met → **Agree** (historical audit; **not** the public scientific score).
 
-- **Verdict: Agree**
+- **Public status (L0)**: `DERIVED`
+- **Threshold audit (L1)**: **Agree** (aggregate layer)
 - Date: 2026-08-24 (v2: aggregate + LFMO-lite)
 - Completeness: **~94%**
 - Methods: Inherits gated P1/P3–P9 verdicts; independent AO-proxy on NBA reproduces Fig. 5-15 EV / Enσσ signs and slopes

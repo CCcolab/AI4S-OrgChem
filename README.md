@@ -1,7 +1,7 @@
 # AI4S-OrgChem
 
 [![release](https://img.shields.io/badge/release-v1.0.1-orange)](https://github.com/CCcolab/AI4S-OrgChem/releases/tag/v1.0.1-post-freeze-2026-08-28)
-[![verdict](https://img.shields.io/badge/verdict-8_Agree_1_Disagree_(frozen)-success)](deliverables/final/VERDICT_TABLE.en.md)
+[![verdict](https://img.shields.io/badge/L0-estimand_layered-blue)](docs/FROZEN_VERDICT_AUTHORITY.en.md)
 [![quality gates](https://img.shields.io/badge/quality_gates-G1--G5_passed-success)](docs/quality_gates.en.md)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
 [![evidence](https://img.shields.io/badge/evidence-P1--P9_evidence_pack-blue)](deliverables/unit/INDEX.en.md)
@@ -68,16 +68,16 @@ Scientific authority derives from **gated evidence chains**; the value of the AI
 
 ## Final verdict — replication of Professor Yu’s P1–P9
 
-> **Frozen verdict, zero ambiguity**: Formal verdicts live **only** in each [`deliverables/unit/Pn/VERDICT.md`](deliverables/unit/INDEX.en.md) (L1). The table below is the frozen audit summary (2026-08-25).  
-> Authority tiers, change procedure, and reading-aid labels: **[`docs/FROZEN_VERDICT_AUTHORITY.en.md`](docs/FROZEN_VERDICT_AUTHORITY.en.md)**. Wording edits **do not** change the verdicts below.
+> **Public scientific status (L0) is primary**: see [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](docs/FROZEN_VERDICT_AUTHORITY.en.md) §2. **Do not** use “8 Agree · 1 Disagree” as a scientific score.  
+> **L1 pre-registered threshold audit (2026-08-25 snapshot)** is historical only—see [`deliverables/final/VERDICT_TABLE.en.md`](deliverables/final/VERDICT_TABLE.en.md).
 
-**Under the monograph’s own published definitions and reference-state protocols:**
+**Repository role (post 2026-09-01 review)**: P1–P9 **Cursor-assisted evidence arm**; results layered by **estimand and scope**. **8 independent propositions + P2 derived index** (P2 excluded from independent verification count).
 
-| | |
-|--|--|
-| **Overall (frozen L1)** | **8 Agree · 1 Disagree** (2026-08-25; **unchanged by wording edits**) |
-| **Disagree** | **P1** — butadiene conjugation-energy sign flip with reference choice: **not reproduced** (CE₁ stays positive at four theory levels) |
-| **Agree** | P2 (meta aggregate), P3, P4, P5, P6, P7, P8, P9 |
+| L0 status | Propositions |
+|-----------|--------------|
+| `SUPPORTED_WITHIN_SCOPE` | P3, P5, P6, P8 |
+| `PARTIAL` | P1 (composite estimands), P4, P7, P9 |
+| `DERIVED` | P2 (meta aggregate) |
 
 **Read the conclusions (start here):**
 
@@ -100,7 +100,7 @@ Scientific authority derives from **gated evidence chains**; the value of the AI
 
 ### Methodological assets (AI4S Agent pipeline)
 
-- **Agent end-to-end**: proposition specs → homemade localization (`src/localization/`) → batch compute → gates → verdicts, fully traceable
+- **Cursor-assisted workflow**: proposition specs → homemade localization (`src/localization/`) → batch compute → gates → L0/L1 verdicts, fully traceable
 - Nine unit packs: `VERDICT.md` + `report.md` + `evidence/` + quality-gate fields
 - Voided-data isolation: `results/P3/invalid_wrong_geometry/` (auditable; must not support final verdicts)—a template for when an agent is wrong but fluent
 - Paper skeletons: [deliverables/papers/](deliverables/papers/) (chemistry preprint + **AI4S methods**: evidence gates and verdict reversal)

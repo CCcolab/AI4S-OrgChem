@@ -70,17 +70,17 @@
 
 ## 3. 九命题一张表（专家速查）/ Nine propositions at a glance
 
-| ID | 化学问题（一句话） | One-line chemical question | 判定 Verdict | 专家优先看什么 Look at first |
-|----|-------------------|----------------------------|--------------|------------------------------|
-| **P1** | 丁二烯共轭能：换参考分子是否翻转符号？ | Butadiene CE: sign flip when reference molecule changes? | **非一致 Disagree** | `evidence/ce_summary.csv`；四层次均未翻转 |
-| **P2** | 共轭是否去稳定且驱动畸变（元命题汇总）？ | Conjugation destabilizes and drives distortion (meta aggregate)? | **一致 Agree** | 汇总 P3/P5/P6 + LFMO-lite |
-| **P3** | NBA 大扭转角是否能量最低？ | NBA: crowded large twist as energy minimum? | **一致 Agree** | `pes_tight_*.csv`；θ_min≈44.9° |
-| **P4** | 苯：冻结 BLA 路径上 δ=0 处 E_tot/EN 最低？ | Benzene: E_tot/EN min at δ=0 on frozen BLA path? | **一致 Agree** | BLA 扫描；ΔEN vs ΔEe 符号 |
-| **P5** | 已测体系 ΔEAm 是否为正且单键伸长？ | Tested set: ΔEAm>0 and bond lengthening? | **一致 Agree** | `p5_v5c_*.json`；6/6 为正 |
-| **P6** | 无参数 ESE：苯 ≈−36、CBD ≈+54？ | Parameter-free ESE benchmarks? | **一致 Agree** | 苯 −35.44；CBD +53.98 kcal/mol |
-| **P7** | C₁₂H₆：PLG 后 BLA 是否显著坍塌？ | C₁₂H₆: significant BLA collapse under PLG? | **一致 Agree** | Δr(G)→Δr(PLG) 坍塌 |
-| **P8** | 呋喃类是否应称 LDE 而非苯类 ESE？ | Furan-like: LDE not benzene-like ESE? | **一致 Agree** | 呋喃/苯 ΔEA **符号相反** |
-| **P9** | N=8–18：4n/4n+2 符号与 gap 收敛趋势？ | N=8–18: 4n/4n+2 signs + gap trend? | **一致 Agree** | VDE/π gap 随 N 收敛 |
+| ID | 化学问题（一句话） | One-line chemical question | **L0 对外** | 专家优先看什么 Look at first |
+|----|-------------------|----------------------------|-------------|------------------------------|
+| **P1** | 丁二烯复合 estimand | Butadiene composite estimands | **`PARTIAL`** | P1a/P1b/P1c 表；勿混读 |
+| **P2** | 元命题汇总（派生） | Meta aggregate (derived) | **`DERIVED`** | 汇总 P3/P5/P6 + LFMO-lite |
+| **P3** | NBA 大扭转角是否能量最低？ | NBA: crowded large twist as energy minimum? | `SUPPORTED_WITHIN_SCOPE` | `pes_tight_*.csv`；θ_min≈44.9° |
+| **P4** | 冻结 BLA 路径符号？ | Frozen BLA path signs? | `PARTIAL` | BLA 扫描；ΔEN vs ΔEe |
+| **P5** | 已测 ΔEAm 是否为正？ | Tested set ΔEAm>0? | `SUPPORTED_WITHIN_SCOPE` | `p5_v5c_*.json` |
+| **P6** | 无参数 ESE 双基准？ | Parameter-free ESE benchmarks? | `SUPPORTED_WITHIN_SCOPE` | 苯 −35.44；CBD +53.98 |
+| **P7** | C₁₂H₆ PLG 后 BLA？ | C₁₂H₆ BLA under PLG? | `PARTIAL` | Δr(G)→Δr(PLG) |
+| **P8** | 呋喃 LDE vs 苯 ESE？ | Furan LDE vs benzene ESE? | `SUPPORTED_WITHIN_SCOPE` | 呋喃/苯 ΔEA 符号相反 |
+| **P9** | N=8–18 趋势；O1 开放 | N=8–18 trend; O1 open | **`PARTIAL`** | `p9_v2b.json`；O1 未闭合 |
 
 **原著映射**见 [`docs/propositions.md`](propositions.md) §0。  
 **Mapping to the book** → `docs/propositions.md` §0.

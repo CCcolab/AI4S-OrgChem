@@ -2,10 +2,11 @@
 
 **English** | [中文](VERDICT.md)
 
-> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
-> Reading aid: `SUPPORTED_WITHIN_SCOPE` (trend layer; protocol limits in body)—**maps to L1 Agree**. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+> **Public scientific status (L0)**: **`PARTIAL`** · N=8–18 planar Kekulé trend; **O1 open** (N≥20, nonplanar TBD) · see [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md) §4.  
+> **Pre-registered threshold audit (L1, 2026-08-25 snapshot)**: N=8–18 sub-criterion met → **Agree** (historical audit; **not** the public scientific score).
 
-- **Verdict: Agree**
+- **Public status (L0)**: `PARTIAL`
+- **Threshold audit (L1)**: **Agree** (N=8–18 sub-criterion)
 - Date: 2026-08-24 (v2b deepened)
 - Completeness: **~94%**
 - Methods: Planar Kekulé; vertical VDE proxy = ESE=ΔEA−ΣΔEAm; 2007 GL/GE-m; B3LYP/6-31G*; 2011-lite and BLA sensitivity
@@ -24,16 +25,17 @@
 
 | # | Gap | Evidence | Status |
 |---|-----|----------|--------|
-| O1 | N not to 26 | Threshold N≳16–18 covered; gap already converging | **Closed** |
+| O1 | N not to 26 / exact onset | N=8–18 gap falls; **N=20–26 not scanned**; N=16 BLA aborted; nonplanar excluded | **Open** |
 | O2 | 2011 protocol | 2011-lite all signs correct; nearly coincides with 2007 | **Closed** |
 | O3 | Single Kekulé bond lengths | BLA 1.34/1.46 signs unchanged | **Closed** |
 
-## Protocol notes (scope limits; L1 remains Agree)
+## Protocol notes (scope limits; L0 remains PARTIAL)
 
 - VDE uses independent **2007 ESE proxy**, not absolute EV(2011) from Yu Table 9-5.
 - Planar Kekulé; nonplanar large rings not included.
 - N=20–26 not scanned; N=16 BLA aborted (GL Newton cost) and isolated.
-- **These limits narrow interpretive scope; they do not change L1 Agree under pre-registered thresholds.**
+- **O1 open**: N=8–18 trend must **not** substitute for N≥20 exact onset or nonplanar verification.
+- **These limits narrow interpretive scope; L1 records N=8–18 sub-criterion only; public L0 is PARTIAL.**
 
 ## Quality gates
 

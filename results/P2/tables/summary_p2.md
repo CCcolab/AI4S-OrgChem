@@ -1,8 +1,8 @@
 # P2 v2 — 共轭去稳定总命题（汇总 + LFMO-lite）
 
-- gates=True lfmo_gate=True agree=True completion~94%
+- gates=True lfmo_gate=True L0=DERIVED completion~94%
 - two_class=True LFMO_two_channel=True
-- unit verdicts **read from** `deliverables/unit/Pn/VERDICT.md` (L1)
+- unit L1 audits **read from** `deliverables/unit/Pn/VERDICT.md`
 
 | ID | 判定 | 去稳定 | 驱动畸变 | 要点 |
 |----|------|--------|----------|------|

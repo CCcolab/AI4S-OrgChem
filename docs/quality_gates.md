@@ -110,7 +110,7 @@ results/Pn/invalid_<原因>/   # 例：invalid_wrong_geometry/
 ## 8. 冻结判定与门禁的关系
 
 - G1–G5 是写入 `VERDICT.md`（**一致 / 非一致**）的**前置条件**，不是判定本身。  
-- **2026-08-25 冻结判定**的权威层级与改判纪律见 [`FROZEN_VERDICT_AUTHORITY.md`](FROZEN_VERDICT_AUTHORITY.md)。  
+- **2026-09-01 复审整改**：对外以 **L0 五态** 为主键；L1 为 2026-08-25 预注册阈值审计快照。见 [`FROZEN_VERDICT_AUTHORITY.md`](FROZEN_VERDICT_AUTHORITY.md)。  
 - 未来 G6–G11（provenance、形式一致性等）可加固工程；**不自动推翻**已冻结 L1，除非走完该文档 §5 改判程序。
 
 ---

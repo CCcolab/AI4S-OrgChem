@@ -4,15 +4,24 @@
 
 > **Pure audit** record: pre-registered criteria, measured values, threshold met?, quality gates.  
 > No theory-layer commentary (see [`FULL_REPORT.en.md`](FULL_REPORT.en.md)).  
-> **L1 authority**: each `deliverables/unit/Pn/VERDICT.md` · **Freeze**: 2026-08-25 · **Zero-ambiguity policy**: [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../docs/FROZEN_VERDICT_AUTHORITY.en.md)  
-> **Frozen tally is not changed by wording edits, reading-aid labels, or third-party review responses**; reversals only per that document §5.
+> **L0 public scientific status is primary** · **L1 pre-registered threshold audit (2026-08-25 snapshot)**: [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../docs/FROZEN_VERDICT_AUTHORITY.en.md). **Do not** use §1b binary tally as a scientific score.
 
-## 1. Totals
+## 1. L0 totals (public)
+
+| L0 status | Propositions |
+|-----------|--------------|
+| `SUPPORTED_WITHIN_SCOPE` | P3, P5, P6, P8 |
+| `PARTIAL` | P1, P4, P7, P9 |
+| `DERIVED` | P2 (**excluded** from independent count) |
+
+**Independent verification count = 8** (P2 derived excluded).
+
+## 1b. L1 audit snapshot (2026-08-25 · historical)
 
 | Verdict | Count | Propositions |
 |---------|-------|--------------|
 | **Agree** | 8 | P2, P3, P4, P5, P6, P7, P8, P9 |
-| **Disagree** | 1 | P1 |
+| **Disagree** | 1 | P1 (P1b estimand only) |
 | Pending | 0 | — |
 
 All nine unit `VERDICT.md` files present; G1–G5 passed → freeze prerequisites for final delivery met.

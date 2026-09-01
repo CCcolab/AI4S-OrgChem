@@ -2,10 +2,11 @@
 
 **English** | [中文](VERDICT.md)
 
-> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
-> Single system C₁₂H₆; scope note only. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+> **Public scientific status (L0)**: `PARTIAL` · C₁₂H₆ single system; significant BLA collapse under PLG.  
+> **Pre-registered threshold audit (L1, 2026-08-25 snapshot)**: **Agree** (historical audit; **not** the public scientific score).
 
-- **Verdict: Agree**
+- **Public status (L0)**: `PARTIAL`
+- **Threshold audit (L1)**: **Agree**
 - Date: 2026-08-24 (v1c)
 - Completeness: **~90%**
 - Methods: B3LYP/6-31G*; benzotricyclobutadiene C₁₂H₆; G = D₃ₕ four-parameter opt; PLG = after excluding central-ring(A)–peripheral C=C(B) π Fock/S/K coupling, fix mean bond length and scan Δr

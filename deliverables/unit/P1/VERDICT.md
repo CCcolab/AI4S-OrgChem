@@ -2,10 +2,11 @@
 
 [English](VERDICT.en.md) | **中文**
 
-> **冻结判定（L1 唯一权威）**：**非一致** · 冻结日 **2026-08-25**。  
-> 下文「子估计量」「阅读辅助」**不改变**本判定。见 [`docs/FROZEN_VERDICT_AUTHORITY.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.md)。
+> **对外科学状态（L0）**：**`PARTIAL`**（复合 estimand；**不得**以 P1b 覆盖 P1a/P1c）· 见 [`docs/FROZEN_VERDICT_AUTHORITY.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.md) §3。  
+> **预注册阈值审计（L1，2026-08-25 快照）**：P1b CE 翻转判据 → **非一致**（历史审计；**不是**对外科学总分）。
 
-- **判定：非一致**
+- **对外状态（L0）**：`PARTIAL`
+- **预注册阈值审计（L1）**：P1b → **非一致**
 - 日期：2026-08-23（ZPE + L3 自研 GL 补强后维持 L1/L2 判定）
 - 状态说明：L1/L2 主判据 + RHF/MP2/ZPE 敏感性已闭合；`quality_gate` 已落盘；L3 自研 2007-GL 已测并对「+1.4」给出**子结论**（不回溯改写 L1/L2）。完成度 **~98%**（2011/2014 交换积分删除未实现，属 P5/P6 深化）。
 - 方法：RHF / B3LYP / MP2（MP2 在 RHF 优化几何上单点），基组 6-31G*；SciPy-BFGS + PySCF 解析梯度（未装 geometric/berny，未改环境）
@@ -16,7 +17,7 @@
 CE_ref    = ΔH_hyd(butadiene) − 2 · ΔH_hyd(ref)
 ```
 
-## 子估计量（阅读辅助；不改 L1 非一致）
+## 子估计量（estimand 主键 · L0 分层）
 
 | ID | 估计量 | 阅读辅助 | 与 L1 关系 |
 |----|--------|----------|------------|

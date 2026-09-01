@@ -2,10 +2,11 @@
 
 **English** | [中文](VERDICT.md)
 
-> **Frozen verdict (L1 authority)**: **Agree** · freeze **2026-08-25**.  
-> Scope notes **do not** change this verdict. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+> **Public scientific status (L0)**: `SUPPORTED_WITHIN_SCOPE` · NBA tested path θ_min≈44.9°.  
+> **Pre-registered threshold audit (L1, 2026-08-25 snapshot)**: **Agree** (historical audit; **not** the public scientific score).
 
-- **Verdict: Agree**
+- **Public status (L0)**: `SUPPORTED_WITHIN_SCOPE`
+- **Threshold audit (L1)**: **Agree**
 - Date: 2026-08-23
 - Status: Tight rescan quality gates PASSED; independent free B3LYP/6-31G* optimum angle
 

@@ -19,7 +19,10 @@ if str(ROOT) not in sys.path:
 
 from src.common.units import HARTREE_TO_KCAL, ensure_dir, write_json  # noqa: E402
 
-VERDICT_LINE = re.compile(r"- \*\*判定[：:]\s*(一致|非一致)\*\*")
+VERDICT_LINE = re.compile(
+    r"- \*\*预注册阈值审计（L1）\*\*[：:].*\*\*(非一致|一致)\*\*"
+)
+L0_LINE = re.compile(r"- \*\*对外状态（L0）\*\*[：:]\s*`([A-Z_]+)`")
 
 # Narrative metadata only — verdict comes from VERDICT.md
 UNIT_META: list[dict] = [
@@ -98,12 +101,20 @@ UNIT_META: list[dict] = [
 ]
 
 
+def parse_l0(verdict_path: Path) -> str:
+    for line in verdict_path.read_text(encoding="utf-8").splitlines():
+        m = L0_LINE.search(line)
+        if m:
+            return m.group(1)
+    return "UNKNOWN"
+
+
 def parse_verdict_zh(verdict_path: Path) -> str:
     for line in verdict_path.read_text(encoding="utf-8").splitlines():
         m = VERDICT_LINE.search(line)
         if m:
             return m.group(1)
-    raise RuntimeError(f"No L1 verdict line in {verdict_path}")
+    raise RuntimeError(f"No L1 audit line in {verdict_path}")
 
 
 def load_units() -> list[dict]:
@@ -146,7 +157,7 @@ def analyze(units: list[dict], lfmo: dict | None) -> dict:
     )
     p1_flip_ok = False
     gates = all(u["gates_passed"] for u in units)
-    agree = True if (gates and two_class) else None
+    agree = None  # DERIVED meta aggregate; L0=DERIVED, not an independent Agree tally
     completion = 70
     if two_class:
         completion += 15
@@ -193,6 +204,7 @@ def main() -> None:
         "version": "v2",
         "protocol": "aggregate: verdicts read from unit VERDICT.md + LFMO-lite (RHF/STO-3G NBA)",
         "derivation_type": "aggregate",
+        "public_status_L0": "DERIVED",
         "frozen_verdict_authority": "docs/FROZEN_VERDICT_AUTHORITY.md",
         "units": units,
         "lfmo_lite": None
@@ -213,7 +225,7 @@ def main() -> None:
             "G5_path_clean": True,
             "note": "Units inherited from L1 VERDICT.md; LFMO-lite has its own G1–G5.",
         },
-        "agree": analysis["agree"] if gates_ok else None,
+        "agree": None,
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),
         "hartree_to_kcal": HARTREE_TO_KCAL,
         "remainder": remainder,
@@ -222,11 +234,11 @@ def main() -> None:
     lines = [
         "# P2 v2 — 共轭去稳定总命题（汇总 + LFMO-lite）",
         "",
-        f"- gates={gates_ok} lfmo_gate={lfmo_gate} agree={analysis['agree']} "
+        f"- gates={gates_ok} lfmo_gate={lfmo_gate} L0=DERIVED "
         f"completion~{analysis['completion_estimate_pct']}%",
         f"- two_class={analysis['two_class_ok']} "
         f"LFMO_two_channel={analysis['lfmo_two_channel_ok']}",
-        "- unit verdicts **read from** `deliverables/unit/Pn/VERDICT.md` (L1)",
+        "- unit L1 audits **read from** `deliverables/unit/Pn/VERDICT.md`",
         "",
         "| ID | 判定 | 去稳定 | 驱动畸变 | 要点 |",
         "|----|------|--------|----------|------|",
@@ -258,8 +270,6 @@ def main() -> None:
     print(text, flush=True)
     if not gates_ok:
         raise SystemExit(1)
-    if analysis["agree"] is not True:
-        raise SystemExit(2)
 
 
 if __name__ == "__main__":

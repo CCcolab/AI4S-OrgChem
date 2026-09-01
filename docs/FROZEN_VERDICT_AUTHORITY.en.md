@@ -1,84 +1,105 @@
-# Frozen Verdict Authority (Zero Ambiguity)
+# Verdict authority tiers (2026-09-01 post-review remediation)
 
-[中文](FROZEN_VERDICT_AUTHORITY.md) | **English**
+**English** | [中文](FROZEN_VERDICT_AUTHORITY.md)
 
-> **Freeze date**: 2026-08-25  
-> **Frozen tally**: **8 Agree · 1 Disagree** (P1 Disagree; P2–P9 Agree)  
-> **Purpose**: Define what counts as a formal verdict, what does not, and when a verdict may change—so wording edits, third-party review responses, or reading-aid labels are not mistaken for reversals.
-
----
-
-## 1. Sole authoritative sources (priority order)
-
-| Tier | File | Effect |
-|------|------|--------|
-| **L1 (highest)** | Each `deliverables/unit/Pn/VERDICT.md` | **Sole formal verdict** per proposition; values are **Agree** or **Disagree** only |
-| **L2** | `deliverables/final/VERDICT_TABLE.en.md` | Audit table; must match L1 one-to-one |
-| **L3** | `EXECUTIVE_SUMMARY.en.md`, `FULL_REPORT.en.md` | Narrative; **must not override L1** |
-| **L4** | README, Canvas, chat, review responses | **Not verdicts**; may cite L1–L2 only |
-
-Disputes about “what was decided” are resolved **only from L1**.
+> **Basis**: Post-remediation QC review dated 2026-09-01 (§4 AI4S-OrgChem standalone review, §8 P0)  
+> **Goal**: Public-facing **five-state + estimand layering**; **do not** use “8 Agree · 1 Disagree” as a scientific score.  
+> **L1 pre-registered threshold audit (2026-08-25 snapshot)** remains historical audit only—not the public scientific conclusion.
 
 ---
 
-## 2. Frozen scoreboard (unchanged by wording edits)
+## 1. Authority sources (priority)
 
-| Prop. | **Frozen verdict** | Preregistered gist |
-|-------|-------------------|----------------------|
-| **P1** | **Disagree** | CE₁<0 and CE₂>0 not both met |
-| **P2** | **Agree** | Two-class aggregate (meta-proposition) |
-| **P3** | **Agree** | E_min in [30°,60°]; coplanar not global minimum |
-| **P4** | **Agree** | On frozen BLA path; E_tot/EN min at δ=0; signs pass |
-| **P5** | **Agree** | ΔEAm>0 in tested set; Δr>0 |
-| **P6** | **Agree** | Benzene ESE≈−35.44; CBD vertical ΔEA≈+53.98 |
-| **P7** | **Agree** | C₁₂H₆: BLA collapse under PLG |
-| **P8** | **Agree** | Furan-type vs benzene sign split |
-| **P9** | **Agree** | N=8–18: 4n/4n+2 signs; gap trend passes threshold |
+| Tier | File / field | Force |
+|------|--------------|-------|
+| **L0 (public primary)** | **Public status (L0)** five-state label in each `deliverables/unit/Pn/VERDICT.md` | **Public scientific status**; README, summaries, expert guide **must** follow this |
+| **L1 (audit snapshot)** | **Pre-registered threshold audit (L1)** in the same file | **2026-08-25** binary threshold met or not—**not** a scientific score |
+| **L2** | `deliverables/final/VERDICT_TABLE.md` | L0 + L1 crosswalk for all nine units |
+| **L3** | `EXECUTIVE_SUMMARY` / `FULL_REPORT` | Narrative; must not override L0 |
+| **L4** | README, chat, Canvas | Non-verdict; cite L0–L2 only |
 
-Phrases like “trend support” or “partial support” elsewhere are **scope qualifiers (reading aids)** mapping to this table—**not new verdicts**.
+**Rule**: Disputes about *how strongly a claim is supported* → **L0 five-state + estimand table only**; L1 answers only whether the frozen pre-registered threshold was met.
 
 ---
 
-## 3. What does **not** change the frozen verdict
+## 2. Public scientific status matrix (L0 · primary)
 
-1. Softer or stricter **wording** (P4 causal language, P9 trend layer, etc.)  
-2. **Five-state reading-aid labels** (§4)—parallel to L1, never replace it  
-3. **Metadata** / schema / provenance fixes  
-4. **Third-party review responses** without §5 procedure  
-5. **README / badge / Agent narrative** edits  
-6. **P2 meta-proposition clarification**—P2 remains Agree  
+**Independent verification count = 8** (P2 is `DERIVED`, **excluded**).  
+**Forbidden** publicly: “8/9 book propositions verified” or “8 Agree / 1 Disagree = eight scientific truths.”
 
----
+| Prop. | **L0 public status** | Estimand / scope | **L1 audit snapshot** (2026-08-25) |
+|-------|----------------------|------------------|-------------------------------------|
+| **P1** | **`PARTIAL`** (composite) | P1a experimental ΔH298 `INCOMPARABLE`; P1b QC CE `OPPOSED`; P1c GL2007 vs 2014 `INCOMPARABLE` | P1b CE flip criterion → **Disagree** |
+| **P2** | **`DERIVED`** | Meta aggregate P1/P3–P9 + LFMO-lite; **no independent SCF** | Aggregate threshold met → **Agree** |
+| **P3** | `SUPPORTED_WITHIN_SCOPE` | NBA tested path θ_min≈44.9° | **Agree** |
+| **P4** | `PARTIAL` | Frozen BLA path signs pass; **causal claim not tested** | **Agree** |
+| **P5** | `SUPPORTED_WITHIN_SCOPE` | Six tested instances ΔEAm>0; not “always universal” | **Agree** |
+| **P6** | `SUPPORTED_WITHIN_SCOPE` | Benzene ESE≈−35.44; CBD ≈+53.98 | **Agree** |
+| **P7** | `PARTIAL` | C₁₂H₆ single system; BLA collapse under PLG | **Agree** |
+| **P8** | `SUPPORTED_WITHIN_SCOPE` | Furan LDE vs benzene ESE sign split | **Agree** |
+| **P9** | **`PARTIAL`** | N=8–18 planar Kekulé trend; **O1 open** (N≥20, nonplanar TBD) | N=8–18 sub-criterion met → **Agree** |
 
-## 4. Five-state reading aids (not formal verdicts)
+### L0 five-state definitions
 
-| Aid | Meaning | Maps to frozen L1 |
-|-----|---------|-------------------|
-| `SUPPORTED_WITHIN_SCOPE` | Passes preregistered threshold in scope | **Agree** |
-| `PARTIAL` | Passes threshold; limited extrapolation | Still **Agree** |
-| `OPPOSED` | Threshold not met | **Disagree** |
-| `INDETERMINATE` | Insufficient evidence | Not used at freeze |
-| `INCOMPARABLE` | Different estimand | Sub-note only (e.g. P1c) |
-
----
-
-## 5. Sole lawful verdict-change procedure
-
-All required: new evidence → preregistered criteria → G1–G5 pass → update L1 `VERDICT.md` → sync `VERDICT_TABLE` → audit trail.  
-**Forbidden**: changing L1 via chat, review text, reading aids, or README alone.
-
----
-
-## 6. Three-way caliber (anti-misread; compatible with L1)
-
-Local/pairwise destabilization (ΔEAm) · benzene extra stabilization (ESE) · geometric distortion (P3, P7) are **distinct**. This project is **not** “all conjugation is destabilizing.”
+| State | Meaning | Public “support” wording |
+|-------|---------|--------------------------|
+| `SUPPORTED_WITHIN_SCOPE` | Same estimand, pre-registered protocol passes | Yes, **with explicit scope** |
+| `PARTIAL` | Sub-claim / single system / trend only, or key objection open | “Partial support” only |
+| `OPPOSED` | Pre-registered threshold not met under same estimand | Unsupported for that estimand |
+| `INDETERMINATE` | Insufficient evidence, convergence failure, missing methods | No strong verdict |
+| `INCOMPARABLE` | Different estimand, reference state, or sign convention | No voting, no averaging |
+| `DERIVED` | Aggregate only; no new QM data | **Do not** count as independent verification |
 
 ---
 
-## 7. Relation to quality gates
+## 3. P1 must use estimand as primary key
 
-G1–G5 were satisfied at freeze. Future G6–G11 strengthen engineering; they do **not** auto-overturn 2026-08-25 L1 without §5.
+| ID | Estimand | L0 | Note |
+|----|----------|-----|------|
+| P1a | Experimental ΔH298 hydrogenation differences | `INCOMPARABLE` | Not primary machine delivery; must not be covered by P1b |
+| P1b | B3LYP/RHF/MP2/ZPE CE₁/CE₂ | `OPPOSED` | No CE sign flip |
+| P1c | GL(2007) +4.06 vs book +1.4 (2014) | `INCOMPARABLE` | Not comparable to GL(2014) |
+
+**P1 overall L0 = `PARTIAL`**: L1 Disagree on P1b must **not** summarize the entire book composite claim.
 
 ---
 
-*Established 2026-08-31 · Zero-ambiguity frozen verdict policy*
+## 4. P9 O1 reopened (2026-09-01 correction)
+
+| Objection | Status | Note |
+|-----------|--------|------|
+| O1 extend N / exact onset | **Open** | N=20–26 not scanned; N=16 BLA aborted; nonplanar excluded |
+| O2 2011-lite | Closed | Signs match 2007 |
+| O3 Kekulé bond lengths | Closed | BLA 1.34/1.46 signs unchanged |
+
+**P9 L0 = `PARTIAL`**: Trend layer informative; **cannot** claim full large-ring verification or O1 closed.
+
+---
+
+## 5. What is **not** a verdict reversal
+
+1. **L0 five-state updates** (§2): governance response to third-party review—not new QM reruns.  
+2. **L1 snapshot retained**: 2026-08-25 binary audit kept as historical record only.  
+3. **Wording / metadata / validator upgrades**: engineering hardening.  
+4. **P2 marked `DERIVED`**: identity clarification only.
+
+**True L0 change** requires: new evidence + pre-registration + G1–G5 + update `VERDICT.md` + sync L2/L3 + git audit note.
+
+---
+
+## 6. Quality gates
+
+- G1–G5: hard gates before L1 audit (see [`quality_gates.en.md`](quality_gates.en.md)).  
+- `tools/validate_repo.py`: checks L0 presence, JSON schema, no duplicate keys, key `quality_gate`—**does not** treat L1 binary snapshot as public scientific score.
+
+---
+
+## 7. Maintenance
+
+| Item | Convention |
+|------|------------|
+| Unit VERDICT | Header must include **L0** and **L1** lines |
+| README | Show L0 matrix; **forbid** “8/1 scientific score” badge |
+| Index | [`deliverables/unit/INDEX.en.md`](../deliverables/unit/INDEX.en.md) |
+
+*2026-08-31 initial · 2026-09-01 post-review remediation*

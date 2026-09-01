@@ -2,10 +2,11 @@
 
 **English** | [中文](VERDICT.md)
 
-> **Frozen verdict (L1 authority)**: **Disagree** · freeze **2026-08-25**.  
-> Sub-estimators and reading aids **do not** change this verdict. See [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
+> **Public scientific status (L0)**: **`PARTIAL`** (composite estimands; P1b must **not** subsume P1a/P1c) · see [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.en.md) §3.  
+> **Pre-registered threshold audit (L1, 2026-08-25 snapshot)**: P1b CE flip criterion → **Disagree** (historical audit; **not** the public scientific score).
 
-- **Verdict: Disagree**
+- **Public status (L0)**: `PARTIAL`
+- **Threshold audit (L1)**: P1b → **Disagree**
 - Date: 2026-08-23 (maintained after ZPE + L3 homemade GL)
 - Status: L1/L2 main criteria + RHF/MP2/ZPE sensitivity closed; `quality_gate` logged; L3 homemade 2007-GL measured with **sub-conclusion** on “+1.4” (does not rewrite L1/L2). Completeness **~98%** (2011/2014 exchange deletion not implemented → P5/P6 residual).
 - Methods: RHF / B3LYP / MP2 (MP2 SP on RHF geometries), 6-31G*; SciPy-BFGS + PySCF analytic gradients (no geometric/berny; no env changes)
@@ -16,7 +17,7 @@
 CE_ref    = ΔH_hyd(butadiene) − 2 · ΔH_hyd(ref)
 ```
 
-## Sub-estimators (reading aid; do not change L1 Disagree)
+## Sub-estimators (estimand primary key · L0 layering)
 
 | ID | Estimator | Reading aid | Relation to L1 |
 |----|-----------|-------------|----------------|

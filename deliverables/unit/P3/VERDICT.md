@@ -2,10 +2,11 @@
 
 [English](VERDICT.en.md) | **中文**
 
-> **冻结判定（L1 唯一权威）**：**一致** · 冻结日 **2026-08-25**。  
-> 下文范围说明 **不改变**本判定。见 [`docs/FROZEN_VERDICT_AUTHORITY.md`](../../../docs/FROZEN_VERDICT_AUTHORITY.md)。
+> **对外科学状态（L0）**：`SUPPORTED_WITHIN_SCOPE` · NBA 受测路径 θ_min≈44.9°。  
+> **预注册阈值审计（L1，2026-08-25 快照）**：**一致**（历史审计；**不是**对外科学总分）。
 
-- **判定：一致**
+- **对外状态（L0）**：`SUPPORTED_WITHIN_SCOPE`
+- **预注册阈值审计（L1）**：**一致**
 - 日期：2026-08-23
 - 状态：加严重扫质控闸 PASSED；B3LYP/6-31G* 自由最优角独立复核
 

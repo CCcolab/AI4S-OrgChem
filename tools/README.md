@@ -12,4 +12,4 @@
 
 一次性调试探针已删除，不进入 GitHub。
 
-| `validate_repo.py` | 冻结 L1 一致性、JSON 解析、关键 evidence 的 `quality_gate` 检查 |
+| `validate_repo.py` | L0/L1 VERDICT 检查、JSON 严格解析（拒重复键）、关键 evidence 的 schema + `quality_gate` |
