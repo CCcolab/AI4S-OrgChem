@@ -13,8 +13,8 @@
 | 中文 | English |
 |------|---------|
 | 这是对**虞忠衡教授**专著中 **9 条可检验化学主张** 的 **第三方独立复现**，计算引擎为 **PySCF**（B3LYP/6-31G* 为主），**不是**对原著程序的复算。 | This is an **independent third-party replication** of **nine testable chemical claims** from **Professor Zhongheng Yu**’s monograph, using **PySCF** (mainly B3LYP/6-31G*), **not** a rerun of the author’s programs. |
-| **「一致 / 非一致」= 在原著公开定义下能否复现符号与量级**，不等于「原著物理上全对」或「传统理论已被推翻」。 | **“Agree / Disagree”** means whether **signs and magnitudes are reproducible under Yu’s published definitions**—not that Yu is universally “correct” or that textbook theory is “overturned.” |
-| 本支路结果：**8 一致 + 1 非一致（P1）**。唯一非一致条目反而提高可信度——全票通过反而像背书。 | This replication arm: **8 agree + 1 disagree (P1)**. The single dissent increases credibility; unanimous agreement would look like endorsement. |
+| **对外以 L0 五态 + estimand 分层表述**；**禁止**用「8 一致 · 1 非一致」作科学总分。见 [`FROZEN_VERDICT_AUTHORITY.md`](FROZEN_VERDICT_AUTHORITY.md) §2。 | **Public-facing L0 five-state + estimand layering**; **do not** use “8 Agree · 1 Disagree” as a scientific score. See [`FROZEN_VERDICT_AUTHORITY.en.md`](FROZEN_VERDICT_AUTHORITY.en.md) §2. |
+| 第三方复审（2026-09-01，本地 PDF：`AI4S_Post_Remediation_Review_2026-09-01.pdf`）对本支路评级：**部分通过**（伴随独立实现）；审查快照 **ac68a6a**；L0 整改见 **b4f0ef9**。 | Third-party post-remediation review (2026-09-01, local PDF: `AI4S_Post_Remediation_Review_2026-09-01.pdf`): **partial pass** (companion arm); snapshot **ac68a6a**; L0 remediation in **b4f0ef9**. |
 
 **可忽略的部分（审阅论证时可跳过）**  
 **Safe to skip when reviewing the science**
@@ -182,8 +182,8 @@
 
 | 误读 Misreading | 正确理解 Correct understanding |
 |-----------------|--------------------------------|
-| 「8 一致 = 原著全对、教科书全错」 | 仅表示 **在 Yu 公开定义下可复现**；传统理论有多条独立证据线未在本项目中检验 |
-| 「1 非一致 = 项目失败」 | P1 非一致是 **刻意保留的审计结果**；定域证据仍支持多条「一致」 |
+| 「8 一致 = 原著全对、教科书全错」 | **禁止**。对外看 **L0 五态矩阵**；L1 仅为 2026-08-25 预注册审计快照 |
+| 「1 非一致 = 项目失败」 | P1 **L0=PARTIAL**（复合 estimand）；P1b 的 L1 非一致**不得**概括全书 |
 | 「一切共轭都去稳定」 | **错误**。苯 **ESE<0**（P6）与局部 **ΔEAm>0**（P5）是原著**分口径**的两件事 |
 | 「AI 算了数，不可信」 | 判定数字来自 **PySCF**；AI 负责编排与写脚本，**聊天不算证据** |
 | 引用 `invalid_*` 或旧版 pilot JSON | 以各命题 VERDICT 与 **定判文件** 表为准（如 P5→v5c，P6→v4） |

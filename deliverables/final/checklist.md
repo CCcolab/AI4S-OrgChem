@@ -12,7 +12,7 @@
 | # | 检查项 | 结果 |
 |---|--------|------|
 | 1.1 | P1–P9 均有 `deliverables/unit/Pn/VERDICT.md` | ✅ 9/9 |
-| 1.2 | 判定值仅为「一致」或「非一致」，无遗留「待定」 | ✅ 8 一致 + 1 非一致 |
+| 1.2 | 各单元含 **L0 对外状态** + **L1 审计快照**；无遗留「待定」 | ✅ 见 [`FROZEN_VERDICT_AUTHORITY.md`](../../docs/FROZEN_VERDICT_AUTHORITY.md) §2 |
 | 1.3 | 无命题在证据不足时被提前终裁 | ✅ |
 | 1.4 | 判定未出现在 `VERDICT.md` / `final/` 之外的地方作为正式结论 | ✅ |
 

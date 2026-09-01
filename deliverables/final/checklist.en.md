@@ -12,7 +12,7 @@
 | # | Check | Result |
 |---|-------|--------|
 | 1.1 | P1–P9 each have `deliverables/unit/Pn/VERDICT.md` | ✅ 9/9 |
-| 1.2 | Verdicts only Agree or Disagree; no leftover Pending | ✅ 8 Agree + 1 Disagree |
+| 1.2 | Each unit has **L0 public status** + **L1 audit snapshot**; no Pending left | ✅ see [`FROZEN_VERDICT_AUTHORITY.en.md`](../../docs/FROZEN_VERDICT_AUTHORITY.en.md) §2 |
 | 1.3 | No early final verdicts with insufficient evidence | ✅ |
 | 1.4 | Formal conclusions only in `VERDICT.md` / `final/` | ✅ |
 

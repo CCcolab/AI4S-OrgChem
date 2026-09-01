@@ -1,8 +1,8 @@
 # AI4S-OrgChem 独立技术研究实施方案
 
-> **项目定位**：采用最新 AI 技术的 **AI for Science（AI4S）Agent**；以**第三方**身份，用开源量子化学验证**虞忠衡教授**原著中与传统有机结构理论相悖的论点。  
-> **冻结（2026-08-25）**：本支路 **8 一致 + 1 非一致（P1）**。  
-> **最终交付**：每条命题给出 **一致** / **非一致**；结论须经得起领域专家审阅。  
+> **项目定位**：**Cursor-assisted AI4S** 证据支路；以第三方身份用 PySCF 验证虞忠衡教授 P1–P9。  
+> **对外状态（L0）**：见 [`FROZEN_VERDICT_AUTHORITY.md`](FROZEN_VERDICT_AUTHORITY.md) · 第三方复审（2026-09-01）：本地 `AI4S_Post_Remediation_Review_2026-09-01.pdf`（§4；**部分通过**）。  
+> **L1 审计快照（2026-08-25）**：历史记录；**不是**科学总分。  
 > **合规红线**：仅依据 PDF 公开的数学定义、轨道图示、能量表达式与数值表格；不使用、不复制、不反编译、不翻译原著程序代码。  
 > **命题权威清单**：[propositions.md](propositions.md)（P1–P9）。  
 > **实施跟踪**：[`implementation/`](../implementation/)。  

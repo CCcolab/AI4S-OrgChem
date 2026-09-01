@@ -5,12 +5,12 @@
 **Freeze date**: 2026-08-25 · Prerequisites (all P1–P9 `VERDICT.md` + G1–G5 pass) met.  
 **Frozen verdict policy**: [`docs/FROZEN_VERDICT_AUTHORITY.en.md`](../../docs/FROZEN_VERDICT_AUTHORITY.en.md) · [中文](../../docs/FROZEN_VERDICT_AUTHORITY.md)
 **Book author (subject of verification)**: **Professor Zhongheng Yu**  
-**Project**: **AI-for-Science (AI4S) Agent** verification arm (this repository).  
-**Copyright (c) 2026 Xiao Chen** · chenxiao0101@gmail.com
+**Project**: **Cursor-assisted AI4S** evidence arm (this repository).  
+**Third-party review**: 2026-09-01 · local report `AI4S_Post_Remediation_Review_2026-09-01.pdf` (§4 AI4S-OrgChem; not in repo)
 
 | File | Content | Tone |
 |------|---------|------|
-| [`EXECUTIVE_SUMMARY.en.md`](EXECUTIVE_SUMMARY.en.md) | One-page conclusion: AI4S Agent framing + 8 Agree + 1 Disagree | Reader-facing summary |
+| [`EXECUTIVE_SUMMARY.en.md`](EXECUTIVE_SUMMARY.en.md) | One-page conclusion: **L0 five-state matrix** + estimand layering | Reader-facing summary |
 | [`../../docs/expert_quick_review_guide.md`](../../docs/expert_quick_review_guide.md) | **QC expert quick-review guide (EN/中文)** | 15–30 min expert path |
 | [`VERDICT_TABLE.en.md`](VERDICT_TABLE.en.md) | Pre-registered criteria / measured / threshold / gates | **Pure audit** |
 | [`FULL_REPORT.en.md`](FULL_REPORT.en.md) | Genre, methods, results, objections, residuals, reproduce commands | **Replication study** + AI4S Agent |
@@ -21,10 +21,12 @@ Chinese originals (authoritative freeze text for this arm’s working language):
 
 ## Citation framing
 
-Formal verdicts (L1): each `deliverables/unit/Pn/VERDICT.md` and [`VERDICT_TABLE.en.md`](VERDICT_TABLE.en.md) only.  
-**Frozen tally (8 Agree · 1 Disagree, 2026-08-25) is not changed by wording edits, reading-aid labels, or third-party review responses**; reversal procedure: [`FROZEN_VERDICT_AUTHORITY.en.md`](../../docs/FROZEN_VERDICT_AUTHORITY.en.md) §5.
+**Public scientific status (L0) is primary**: each unit `VERDICT.md` **Public status (L0)** and [`VERDICT_TABLE.en.md`](VERDICT_TABLE.en.md) §1.  
+**L1 pre-registered threshold audit (2026-08-25 snapshot)**: historical only—not the scientific score. Review response: [`FROZEN_VERDICT_AUTHORITY.en.md`](../../docs/FROZEN_VERDICT_AUTHORITY.en.md).
 
-Agree / Disagree are **replicability** judgments: Agree means third-party reproducibility under Yu’s own definitions and reference states—**not** that the decomposition is uniquely correct, **nor** that traditional conjugation/aromaticity theory is overturned. See [`FULL_REPORT.en.md`](FULL_REPORT.en.md) §1.1.
+**Copyright (c) 2026 Xiao Chen** · chenxiao0101@gmail.com
+
+Agree / Disagree (L1 audit) are **replicability** judgments under pre-registered thresholds—not unique physical truth. See [`FULL_REPORT.en.md`](FULL_REPORT.en.md) §1.1.
 
 ## Compliance
 
